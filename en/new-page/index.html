@@ -25,16 +25,16 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=bk45i" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=bk45i" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=qik03" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=qik03" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=bk45i" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=qik03" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "A.A ROOTS INŞ. METAL LTD ŞTI.",
-  "description": "A.A. ROOTS İnşaat - Bodrum ve Türkiye genelinde güvenilir, dayanıklı ve estetik yaşam alanları tasarlayan inşaat firması. Villa, konut, ticari alan ve renovasyon projeleri.",
+  "description": "A.A. ROOTS Construction - Reliable, durable and aesthetic living spaces in Bodrum and Turkey. Villa, residential, commercial and renovation projects.",
   "url": "https://aaroots.com.tr",
   "logo": "https://aaroots.com.tr/img/logo.svg",
   "image": "https://aaroots.com.tr/img/logo.svg"
@@ -52,45 +52,45 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=bk45i">
+<link rel="stylesheet" href="style.css?v=qik03">
 </head>
 
 <body>
-  <div id="header"><div class="d3zx2">
-  <div class="d3zx2title">
-    <div class="d3zx2titlebody">
-      <div class="d3zx2titlebodylang">
+  <div id="header"><div class="grenh">
+  <div class="grenhtitle">
+    <div class="grenhtitlebody">
+      <div class="grenhtitlebodylang">
         <ul>
           <li><a href="/tr/new-page/">TR</a></li><li><a href="/en/new-page/">EN</a></li><li><a href="/ar/new-page/">AR</a></li><li><a href="/ru/new-page/">RU</a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="d3zx2body">
+  <div class="grenhbody">
     <a href="/en/"
       ><img
-        src="/img/logo.svg?v=bk45i"
+        src="/img/logo.svg?v=qik03"
         alt="A.A ROOTS INŞ. METAL LTD ŞTI. Logo"
-        class="d3zx2bodylogo"
+        class="grenhbodylogo"
         loading="lazy"
     /></a>
-    <button type="button" class="d3zx2-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
+    <button type="button" class="grenh-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
       <span class="material-symbols-outlined" aria-hidden="true">menu</span>
     </button>
   </div>
   <!-- Mobil: dış tıklamada menüyü kapatmak için yarı saydam arka plan (app drawer tarzı) -->
-  <div class="d3zx2-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
-  <div class="d3zx2menubody">
-    <div class="d3zx2menu" id="menu-2-root">
-      <div class="d3zx2menulistbody">
-        <div class="d3zx2menulist">
+  <div class="grenh-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
+  <div class="grenhmenubody">
+    <div class="grenhmenu" id="menu-2-root">
+      <div class="grenhmenulistbody">
+        <div class="grenhmenulist">
           <ul>
-            <a href="/en/">Home </a><a href="/en/hakkimizda/"></a><a href="/en/urunler/"></a><a href="/en/iletisim/"></a>
+            <a href="/en/">Home </a><a href="/en/hakkimizda/">Corporate</a><a href="/en/urunler/">Our Projects</a><a href="/en/iletisim/">Contact</a>
           </ul>
         </div>
       </div>
       <!-- Mobil kural: lang drawer'ın en altında ve ortada -->
-      <div class="d3zx2languages-mobile">
+      <div class="grenhlanguages-mobile">
         <ul>
           <li><a href="/tr/new-page/">TR</a></li><li><a href="/en/new-page/">EN</a></li><li><a href="/ar/new-page/">AR</a></li><li><a href="/ru/new-page/">RU</a></li>
         </ul>
@@ -100,40 +100,40 @@
 </div>
 
 <script>
-  /* Mobil menü aç/kapat: class wrapper (.d3zx2) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
+  /* Mobil menü aç/kapat: class wrapper (.grenh) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
   if (typeof menu2_toggle === "undefined") {
     function menu2_toggle() {
       var root = document.getElementById("menu-2-root");
       if (!root) {
         return;
       }
-      var wrapper = root.closest ? root.closest(".d3zx2") : null;
+      var wrapper = root.closest ? root.closest(".grenh") : null;
       var target = wrapper || root;
-      if (target.classList.contains("d3zx2menu-open")) {
-        target.classList.remove("d3zx2menu-open");
+      if (target.classList.contains("grenhmenu-open")) {
+        target.classList.remove("grenhmenu-open");
       } else {
-        target.classList.add("d3zx2menu-open");
+        target.classList.add("grenhmenu-open");
       }
     }
   }
 </script>
 </div>
-  <div id="content"><div class="h8bfw">
-  <div class="h8bfwbody">
-    <div class="h8bfwcontainer">
-      <div class="h8bfwcontainerbody">
-        <h2 class="h8bfwcontainertitle"></h2>
-        <a href="tel:+905322505243" target="_blank" rel="noopener noreferrer" class="h8bfwcontainerlist">
+  <div id="content"><div class="xvgss">
+  <div class="xvgssbody">
+    <div class="xvgsscontainer">
+      <div class="xvgsscontainerbody">
+        <h2 class="xvgsscontainertitle"></h2>
+        <a href="tel:+905322505243" target="_blank" rel="noopener noreferrer" class="xvgsscontainerlist">
                   <span class="material-symbols-outlined" aria-hidden="true">
                    phone
                   </span>
                   <div>+90 532 250 52 43</div>
-                </a><a href="undefined" target="_blank" rel="noopener noreferrer" class="h8bfwcontainerlist">
+                </a><a href="undefined" target="_blank" rel="noopener noreferrer" class="xvgsscontainerlist">
                   <span class="material-symbols-outlined" aria-hidden="true">
                    email
                   </span>
                   <div>info@aaroots.com.tr</div>
-                </a><a href="undefined" target="_blank" rel="noopener noreferrer" class="h8bfwcontainerlist">
+                </a><a href="undefined" target="_blank" rel="noopener noreferrer" class="xvgsscontainerlist">
                   <span class="material-symbols-outlined" aria-hidden="true">
                    map
                   </span>
@@ -151,7 +151,7 @@
       <img src="/img/logo.svg" height="60"   alt="A.A ROOTS INŞ. METAL LTD ŞTI. Logo"  loading="lazy"/>
     </div>
     <ul class="menu">
-      <li class="menu__item"><a class="menu_link" href="/en/">Home</a></li><li class="menu__item"><a class="menu_link" href="/en/kurumsal/"></a></li><li class="menu__item"><a class="menu_link" href="/en/urunler/"></a></li><li class="menu__item"><a class="menu_link" href="/en/iletisim/"></a></li>
+      <li class="menu__item"><a class="menu_link" href="/en/">Home</a></li><li class="menu__item"><a class="menu_link" href="/en/kurumsal/">Corporate</a></li><li class="menu__item"><a class="menu_link" href="/en/urunler/">Our Projects</a></li><li class="menu__item"><a class="menu_link" href="/en/iletisim/">Contact</a></li>
     </ul>
   </div>
   <div class="footer-bottom">
@@ -170,8 +170,8 @@
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=bk45i"></script>
-<script defer src="/src/cookie.js?v=bk45i"></script>
+<script defer type="text/javascript" src="/src/js.js?v=qik03"></script>
+<script defer src="/src/cookie.js?v=qik03"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği
