@@ -11,8 +11,8 @@
   <meta http-equiv="Cache-Control" content="max-age=3600, public" />
   <meta http-equiv="Pragma" content="cache" />
   <meta http-equiv="Expires" content="3600" />
-  <title>Projelerimiz</title>
-  <meta property="og:title" content="Projelerimiz" />
+  <title></title>
+  <meta property="og:title" content="" />
   <meta name="description" content="" />
   <meta name="keywords" content="" />
   <meta property="og:description" content="" />
@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=seozx" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=seozx" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=a2han" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=a2han" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=seozx" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=a2han" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,45 +52,45 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=seozx">
+<link rel="stylesheet" href="style.css?v=a2han">
 </head>
 
 <body>
-  <div id="header"><div class="i6s7j">
-  <div class="i6s7jtitle">
-    <div class="i6s7jtitlebody">
-      <div class="i6s7jtitlebodylang">
+  <div id="header"><div class="lx99y">
+  <div class="lx99ytitle">
+    <div class="lx99ytitlebody">
+      <div class="lx99ytitlebodylang">
         <ul>
           <li><a href="/tr/urunler/">TR</a></li><li><a href="/en/urunler/">EN</a></li><li><a href="/ar/urunler/">AR</a></li><li><a href="/ru/urunler/">RU</a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="i6s7jbody">
+  <div class="lx99ybody">
     <a href="/ru/"
       ><img
-        src="/img/logo.svg?v=seozx"
+        src="/img/logo.svg?v=a2han"
         alt="A.A ROOTS INŞ. METAL LTD ŞTI. Logo"
-        class="i6s7jbodylogo"
+        class="lx99ybodylogo"
         loading="lazy"
     /></a>
-    <button type="button" class="i6s7j-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
+    <button type="button" class="lx99y-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
       <span class="material-symbols-outlined" aria-hidden="true">menu</span>
     </button>
   </div>
   <!-- Mobil: dış tıklamada menüyü kapatmak için yarı saydam arka plan (app drawer tarzı) -->
-  <div class="i6s7j-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
-  <div class="i6s7jmenubody">
-    <div class="i6s7jmenu" id="menu-2-root">
-      <div class="i6s7jmenulistbody">
-        <div class="i6s7jmenulist">
+  <div class="lx99y-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
+  <div class="lx99ymenubody">
+    <div class="lx99ymenu" id="menu-2-root">
+      <div class="lx99ymenulistbody">
+        <div class="lx99ymenulist">
           <ul>
-            <a href="/ru/">Домашняя страница </a><a href="/ru/hakkimizda/"></a><a class="i6s7j-menu-list-active" href="/ru/urunler/"></a><a href="/ru/iletisim/"></a>
+            <a href="/ru/">Домашняя страница </a><a href="/ru/hakkimizda/"></a><a class="lx99y-menu-list-active" href="/ru/urunler/"></a><a href="/ru/iletisim/"></a>
           </ul>
         </div>
       </div>
       <!-- Mobil kural: lang drawer'ın en altında ve ortada -->
-      <div class="i6s7jlanguages-mobile">
+      <div class="lx99ylanguages-mobile">
         <ul>
           <li><a href="/tr/urunler/">TR</a></li><li><a href="/en/urunler/">EN</a></li><li><a href="/ar/urunler/">AR</a></li><li><a href="/ru/urunler/">RU</a></li>
         </ul>
@@ -100,25 +100,74 @@
 </div>
 
 <script>
-  /* Mobil menü aç/kapat: class wrapper (.i6s7j) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
+  /* Mobil menü aç/kapat: class wrapper (.lx99y) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
   if (typeof menu2_toggle === "undefined") {
     function menu2_toggle() {
       var root = document.getElementById("menu-2-root");
       if (!root) {
         return;
       }
-      var wrapper = root.closest ? root.closest(".i6s7j") : null;
+      var wrapper = root.closest ? root.closest(".lx99y") : null;
       var target = wrapper || root;
-      if (target.classList.contains("i6s7jmenu-open")) {
-        target.classList.remove("i6s7jmenu-open");
+      if (target.classList.contains("lx99ymenu-open")) {
+        target.classList.remove("lx99ymenu-open");
       } else {
-        target.classList.add("i6s7jmenu-open");
+        target.classList.add("lx99ymenu-open");
       }
     }
   }
 </script>
 </div>
-  <div id="content"></div>
+  <div id="content"><div class="mei06">
+  <div class="mei06body">
+    <div class="mei06bodyitem" style="--module-doc-card-bg:#f7f8fa;--module-doc-card-border:transparent;--module-doc-icon-bg:#fff;--module-doc-icon-color:#1b4c9d;--module-doc-button-bg:#1d4ed8;--module-doc-button-hover:#153ea8;--module-doc-button-text:#000">
+      <div class="mei06bodyitemicon">
+        <span class="material-symbols-outlined">picture_as_pdf</span>
+      </div>
+      <div class="mei06bodyitemcontent">
+        <div class="mei06bodyitemtitle">AA Roots</div>
+        <div class="mei06bodyitemmeta">PDF • 12 MB • 2025</div>
+        <div class="mei06bodyitemdesc">Projelerimiz</div>
+      </div>
+      <a class="mei06bodyitembutton" target="_blank" rel="noopener" download href="/img/nrzcoi/AA Roots.pdf?v=a2han">
+        <span class="material-symbols-outlined">download</span>
+        İndir
+      </a>
+    </div>
+  
+    <div class="mei06bodyitem" style="--module-doc-card-bg:#f7f8fa;--module-doc-card-border:transparent;--module-doc-icon-bg:#fff;--module-doc-icon-color:#1b4c9d;--module-doc-button-bg:#1d4ed8;--module-doc-button-hover:#153ea8;--module-doc-button-text:#000">
+      <div class="mei06bodyitemicon">
+        <span class="material-symbols-outlined">picture_as_pdf</span>
+      </div>
+      <div class="mei06bodyitemcontent">
+        <div class="mei06bodyitemtitle">AA ROOTS MODÜLER EVLER</div>
+        <div class="mei06bodyitemmeta">PDF • 12 MB • 2025</div>
+        <div class="mei06bodyitemdesc">Modüler evler Projelerimiz</div>
+      </div>
+      <a class="mei06bodyitembutton" target="_blank" rel="noopener" download href="/img/nrzcoi/AA ROOTS MODÜLER EVLER.pdf?v=a2han">
+        <span class="material-symbols-outlined">download</span>
+        İndir
+      </a>
+    </div>
+  
+    <div class="mei06bodyitem" style="--module-doc-card-bg:#f7f8fa;--module-doc-card-border:transparent;--module-doc-icon-bg:#fff;--module-doc-icon-color:#1b4c9d;--module-doc-button-bg:#1d4ed8;--module-doc-button-hover:#153ea8;--module-doc-button-text:#000">
+      <div class="mei06bodyitemicon">
+        <span class="material-symbols-outlined">picture_as_pdf</span>
+      </div>
+      <div class="mei06bodyitemcontent">
+        <div class="mei06bodyitemtitle">Azra Aşkın GG Katalog</div>
+        <div class="mei06bodyitemmeta">PDF • 12 MB • 2025</div>
+        <div class="mei06bodyitemdesc">Projelerimiz</div>
+      </div>
+      <a class="mei06bodyitembutton" target="_blank" rel="noopener" download href="/img/nrzcoi/Azra Aşkın GG Katalog.pdf?v=a2han">
+        <span class="material-symbols-outlined">download</span>
+        İndir
+      </a>
+    </div>
+  </div>
+</div>
+
+</div>
   <div id="footer"><footer class="footer">
   <div class="footer-top">
     <div class="footer-logo">
@@ -144,8 +193,8 @@
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=seozx"></script>
-<script defer src="/src/cookie.js?v=seozx"></script>
+<script defer type="text/javascript" src="/src/js.js?v=a2han"></script>
+<script defer src="/src/cookie.js?v=a2han"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

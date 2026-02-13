@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=sh9er" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=sh9er" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=n7sha" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=n7sha" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=sh9er" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=n7sha" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,45 +52,45 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=sh9er">
+<link rel="stylesheet" href="style.css?v=n7sha">
 </head>
 
 <body>
-  <div id="header"><div class="zkiri">
-  <div class="zkirititle">
-    <div class="zkirititlebody">
-      <div class="zkirititlebodylang">
+  <div id="header"><div class="krifm">
+  <div class="krifmtitle">
+    <div class="krifmtitlebody">
+      <div class="krifmtitlebodylang">
         <ul>
           <li><a href="/tr/kurumsal/">TR</a></li><li><a href="/en/kurumsal/">EN</a></li><li><a href="/ar/kurumsal/">AR</a></li><li><a href="/ru/kurumsal/">RU</a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="zkiribody">
+  <div class="krifmbody">
     <a href="/ru/"
       ><img
-        src="/img/logo.svg?v=sh9er"
+        src="/img/logo.svg?v=n7sha"
         alt="A.A ROOTS INŞ. METAL LTD ŞTI. Logo"
-        class="zkiribodylogo"
+        class="krifmbodylogo"
         loading="lazy"
     /></a>
-    <button type="button" class="zkiri-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
+    <button type="button" class="krifm-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
       <span class="material-symbols-outlined" aria-hidden="true">menu</span>
     </button>
   </div>
   <!-- Mobil: dış tıklamada menüyü kapatmak için yarı saydam arka plan (app drawer tarzı) -->
-  <div class="zkiri-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
-  <div class="zkirimenubody">
-    <div class="zkirimenu" id="menu-2-root">
-      <div class="zkirimenulistbody">
-        <div class="zkirimenulist">
+  <div class="krifm-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
+  <div class="krifmmenubody">
+    <div class="krifmmenu" id="menu-2-root">
+      <div class="krifmmenulistbody">
+        <div class="krifmmenulist">
           <ul>
-            <a href="/ru/">Домашняя страница </a><a class="zkiri-menu-list-active" href="/ru/kurumsal/"></a><a href="/ru/urunler/"></a><a href="/ru/iletisim/"></a>
+            <a href="/ru/">Домашняя страница </a><a class="krifm-menu-list-active" href="/ru/kurumsal/"></a><a href="/ru/urunler/"></a><a href="/ru/iletisim/"></a>
           </ul>
         </div>
       </div>
       <!-- Mobil kural: lang drawer'ın en altında ve ortada -->
-      <div class="zkirilanguages-mobile">
+      <div class="krifmlanguages-mobile">
         <ul>
           <li><a href="/tr/kurumsal/">TR</a></li><li><a href="/en/kurumsal/">EN</a></li><li><a href="/ar/kurumsal/">AR</a></li><li><a href="/ru/kurumsal/">RU</a></li>
         </ul>
@@ -100,19 +100,19 @@
 </div>
 
 <script>
-  /* Mobil menü aç/kapat: class wrapper (.zkiri) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
+  /* Mobil menü aç/kapat: class wrapper (.krifm) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
   if (typeof menu2_toggle === "undefined") {
     function menu2_toggle() {
       var root = document.getElementById("menu-2-root");
       if (!root) {
         return;
       }
-      var wrapper = root.closest ? root.closest(".zkiri") : null;
+      var wrapper = root.closest ? root.closest(".krifm") : null;
       var target = wrapper || root;
-      if (target.classList.contains("zkirimenu-open")) {
-        target.classList.remove("zkirimenu-open");
+      if (target.classList.contains("krifmmenu-open")) {
+        target.classList.remove("krifmmenu-open");
       } else {
-        target.classList.add("zkirimenu-open");
+        target.classList.add("krifmmenu-open");
       }
     }
   }
@@ -144,8 +144,8 @@
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=sh9er"></script>
-<script defer src="/src/cookie.js?v=sh9er"></script>
+<script defer type="text/javascript" src="/src/js.js?v=n7sha"></script>
+<script defer src="/src/cookie.js?v=n7sha"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği
