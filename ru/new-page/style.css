@@ -1,0 +1,459 @@
+
+ 
+
+  .ptaxi {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ptaxititle {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+  }
+
+  .ptaxititle:has(.ptaxititlebodylang:empty),
+  .ptaxititle:has(.ptaxititlebodylang ul:empty) {
+    display: none;
+  }
+
+  .ptaxititlebody {
+    color: #ffffff;
+    width: var(--max);
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 0px 10px 0px;
+  }
+
+  .ptaxititlebodytitle {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+
+  .ptaxititlebodylang {
+    width: auto;
+    margin: -5px 0px -5px 0px;
+  }
+
+  .ptaxititlebodylang:empty,
+  .ptaxititlebodylang ul:empty {
+    display: none;
+  }
+
+  .ptaxititlebodylang ul {
+    display: flex;
+    gap: 5px;
+  }
+
+  .ptaxibody {
+    width: var(--max);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0px 5px 0px;
+    position: relative;
+  }
+
+  /* Mobil hamburger butonu: onclick olduğu için cursor: pointer zorunlu (kural) */
+  .ptaxi-mobile-toggle {
+    display: none;
+    background: #000;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 12px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+  }
+
+  .ptaxi-mobile-toggle span {
+    font-size: 24px;
+  }
+
+  .ptaximenu {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: var(--max);
+  }
+
+  .ptaximenulist {
+    width: calc(100% - 20px);
+    background-color: #000;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+  }
+
+  .ptaximenubody {
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ptaximenulist ul {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .ptaximenulist ul a {
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #ffffff !important;
+    border-bottom: 1px solid transparent;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    white-space: nowrap;
+    margin: 0 2px;
+  }
+
+  .ptaximenulist ul a:hover {
+    background-color: #ffffff;
+    border-radius: 5px;
+    color: #000000 !important;
+    cursor: pointer;
+  }
+
+  .ptaximenulist ul a.ptaxi-menu-list-active {
+    color: #000000 !important;
+  }
+
+  .ptaxi-menu-list-active {
+    background-color: #ffffff;
+    border-radius: 5px;
+    color: #000000 !important;
+    cursor: pointer;
+  }
+
+  .ptaximenulistbody {
+    width: 100%;
+  }
+
+  .ptaxilanguages-mobile {
+    display: none;
+    padding-top: 15px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .ptaxilanguages-mobile:empty,
+  .ptaxilanguages-mobile ul:empty {
+    display: none !important;
+  }
+
+  .ptaxilanguages-mobile ul {
+    display: flex;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    justify-content: center;
+  }
+
+  .ptaxilanguages-mobile li {
+    list-style: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 8px;
+    aspect-ratio: 1/1;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+  }
+
+  .ptaxilanguages-mobile li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ptaxilanguages-mobile li:hover {
+    background-color: #ffffff;
+    border-color: #000000;
+  }
+
+  /* Mobil drawer için backdrop: masaüstünde görünmez */
+  .ptaxi-menu-backdrop {
+    display: none;
+  }
+
+  @media screen and (min-width: 1024px) {
+    .ptaxibodylogo {
+      height: 100px;
+      max-width: 90vw;
+      max-height: 100px;
+    }
+
+    .ptaxititle {
+    margin-bottom: -30px;
+  }
+
+
+  }
+
+  @media screen and (max-width: 1024px) {
+    .ptaxibody {
+      width: calc(100% - 20px);
+      padding: 0 10px;
+      justify-content: center;
+    }
+
+    .ptaximenulist ul {
+      flex-direction: row;
+    }
+
+    .ptaxibodylogo {
+      width: 50vw;
+      max-width: 50vw;
+      max-height: 100px;
+    }
+
+    .ptaxititlebody {
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+      display: none;
+    }
+
+    .ptaxititlebodytitle {
+      text-align: center;
+      font-size: 14px;
+    }
+  }
+
+    /* Mobil: app tarzı sağdan kayan drawer menü */
+  @media screen and (max-width: 768px) {
+    .ptaxititlebodylang {
+      display: none;
+    }
+
+    .ptaxibody {
+      width: calc(100% - 20px);
+      padding: 0 10px;
+      justify-content: space-between;
+    }
+
+    .ptaxi-mobile-toggle {
+      display: inline-flex;
+    }
+
+    .ptaxibodylogo {
+      width: 40vw;
+      max-width: 40vw;
+      max-height: 80px;
+    }
+
+    /* Backdrop: sadece menü açıkken görünür; tıklanınca menü kapanır (onclick ile) */
+    .ptaxi-menu-backdrop {
+      display: block;
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.4);
+      z-index: 999;
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+      transition: opacity 0.25s ease, visibility 0.25s ease;
+      cursor: pointer;
+    }
+
+    .ptaxi.ptaximenu-open .ptaxi-menu-backdrop {
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+    }
+
+    /* Drawer: sağdan kayan panel, fixed, tam yükseklik; kapalıyken ekran dışında */
+    .ptaximenubody {
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 85%;
+      max-width: 320px;
+      height: 100vh;
+      max-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      justify-content: flex-start;
+      box-sizing: border-box;
+      z-index: 1000;
+      transform: translateX(100%);
+      transition: transform 0.3s ease;
+      box-shadow: -4px 0 24px rgba(0, 0, 0, 0.15);
+      overflow-y: auto;
+    }
+
+    .ptaxi.ptaximenu-open .ptaximenubody {
+      transform: translateX(0);
+    }
+
+    .ptaximenu {
+      width: 100%;
+      flex-direction: column;
+      height: 100%;
+    }
+
+    .ptaximenulistbody {
+      flex: 1;
+      overflow-y: auto;
+    }
+
+    .ptaximenulist {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 16px 12px;
+      box-sizing: border-box;
+      border-radius: 0;
+      box-shadow: none;
+    }
+
+    .ptaxi.ptaximenu-open .ptaximenulist {
+      display: flex;
+    }
+
+    /* Mobil kural: lang sayfanın (drawer) en altında ve ortada */
+    .ptaxi.ptaximenu-open .ptaxilanguages-mobile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      padding: 16px 12px;
+      box-sizing: border-box;
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+      flex-shrink: 0;
+    }
+
+    .ptaxi.ptaximenu-open .ptaxilanguages-mobile ul {
+      justify-content: center;
+    }
+
+    .ptaximenulist ul {
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .ptaximenulist ul a {
+      font-size: 15px;
+      width: 100%;
+      padding: 14px 12px;
+      text-align: left;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+      border-radius: 0;
+      cursor: pointer;
+      box-sizing: border-box;
+    }
+
+    .ptaximenulist ul a:last-child {
+      border-bottom: none;
+    }
+
+    .ptaximenulist ul a:hover {
+      background-color: #ffffff;
+      border-radius: 0;
+    }
+
+    .ptaxititlebodytitle {
+      font-size: 12px;
+    }
+  }
+
+
+  .footer {
+    background-color: #fff;
+    color: #000 !important;
+    padding: 20px;
+    border-top: 5px solid #000;
+  }
+
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .footer-logo img {
+    max-width: 150px;
+  }
+
+  .menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .menu__item {
+    margin: 0 15px;
+  }
+
+  .menu_link {
+    color: #000 !important;
+  }
+
+  .menu_link:hover {
+    color: #2980b9;
+    text-decoration: underline;
+  }
+
+  .menu__link {
+    color: #ecf0f1;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #7f8c8d;
+    padding-top: 20px;
+  }
+
+  .footer-bottom p {
+    margin: 0;
+    opacity: 0.75;
+  }
+
+  @media (max-width: 768px) {
+    .footer-top {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .menu {
+      margin-top: 20px;
+    }
+
+    .menu__item {
+      margin: 10px 0;
+    }
+  }
+

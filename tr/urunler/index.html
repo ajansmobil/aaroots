@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=l5n5d" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=l5n5d" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=hi97t" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=hi97t" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=l5n5d" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=hi97t" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,61 +52,67 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=l5n5d">
+<link rel="stylesheet" href="style.css?v=hi97t">
 </head>
 
 <body>
-  <div id="header"><div class="w3zqq">
-  <div class="w3zqqtitle">
-    <div class="w3zqqtitlebody">
-      <div class="w3zqqtitlebodylang">
+  <div id="header"><div class="q2u87">
+  <div class="q2u87title">
+    <div class="q2u87titlebody">
+      <div class="q2u87titlebodylang">
         <ul>
-          
+          <li><a href="/tr/urunler/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/urunler/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li><li><a href="/ar/urunler/"><img height="25" src="/src/lang/ar.png" alt="ar" loading="lazy"></a></li><li><a href="/ru/urunler/"><img height="25" src="/src/lang/ru.png" alt="ru" loading="lazy"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="w3zqqbody">
+  <div class="q2u87body">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=l5n5d"
+        src="/img/logo.svg?v=hi97t"
         alt="A.A ROOTS INŞ. METAL LTD ŞTI. Logo"
-        class="w3zqqbodylogo"
+        class="q2u87bodylogo"
         loading="lazy"
     /></a>
-    <button type="button" class="w3zqq-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
+    <button type="button" class="q2u87-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
       <span class="material-symbols-outlined" aria-hidden="true">menu</span>
     </button>
   </div>
-  <div class="w3zqqmenubody">
-    <div class="w3zqqmenu" id="menu-2-root">
-      <div class="w3zqqmenulistbody">
-        <div class="w3zqqmenulist">
+  <!-- Mobil: dış tıklamada menüyü kapatmak için yarı saydam arka plan (app drawer tarzı) -->
+  <div class="q2u87-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
+  <div class="q2u87menubody">
+    <div class="q2u87menu" id="menu-2-root">
+      <div class="q2u87menulistbody">
+        <div class="q2u87menulist">
           <ul>
-            <a href="/tr/">Anasayfa </a><a href="/tr/hakkimizda/">Kurumsal</a><a class="w3zqq-menu-list-active" href="/tr/urunler/">Projelerimiz</a><a href="/tr/iletisim/">İletişim</a>
+            <a href="/tr/">Anasayfa </a><a href="/tr/hakkimizda/">Kurumsal</a><a class="q2u87-menu-list-active" href="/tr/urunler/">Projelerimiz</a><a href="/tr/iletisim/">İletişim</a>
           </ul>
-          <div class="w3zqqlanguages-mobile">
-            <ul>
-              
-            </ul>
-          </div>
         </div>
+      </div>
+      <!-- Mobil kural: lang drawer'ın en altında ve ortada -->
+      <div class="q2u87languages-mobile">
+        <ul>
+          <li><a href="/tr/urunler/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/urunler/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li><li><a href="/ar/urunler/"><img height="25" src="/src/lang/ar.png" alt="ar" loading="lazy"></a></li><li><a href="/ru/urunler/"><img height="25" src="/src/lang/ru.png" alt="ru" loading="lazy"></a></li>
+        </ul>
       </div>
     </div>
   </div>
 </div>
 
 <script>
+  /* Mobil menü aç/kapat: class wrapper (.q2u87) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
   if (typeof menu2_toggle === "undefined") {
     function menu2_toggle() {
       var root = document.getElementById("menu-2-root");
       if (!root) {
         return;
       }
-      if (root.classList.contains("w3zqqmenu-open")) {
-        root.classList.remove("w3zqqmenu-open");
+      var wrapper = root.closest ? root.closest(".q2u87") : null;
+      var target = wrapper || root;
+      if (target.classList.contains("q2u87menu-open")) {
+        target.classList.remove("q2u87menu-open");
       } else {
-        root.classList.add("w3zqqmenu-open");
+        target.classList.add("q2u87menu-open");
       }
     }
   }
@@ -138,8 +144,8 @@
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=l5n5d"></script>
-<script defer src="/src/cookie.js?v=l5n5d"></script>
+<script defer type="text/javascript" src="/src/js.js?v=hi97t"></script>
+<script defer src="/src/cookie.js?v=hi97t"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

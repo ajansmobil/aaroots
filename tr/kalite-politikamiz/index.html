@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=rg2rm" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=rg2rm" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=s1byk" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=s1byk" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=rg2rm" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=s1byk" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,93 +52,99 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=rg2rm">
+<link rel="stylesheet" href="style.css?v=s1byk">
 </head>
 
 <body>
-  <div id="header"><div class="klw77">
-  <div class="klw77title">
-    <div class="klw77titlebody">
-      <div class="klw77titlebodylang">
+  <div id="header"><div class="qxqg4">
+  <div class="qxqg4title">
+    <div class="qxqg4titlebody">
+      <div class="qxqg4titlebodylang">
         <ul>
-          
+          <li><a href="/tr/kalite-politikamiz/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/kalite-politikamiz/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li><li><a href="/ar/kalite-politikamiz/"><img height="25" src="/src/lang/ar.png" alt="ar" loading="lazy"></a></li><li><a href="/ru/kalite-politikamiz/"><img height="25" src="/src/lang/ru.png" alt="ru" loading="lazy"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="klw77body">
+  <div class="qxqg4body">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=rg2rm"
+        src="/img/logo.svg?v=s1byk"
         alt="A.A ROOTS INŞ. METAL LTD ŞTI. Logo"
-        class="klw77bodylogo"
+        class="qxqg4bodylogo"
         loading="lazy"
     /></a>
-    <button type="button" class="klw77-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
+    <button type="button" class="qxqg4-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
       <span class="material-symbols-outlined" aria-hidden="true">menu</span>
     </button>
   </div>
-  <div class="klw77menubody">
-    <div class="klw77menu" id="menu-2-root">
-      <div class="klw77menulistbody">
-        <div class="klw77menulist">
+  <!-- Mobil: dış tıklamada menüyü kapatmak için yarı saydam arka plan (app drawer tarzı) -->
+  <div class="qxqg4-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
+  <div class="qxqg4menubody">
+    <div class="qxqg4menu" id="menu-2-root">
+      <div class="qxqg4menulistbody">
+        <div class="qxqg4menulist">
           <ul>
             <a href="/tr/">Anasayfa </a><a href="/tr/hakkimizda/">Kurumsal</a><a href="/tr/urunler/">Projelerimiz</a><a href="/tr/iletisim/">İletişim</a>
           </ul>
-          <div class="klw77languages-mobile">
-            <ul>
-              
-            </ul>
-          </div>
         </div>
+      </div>
+      <!-- Mobil kural: lang drawer'ın en altında ve ortada -->
+      <div class="qxqg4languages-mobile">
+        <ul>
+          <li><a href="/tr/kalite-politikamiz/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/kalite-politikamiz/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li><li><a href="/ar/kalite-politikamiz/"><img height="25" src="/src/lang/ar.png" alt="ar" loading="lazy"></a></li><li><a href="/ru/kalite-politikamiz/"><img height="25" src="/src/lang/ru.png" alt="ru" loading="lazy"></a></li>
+        </ul>
       </div>
     </div>
   </div>
 </div>
 
 <script>
+  /* Mobil menü aç/kapat: class wrapper (.qxqg4) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
   if (typeof menu2_toggle === "undefined") {
     function menu2_toggle() {
       var root = document.getElementById("menu-2-root");
       if (!root) {
         return;
       }
-      if (root.classList.contains("klw77menu-open")) {
-        root.classList.remove("klw77menu-open");
+      var wrapper = root.closest ? root.closest(".qxqg4") : null;
+      var target = wrapper || root;
+      if (target.classList.contains("qxqg4menu-open")) {
+        target.classList.remove("qxqg4menu-open");
       } else {
-        root.classList.add("klw77menu-open");
+        target.classList.add("qxqg4menu-open");
       }
     }
   }
 </script>
 </div>
-  <div id="content"><div class="ml7ow-title f36">
+  <div id="content"><div class="u7766-title f36">
   <h1>Kalite Politikamız</h1>
 </div>
-<div class="ml7ow">
-  <div class="ml7ow-menu-btn">
+<div class="u7766">
+  <div class="u7766-menu-btn">
     <span>Menü</span>
-    <span class="material-symbols-outlined ml7ow-icon">menu</span>
+    <span class="material-symbols-outlined u7766-icon">menu</span>
   </div>
-  <div class="ml7ow-menu-overlay" id="ml7ow-menu-overlay" aria-hidden="true"></div>
-  <div class="ml7ow-menu" id="ml7ow-menu">
-    <button class="ml7ow-menu-close" type="button" aria-label="Menüyü Kapat" aria-controls="ml7ow-menu">
+  <div class="u7766-menu-overlay" id="u7766-menu-overlay" aria-hidden="true"></div>
+  <div class="u7766-menu" id="u7766-menu">
+    <button class="u7766-menu-close" type="button" aria-label="Menüyü Kapat" aria-controls="u7766-menu">
       <span class="material-symbols-outlined" aria-hidden="true">close</span>
     </button>
-    <a class="ml7ow-menu-link" href="/tr/hakkimizda/">Hakkımızda</a><a class="ml7ow-menu-link" href="/tr/misyon/">Misyon</a><a class="ml7ow-menu-link" href="/tr/vizyon/">Vizyon</a><a class="ml7ow-menu-link active" href="/tr/kalite-politikamiz/">Kalite Politikamız</a><a class="ml7ow-menu-link" href="/tr/gizlilik-politikasi/">Gizlilik Politikası</a><a class="ml7ow-menu-link" href="/tr/kisisel-veriler/">Kişisel Veriler</a><a class="ml7ow-menu-link" href="/tr/kullanici-haklari/">Kullanıcı Hakları</a><a class="ml7ow-menu-link" href="/tr/yasal-uyari/">Yasal Uyarı</a>
+    <a class="u7766-menu-link" href="/tr/hakkimizda/">Hakkımızda</a><a class="u7766-menu-link" href="/tr/misyon/">Misyon</a><a class="u7766-menu-link" href="/tr/vizyon/">Vizyon</a><a class="u7766-menu-link active" href="/tr/kalite-politikamiz/">Kalite Politikamız</a><a class="u7766-menu-link" href="/tr/gizlilik-politikasi/">Gizlilik Politikası</a><a class="u7766-menu-link" href="/tr/kisisel-veriler/">Kişisel Veriler</a><a class="u7766-menu-link" href="/tr/kullanici-haklari/">Kullanıcı Hakları</a><a class="u7766-menu-link" href="/tr/yasal-uyari/">Yasal Uyarı</a>
   </div>
-  <div class="ml7ow-desc">
+  <div class="u7766-desc">
     
-    <div class="ml7ow-body"><h1 style="font-size: 32px; font-weight: bold; margin-bottom: 20px;">Kalite Politikamız</h1><p style="font-size: 16px; line-height: 1.8; margin-bottom: 20px;">A.A. ROOTS İnşaat olarak kaliteyi bir sonuç değil, sürekli geliştirilen bir süreç olarak görüyoruz.</p><p style="font-size: 16px; line-height: 1.8; margin-bottom: 20px;">Kalite politikamızın temel taşları şunlardır:</p><ul style="font-size: 16px; line-height: 1.8; margin-bottom: 20px; padding-left: 20px;"><li style="margin-bottom: 10px;">TS EN ISO standartlarına uygun yapı süreçleri</li><li style="margin-bottom: 10px;">Deneyimli proje yönetimi ve saha ekibi</li><li style="margin-bottom: 10px;">Titiz keşif, planlama ve kontroller</li><li style="margin-bottom: 10px;">En kaliteli ve sertifikalı malzemelerin tercih edilmesi</li><li style="margin-bottom: 10px;">İş sağlığı ve güvenliği kurallarına tam uyum (İSG)</li><li style="margin-bottom: 10px;">Her aşamada müşteri bilgilendirme ve geri bildirim süreçleri</li></ul><p style="font-size: 16px; line-height: 1.8; margin-top: 30px;">Her projede hedefimiz; estetik, dayanıklı ve uzun ömürlü yaşam alanları üretmek ve müşteri memnuniyetini en üst seviyede tutmaktır.</p></div>
+    <div class="u7766-body"><h1 style="font-size: 32px; font-weight: bold; margin-bottom: 20px;">Kalite Politikamız</h1><p style="font-size: 16px; line-height: 1.8; margin-bottom: 20px;">A.A. ROOTS İnşaat olarak kaliteyi bir sonuç değil, sürekli geliştirilen bir süreç olarak görüyoruz.</p><p style="font-size: 16px; line-height: 1.8; margin-bottom: 20px;">Kalite politikamızın temel taşları şunlardır:</p><ul style="font-size: 16px; line-height: 1.8; margin-bottom: 20px; padding-left: 20px;"><li style="margin-bottom: 10px;">TS EN ISO standartlarına uygun yapı süreçleri</li><li style="margin-bottom: 10px;">Deneyimli proje yönetimi ve saha ekibi</li><li style="margin-bottom: 10px;">Titiz keşif, planlama ve kontroller</li><li style="margin-bottom: 10px;">En kaliteli ve sertifikalı malzemelerin tercih edilmesi</li><li style="margin-bottom: 10px;">İş sağlığı ve güvenliği kurallarına tam uyum (İSG)</li><li style="margin-bottom: 10px;">Her aşamada müşteri bilgilendirme ve geri bildirim süreçleri</li></ul><p style="font-size: 16px; line-height: 1.8; margin-top: 30px;">Her projede hedefimiz; estetik, dayanıklı ve uzun ömürlü yaşam alanları üretmek ve müşteri memnuniyetini en üst seviyede tutmaktır.</p></div>
   </div>
 </div>
 
 <script>
   setTimeout(function() {
-    var menuToggleBtn = document.querySelector(".ml7ow-menu-btn");
-    var menu = document.querySelector(".ml7ow-menu");
-    var overlay = document.querySelector(".ml7ow-menu-overlay");
-    var closeButton = document.querySelector(".ml7ow-menu-close");
+    var menuToggleBtn = document.querySelector(".u7766-menu-btn");
+    var menu = document.querySelector(".u7766-menu");
+    var overlay = document.querySelector(".u7766-menu-overlay");
+    var closeButton = document.querySelector(".u7766-menu-close");
     
     if (!menuToggleBtn || !menu) {
       return;
@@ -208,7 +214,7 @@
     // Menü içindeki linklere tıklanınca kapat
     menu.addEventListener("click", function (event) {
       var link = event.target.closest("a");
-      var closeBtn = event.target.closest(".ml7ow-menu-close");
+      var closeBtn = event.target.closest(".u7766-menu-close");
       if (link && !closeBtn) {
         closeMenu();
       }
@@ -256,15 +262,15 @@
     handleBreakpoint();
 
     // Alt menü toggle fonksiyonları
-    document.querySelectorAll(".ml7ow-top").forEach(function (button) {
+    document.querySelectorAll(".u7766-top").forEach(function (button) {
       button.addEventListener("click", function (e) {
         e.stopPropagation();
-        var group = this.closest(".ml7ow-menu-group");
+        var group = this.closest(".u7766-menu-group");
         if (!group) return;
-        var sub = group.querySelector(".ml7ow-sub");
+        var sub = group.querySelector(".u7766-sub");
         var isOpen = group.classList.toggle("open");
         this.classList.toggle("active", isOpen);
-        var icon = this.querySelector(".ml7ow-icon");
+        var icon = this.querySelector(".u7766-icon");
         if (icon) {
           icon.textContent = isOpen ? "expand_less" : "expand_more";
         }
@@ -302,8 +308,8 @@
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=rg2rm"></script>
-<script defer src="/src/cookie.js?v=rg2rm"></script>
+<script defer type="text/javascript" src="/src/js.js?v=s1byk"></script>
+<script defer src="/src/cookie.js?v=s1byk"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

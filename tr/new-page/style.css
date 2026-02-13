@@ -1,7 +1,7 @@
 
  
 
-  .eyx25 {
+  .mg8qe {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .eyx25title {
+  .mg8qetitle {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@
     z-index: 1;
   }
 
-  .eyx25title:has(.eyx25titlebodylang:empty),
-  .eyx25title:has(.eyx25titlebodylang ul:empty) {
+  .mg8qetitle:has(.mg8qetitlebodylang:empty),
+  .mg8qetitle:has(.mg8qetitlebodylang ul:empty) {
     display: none;
   }
 
-  .eyx25titlebody {
+  .mg8qetitlebody {
     color: #ffffff;
     width: var(--max);
     display: flex;
@@ -31,29 +31,29 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .eyx25titlebodytitle {
+  .mg8qetitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .eyx25titlebodylang {
+  .mg8qetitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .eyx25titlebodylang:empty,
-  .eyx25titlebodylang ul:empty {
+  .mg8qetitlebodylang:empty,
+  .mg8qetitlebodylang ul:empty {
     display: none;
   }
 
-  .eyx25titlebodylang ul {
+  .mg8qetitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .eyx25body {
+  .mg8qebody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -62,7 +62,8 @@
     position: relative;
   }
 
-  .eyx25-mobile-toggle {
+  /* Mobil hamburger butonu: onclick olduğu için cursor: pointer zorunlu (kural) */
+  .mg8qe-mobile-toggle {
     display: none;
     background: #000;
     color: #ffffff;
@@ -76,18 +77,18 @@
     right: 0;
   }
 
-  .eyx25-mobile-toggle span {
+  .mg8qe-mobile-toggle span {
     font-size: 24px;
   }
 
-  .eyx25menu {
+  .mg8qemenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .eyx25menulist {
+  .mg8qemenulist {
     width: calc(100% - 20px);
     background-color: #000;
     padding: 10px;
@@ -96,7 +97,7 @@
     display: flex;
   }
 
-  .eyx25menubody {
+  .mg8qemenubody {
     width: 100%;
     background-color: #000;
     display: flex;
@@ -104,7 +105,7 @@
     justify-content: center;
   }
 
-  .eyx25menulist ul {
+  .mg8qemenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -113,7 +114,7 @@
     padding: 0;
   }
 
-  .eyx25menulist ul a {
+  .mg8qemenulist ul a {
     padding: 10px 15px;
     font-size: 16px;
     color: #ffffff !important;
@@ -126,40 +127,40 @@
     margin: 0 2px;
   }
 
-  .eyx25menulist ul a:hover {
+  .mg8qemenulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .eyx25menulist ul a.eyx25-menu-list-active {
+  .mg8qemenulist ul a.mg8qe-menu-list-active {
     color: #000000 !important;
   }
 
-  .eyx25-menu-list-active {
+  .mg8qe-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .eyx25menulistbody {
+  .mg8qemenulistbody {
     width: 100%;
   }
 
-  .eyx25languages-mobile {
+  .mg8qelanguages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .eyx25languages-mobile:empty,
-  .eyx25languages-mobile ul:empty {
+  .mg8qelanguages-mobile:empty,
+  .mg8qelanguages-mobile ul:empty {
     display: none !important;
   }
 
-  .eyx25languages-mobile ul {
+  .mg8qelanguages-mobile ul {
     display: flex;
     gap: 8px;
     margin: 0;
@@ -168,7 +169,7 @@
     justify-content: center;
   }
 
-  .eyx25languages-mobile li {
+  .mg8qelanguages-mobile li {
     list-style: none;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 8px;
@@ -183,25 +184,30 @@
     transition: all 0.3s ease;
   }
 
-  .eyx25languages-mobile li a {
+  .mg8qelanguages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .eyx25languages-mobile li:hover {
+  .mg8qelanguages-mobile li:hover {
     background-color: #ffffff;
     border-color: #000000;
   }
 
+  /* Mobil drawer için backdrop: masaüstünde görünmez */
+  .mg8qe-menu-backdrop {
+    display: none;
+  }
+
   @media screen and (min-width: 1024px) {
-    .eyx25bodylogo {
+    .mg8qebodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .eyx25title {
+    .mg8qetitle {
     margin-bottom: -30px;
   }
 
@@ -209,95 +215,170 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .eyx25body {
+    .mg8qebody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: center;
     }
 
-    .eyx25menulist ul {
+    .mg8qemenulist ul {
       flex-direction: row;
     }
 
-    .eyx25bodylogo {
+    .mg8qebodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .eyx25titlebody {
+    .mg8qetitlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .eyx25titlebodytitle {
+    .mg8qetitlebodytitle {
       text-align: center;
       font-size: 14px;
     }
   }
 
+    /* Mobil: app tarzı sağdan kayan drawer menü */
   @media screen and (max-width: 768px) {
-    .eyx25titlebodylang {
+    .mg8qetitlebodylang {
       display: none;
     }
 
-    .eyx25body {
+    .mg8qebody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .eyx25-mobile-toggle {
+    .mg8qe-mobile-toggle {
       display: inline-flex;
     }
 
-    .eyx25bodylogo {
+    .mg8qebodylogo {
       width: 40vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
-    .eyx25menulist {
-      display: none;
-      flex-direction: column;
-      width: calc(100% - 24px);
-      padding: 12px;
+    /* Backdrop: sadece menü açıkken görünür; tıklanınca menü kapanır (onclick ile) */
+    .mg8qe-menu-backdrop {
+      display: block;
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.4);
+      z-index: 999;
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+      transition: opacity 0.25s ease, visibility 0.25s ease;
+      cursor: pointer;
     }
 
-    .eyx25menu.eyx25menu-open .eyx25menulist {
+    .mg8qe.mg8qemenu-open .mg8qe-menu-backdrop {
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+    }
+
+    /* Drawer: sağdan kayan panel, fixed, tam yükseklik; kapalıyken ekran dışında */
+    .mg8qemenubody {
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 85%;
+      max-width: 320px;
+      height: 100vh;
+      max-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      justify-content: flex-start;
+      box-sizing: border-box;
+      z-index: 1000;
+      transform: translateX(100%);
+      transition: transform 0.3s ease;
+      box-shadow: -4px 0 24px rgba(0, 0, 0, 0.15);
+      overflow-y: auto;
+    }
+
+    .mg8qe.mg8qemenu-open .mg8qemenubody {
+      transform: translateX(0);
+    }
+
+    .mg8qemenu {
+      width: 100%;
+      flex-direction: column;
+      height: 100%;
+    }
+
+    .mg8qemenulistbody {
+      flex: 1;
+      overflow-y: auto;
+    }
+
+    .mg8qemenulist {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 16px 12px;
+      box-sizing: border-box;
+      border-radius: 0;
+      box-shadow: none;
+    }
+
+    .mg8qe.mg8qemenu-open .mg8qemenulist {
       display: flex;
     }
 
-    .eyx25menu.eyx25menu-open .eyx25languages-mobile {
-      display: block;
+    /* Mobil kural: lang sayfanın (drawer) en altında ve ortada */
+    .mg8qe.mg8qemenu-open .mg8qelanguages-mobile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      padding: 16px 12px;
+      box-sizing: border-box;
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+      flex-shrink: 0;
     }
 
-    .eyx25menulist ul {
+    .mg8qe.mg8qemenu-open .mg8qelanguages-mobile ul {
+      justify-content: center;
+    }
+
+    .mg8qemenulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .eyx25menulist ul a {
-      font-size: 14px;
+    .mg8qemenulist ul a {
+      font-size: 15px;
       width: 100%;
-      padding: 12px;
+      padding: 14px 12px;
       text-align: left;
-      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.08);
       border-radius: 0;
+      cursor: pointer;
+      box-sizing: border-box;
     }
 
-    .eyx25menulist ul a:last-child {
+    .mg8qemenulist ul a:last-child {
       border-bottom: none;
     }
 
-    .eyx25menulist ul a:hover {
+    .mg8qemenulist ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    .eyx25titlebodytitle {
+    .mg8qetitlebodytitle {
       font-size: 12px;
     }
   }

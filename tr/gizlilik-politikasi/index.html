@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=r8xaf" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=r8xaf" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=akomp" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=akomp" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=r8xaf" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=akomp" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,84 +52,90 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=r8xaf">
+<link rel="stylesheet" href="style.css?v=akomp">
 </head>
 
 <body>
-  <div id="header"><div class="a2cik">
-  <div class="a2ciktitle">
-    <div class="a2ciktitlebody">
-      <div class="a2ciktitlebodylang">
+  <div id="header"><div class="rr2db">
+  <div class="rr2dbtitle">
+    <div class="rr2dbtitlebody">
+      <div class="rr2dbtitlebodylang">
         <ul>
-          
+          <li><a href="/tr/gizlilik-politikasi/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/gizlilik-politikasi/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li><li><a href="/ar/gizlilik-politikasi/"><img height="25" src="/src/lang/ar.png" alt="ar" loading="lazy"></a></li><li><a href="/ru/gizlilik-politikasi/"><img height="25" src="/src/lang/ru.png" alt="ru" loading="lazy"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="a2cikbody">
+  <div class="rr2dbbody">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=r8xaf"
+        src="/img/logo.svg?v=akomp"
         alt="A.A ROOTS INŞ. METAL LTD ŞTI. Logo"
-        class="a2cikbodylogo"
+        class="rr2dbbodylogo"
         loading="lazy"
     /></a>
-    <button type="button" class="a2cik-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
+    <button type="button" class="rr2db-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
       <span class="material-symbols-outlined" aria-hidden="true">menu</span>
     </button>
   </div>
-  <div class="a2cikmenubody">
-    <div class="a2cikmenu" id="menu-2-root">
-      <div class="a2cikmenulistbody">
-        <div class="a2cikmenulist">
+  <!-- Mobil: dış tıklamada menüyü kapatmak için yarı saydam arka plan (app drawer tarzı) -->
+  <div class="rr2db-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
+  <div class="rr2dbmenubody">
+    <div class="rr2dbmenu" id="menu-2-root">
+      <div class="rr2dbmenulistbody">
+        <div class="rr2dbmenulist">
           <ul>
             <a href="/tr/">Anasayfa </a><a href="/tr/hakkimizda/">Kurumsal</a><a href="/tr/urunler/">Projelerimiz</a><a href="/tr/iletisim/">İletişim</a>
           </ul>
-          <div class="a2ciklanguages-mobile">
-            <ul>
-              
-            </ul>
-          </div>
         </div>
+      </div>
+      <!-- Mobil kural: lang drawer'ın en altında ve ortada -->
+      <div class="rr2dblanguages-mobile">
+        <ul>
+          <li><a href="/tr/gizlilik-politikasi/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/gizlilik-politikasi/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li><li><a href="/ar/gizlilik-politikasi/"><img height="25" src="/src/lang/ar.png" alt="ar" loading="lazy"></a></li><li><a href="/ru/gizlilik-politikasi/"><img height="25" src="/src/lang/ru.png" alt="ru" loading="lazy"></a></li>
+        </ul>
       </div>
     </div>
   </div>
 </div>
 
 <script>
+  /* Mobil menü aç/kapat: class wrapper (.rr2db) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
   if (typeof menu2_toggle === "undefined") {
     function menu2_toggle() {
       var root = document.getElementById("menu-2-root");
       if (!root) {
         return;
       }
-      if (root.classList.contains("a2cikmenu-open")) {
-        root.classList.remove("a2cikmenu-open");
+      var wrapper = root.closest ? root.closest(".rr2db") : null;
+      var target = wrapper || root;
+      if (target.classList.contains("rr2dbmenu-open")) {
+        target.classList.remove("rr2dbmenu-open");
       } else {
-        root.classList.add("a2cikmenu-open");
+        target.classList.add("rr2dbmenu-open");
       }
     }
   }
 </script>
 </div>
-  <div id="content"><div class="b94qc-title f36">
+  <div id="content"><div class="eyfmy-title f36">
   <h1>Gizlilik Politikası</h1>
 </div>
-<div class="b94qc">
-  <div class="b94qc-menu-btn">
+<div class="eyfmy">
+  <div class="eyfmy-menu-btn">
     <span>Menü</span>
-    <span class="material-symbols-outlined b94qc-icon">menu</span>
+    <span class="material-symbols-outlined eyfmy-icon">menu</span>
   </div>
-  <div class="b94qc-menu-overlay" id="b94qc-menu-overlay" aria-hidden="true"></div>
-  <div class="b94qc-menu" id="b94qc-menu">
-    <button class="b94qc-menu-close" type="button" aria-label="Menüyü Kapat" aria-controls="b94qc-menu">
+  <div class="eyfmy-menu-overlay" id="eyfmy-menu-overlay" aria-hidden="true"></div>
+  <div class="eyfmy-menu" id="eyfmy-menu">
+    <button class="eyfmy-menu-close" type="button" aria-label="Menüyü Kapat" aria-controls="eyfmy-menu">
       <span class="material-symbols-outlined" aria-hidden="true">close</span>
     </button>
-    <a class="b94qc-menu-link" href="/tr/hakkimizda/">Hakkımızda</a><a class="b94qc-menu-link" href="/tr/misyon/">Misyon</a><a class="b94qc-menu-link" href="/tr/vizyon/">Vizyon</a><a class="b94qc-menu-link" href="/tr/kalite-politikamiz/">Kalite Politikamız</a><a class="b94qc-menu-link active" href="/tr/gizlilik-politikasi/">Gizlilik Politikası</a><a class="b94qc-menu-link" href="/tr/kisisel-veriler/">Kişisel Veriler</a><a class="b94qc-menu-link" href="/tr/kullanici-haklari/">Kullanıcı Hakları</a><a class="b94qc-menu-link" href="/tr/yasal-uyari/">Yasal Uyarı</a>
+    <a class="eyfmy-menu-link" href="/tr/hakkimizda/">Hakkımızda</a><a class="eyfmy-menu-link" href="/tr/misyon/">Misyon</a><a class="eyfmy-menu-link" href="/tr/vizyon/">Vizyon</a><a class="eyfmy-menu-link" href="/tr/kalite-politikamiz/">Kalite Politikamız</a><a class="eyfmy-menu-link active" href="/tr/gizlilik-politikasi/">Gizlilik Politikası</a><a class="eyfmy-menu-link" href="/tr/kisisel-veriler/">Kişisel Veriler</a><a class="eyfmy-menu-link" href="/tr/kullanici-haklari/">Kullanıcı Hakları</a><a class="eyfmy-menu-link" href="/tr/yasal-uyari/">Yasal Uyarı</a>
   </div>
-  <div class="b94qc-desc">
+  <div class="eyfmy-desc">
     
-    <div class="b94qc-body"><h2 style="font-size: 24px;">Gizlilik Politikamız</h2>
+    <div class="eyfmy-body"><h2 style="font-size: 24px;">Gizlilik Politikamız</h2>
     <p style="font-size: 16px;">
         Web sitemizi ziyaret ettiğinizde, sitemizi kullanımınızı ve sitemizde sunulan hizmetleri geliştirmek amacıyla çerezler (cookies) aracılığıyla bazı bilgiler toplanmaktadır. Bu bilgiler, kimlik bilgileriniz hariç olmak üzere, sitemizde yer alan hizmetlerin daha iyi sunulması ve kullanıcı deneyiminin iyileştirilmesi amacıyla kullanılmaktadır. Çerezler, kullanıcı tercihlerinizi hatırlamak, sitemizin işleyişini optimize etmek ve size daha iyi bir deneyim sunmak için kullanılmaktadır.
     </p>
@@ -144,10 +150,10 @@
 
 <script>
   setTimeout(function() {
-    var menuToggleBtn = document.querySelector(".b94qc-menu-btn");
-    var menu = document.querySelector(".b94qc-menu");
-    var overlay = document.querySelector(".b94qc-menu-overlay");
-    var closeButton = document.querySelector(".b94qc-menu-close");
+    var menuToggleBtn = document.querySelector(".eyfmy-menu-btn");
+    var menu = document.querySelector(".eyfmy-menu");
+    var overlay = document.querySelector(".eyfmy-menu-overlay");
+    var closeButton = document.querySelector(".eyfmy-menu-close");
     
     if (!menuToggleBtn || !menu) {
       return;
@@ -217,7 +223,7 @@
     // Menü içindeki linklere tıklanınca kapat
     menu.addEventListener("click", function (event) {
       var link = event.target.closest("a");
-      var closeBtn = event.target.closest(".b94qc-menu-close");
+      var closeBtn = event.target.closest(".eyfmy-menu-close");
       if (link && !closeBtn) {
         closeMenu();
       }
@@ -265,15 +271,15 @@
     handleBreakpoint();
 
     // Alt menü toggle fonksiyonları
-    document.querySelectorAll(".b94qc-top").forEach(function (button) {
+    document.querySelectorAll(".eyfmy-top").forEach(function (button) {
       button.addEventListener("click", function (e) {
         e.stopPropagation();
-        var group = this.closest(".b94qc-menu-group");
+        var group = this.closest(".eyfmy-menu-group");
         if (!group) return;
-        var sub = group.querySelector(".b94qc-sub");
+        var sub = group.querySelector(".eyfmy-sub");
         var isOpen = group.classList.toggle("open");
         this.classList.toggle("active", isOpen);
-        var icon = this.querySelector(".b94qc-icon");
+        var icon = this.querySelector(".eyfmy-icon");
         if (icon) {
           icon.textContent = isOpen ? "expand_less" : "expand_more";
         }
@@ -311,8 +317,8 @@
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=r8xaf"></script>
-<script defer src="/src/cookie.js?v=r8xaf"></script>
+<script defer type="text/javascript" src="/src/js.js?v=akomp"></script>
+<script defer src="/src/cookie.js?v=akomp"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

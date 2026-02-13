@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=v6d0f" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=v6d0f" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=du8ui" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=du8ui" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=v6d0f" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=du8ui" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,67 +52,73 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=v6d0f">
+<link rel="stylesheet" href="style.css?v=du8ui">
 </head>
 
 <body>
-  <div id="header"><div class="adwkn">
-  <div class="adwkntitle">
-    <div class="adwkntitlebody">
-      <div class="adwkntitlebodylang">
+  <div id="header"><div class="qphtn">
+  <div class="qphtntitle">
+    <div class="qphtntitlebody">
+      <div class="qphtntitlebodylang">
         <ul>
-          
+          <li><a href="/tr/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png" alt="ar" loading="lazy"></a></li><li><a href="/ru/"><img height="25" src="/src/lang/ru.png" alt="ru" loading="lazy"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="adwknbody">
+  <div class="qphtnbody">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=v6d0f"
+        src="/img/logo.svg?v=du8ui"
         alt="A.A ROOTS INŞ. METAL LTD ŞTI. Logo"
-        class="adwknbodylogo"
+        class="qphtnbodylogo"
         loading="lazy"
     /></a>
-    <button type="button" class="adwkn-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
+    <button type="button" class="qphtn-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
       <span class="material-symbols-outlined" aria-hidden="true">menu</span>
     </button>
   </div>
-  <div class="adwknmenubody">
-    <div class="adwknmenu" id="menu-2-root">
-      <div class="adwknmenulistbody">
-        <div class="adwknmenulist">
+  <!-- Mobil: dış tıklamada menüyü kapatmak için yarı saydam arka plan (app drawer tarzı) -->
+  <div class="qphtn-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
+  <div class="qphtnmenubody">
+    <div class="qphtnmenu" id="menu-2-root">
+      <div class="qphtnmenulistbody">
+        <div class="qphtnmenulist">
           <ul>
             <a href="/tr/">Anasayfa </a><a href="/tr/hakkimizda/">Kurumsal</a><a href="/tr/urunler/">Projelerimiz</a><a href="/tr/iletisim/">İletişim</a>
           </ul>
-          <div class="adwknlanguages-mobile">
-            <ul>
-              
-            </ul>
-          </div>
         </div>
+      </div>
+      <!-- Mobil kural: lang drawer'ın en altında ve ortada -->
+      <div class="qphtnlanguages-mobile">
+        <ul>
+          <li><a href="/tr/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png" alt="ar" loading="lazy"></a></li><li><a href="/ru/"><img height="25" src="/src/lang/ru.png" alt="ru" loading="lazy"></a></li>
+        </ul>
       </div>
     </div>
   </div>
 </div>
 
 <script>
+  /* Mobil menü aç/kapat: class wrapper (.qphtn) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
   if (typeof menu2_toggle === "undefined") {
     function menu2_toggle() {
       var root = document.getElementById("menu-2-root");
       if (!root) {
         return;
       }
-      if (root.classList.contains("adwknmenu-open")) {
-        root.classList.remove("adwknmenu-open");
+      var wrapper = root.closest ? root.closest(".qphtn") : null;
+      var target = wrapper || root;
+      if (target.classList.contains("qphtnmenu-open")) {
+        target.classList.remove("qphtnmenu-open");
       } else {
-        root.classList.add("adwknmenu-open");
+        target.classList.add("qphtnmenu-open");
       }
     }
   }
 </script>
-<div class="swiper-container slxgy">
-  <div class="swiper-wrapper" id="slxgy"><div class="swiper-slide"><img src="/img/k4t90c/slider.jpg?v=1770978304386" alt="A.A ROOTS INŞ. METAL LTD ŞTI."  loading="lazy"/></div></div>
+<div class="swiper-container e8mdk">
+  <div class="swiper-wrapper" id="e8mdk"><div class="swiper-slide"><img src="/img/k4t90c/slider.jpg?v=1770978682755" alt="A.A ROOTS INŞ. METAL LTD ŞTI."  loading="lazy"/></div></div>
   <div class="swiper-button-next"></div>
   <div class="swiper-button-prev"></div>
   <div class="swiper-pagination"></div>
@@ -127,7 +133,7 @@
     attempts++;
     if (typeof Swiper === "function") {
       clearInterval(timer);
-      new Swiper(".slxgy", {
+      new Swiper(".e8mdk", {
         slidesPerView: 1,
         spaceBetween: 30,
         loop: true,
@@ -178,8 +184,8 @@
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=v6d0f"></script>
-<script defer src="/src/cookie.js?v=v6d0f"></script>
+<script defer type="text/javascript" src="/src/js.js?v=du8ui"></script>
+<script defer src="/src/cookie.js?v=du8ui"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

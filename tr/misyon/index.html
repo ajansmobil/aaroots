@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=v11vo" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=v11vo" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=z6qct" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=z6qct" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=v11vo" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=z6qct" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,93 +52,99 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=v11vo">
+<link rel="stylesheet" href="style.css?v=z6qct">
 </head>
 
 <body>
-  <div id="header"><div class="e452l">
-  <div class="e452ltitle">
-    <div class="e452ltitlebody">
-      <div class="e452ltitlebodylang">
+  <div id="header"><div class="gkz2j">
+  <div class="gkz2jtitle">
+    <div class="gkz2jtitlebody">
+      <div class="gkz2jtitlebodylang">
         <ul>
-          
+          <li><a href="/tr/misyon/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/misyon/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li><li><a href="/ar/misyon/"><img height="25" src="/src/lang/ar.png" alt="ar" loading="lazy"></a></li><li><a href="/ru/misyon/"><img height="25" src="/src/lang/ru.png" alt="ru" loading="lazy"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="e452lbody">
+  <div class="gkz2jbody">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=v11vo"
+        src="/img/logo.svg?v=z6qct"
         alt="A.A ROOTS INŞ. METAL LTD ŞTI. Logo"
-        class="e452lbodylogo"
+        class="gkz2jbodylogo"
         loading="lazy"
     /></a>
-    <button type="button" class="e452l-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
+    <button type="button" class="gkz2j-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
       <span class="material-symbols-outlined" aria-hidden="true">menu</span>
     </button>
   </div>
-  <div class="e452lmenubody">
-    <div class="e452lmenu" id="menu-2-root">
-      <div class="e452lmenulistbody">
-        <div class="e452lmenulist">
+  <!-- Mobil: dış tıklamada menüyü kapatmak için yarı saydam arka plan (app drawer tarzı) -->
+  <div class="gkz2j-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
+  <div class="gkz2jmenubody">
+    <div class="gkz2jmenu" id="menu-2-root">
+      <div class="gkz2jmenulistbody">
+        <div class="gkz2jmenulist">
           <ul>
             <a href="/tr/">Anasayfa </a><a href="/tr/hakkimizda/">Kurumsal</a><a href="/tr/urunler/">Projelerimiz</a><a href="/tr/iletisim/">İletişim</a>
           </ul>
-          <div class="e452llanguages-mobile">
-            <ul>
-              
-            </ul>
-          </div>
         </div>
+      </div>
+      <!-- Mobil kural: lang drawer'ın en altında ve ortada -->
+      <div class="gkz2jlanguages-mobile">
+        <ul>
+          <li><a href="/tr/misyon/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/misyon/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li><li><a href="/ar/misyon/"><img height="25" src="/src/lang/ar.png" alt="ar" loading="lazy"></a></li><li><a href="/ru/misyon/"><img height="25" src="/src/lang/ru.png" alt="ru" loading="lazy"></a></li>
+        </ul>
       </div>
     </div>
   </div>
 </div>
 
 <script>
+  /* Mobil menü aç/kapat: class wrapper (.gkz2j) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
   if (typeof menu2_toggle === "undefined") {
     function menu2_toggle() {
       var root = document.getElementById("menu-2-root");
       if (!root) {
         return;
       }
-      if (root.classList.contains("e452lmenu-open")) {
-        root.classList.remove("e452lmenu-open");
+      var wrapper = root.closest ? root.closest(".gkz2j") : null;
+      var target = wrapper || root;
+      if (target.classList.contains("gkz2jmenu-open")) {
+        target.classList.remove("gkz2jmenu-open");
       } else {
-        root.classList.add("e452lmenu-open");
+        target.classList.add("gkz2jmenu-open");
       }
     }
   }
 </script>
 </div>
-  <div id="content"><div class="bfanl-title f36">
+  <div id="content"><div class="h9vy2-title f36">
   <h1>Misyon</h1>
 </div>
-<div class="bfanl">
-  <div class="bfanl-menu-btn">
+<div class="h9vy2">
+  <div class="h9vy2-menu-btn">
     <span>Menü</span>
-    <span class="material-symbols-outlined bfanl-icon">menu</span>
+    <span class="material-symbols-outlined h9vy2-icon">menu</span>
   </div>
-  <div class="bfanl-menu-overlay" id="bfanl-menu-overlay" aria-hidden="true"></div>
-  <div class="bfanl-menu" id="bfanl-menu">
-    <button class="bfanl-menu-close" type="button" aria-label="Menüyü Kapat" aria-controls="bfanl-menu">
+  <div class="h9vy2-menu-overlay" id="h9vy2-menu-overlay" aria-hidden="true"></div>
+  <div class="h9vy2-menu" id="h9vy2-menu">
+    <button class="h9vy2-menu-close" type="button" aria-label="Menüyü Kapat" aria-controls="h9vy2-menu">
       <span class="material-symbols-outlined" aria-hidden="true">close</span>
     </button>
-    <a class="bfanl-menu-link" href="/tr/hakkimizda/">Hakkımızda</a><a class="bfanl-menu-link active" href="/tr/misyon/">Misyon</a><a class="bfanl-menu-link" href="/tr/vizyon/">Vizyon</a><a class="bfanl-menu-link" href="/tr/kalite-politikamiz/">Kalite Politikamız</a><a class="bfanl-menu-link" href="/tr/gizlilik-politikasi/">Gizlilik Politikası</a><a class="bfanl-menu-link" href="/tr/kisisel-veriler/">Kişisel Veriler</a><a class="bfanl-menu-link" href="/tr/kullanici-haklari/">Kullanıcı Hakları</a><a class="bfanl-menu-link" href="/tr/yasal-uyari/">Yasal Uyarı</a>
+    <a class="h9vy2-menu-link" href="/tr/hakkimizda/">Hakkımızda</a><a class="h9vy2-menu-link active" href="/tr/misyon/">Misyon</a><a class="h9vy2-menu-link" href="/tr/vizyon/">Vizyon</a><a class="h9vy2-menu-link" href="/tr/kalite-politikamiz/">Kalite Politikamız</a><a class="h9vy2-menu-link" href="/tr/gizlilik-politikasi/">Gizlilik Politikası</a><a class="h9vy2-menu-link" href="/tr/kisisel-veriler/">Kişisel Veriler</a><a class="h9vy2-menu-link" href="/tr/kullanici-haklari/">Kullanıcı Hakları</a><a class="h9vy2-menu-link" href="/tr/yasal-uyari/">Yasal Uyarı</a>
   </div>
-  <div class="bfanl-desc">
+  <div class="h9vy2-desc">
     
-    <div class="bfanl-body"><h1 style="font-size: 32px; font-weight: bold; margin-bottom: 20px;">Misyonumuz</h1><p style="font-size: 16px; line-height: 1.8; margin-bottom: 20px;">A.A. ROOTS İnşaat olarak misyonumuz; güvenilir, dayanıklı ve estetik yaşam alanları tasarlayarak müşterilerimize uzun yıllar değer kazandıracak yapılar üretmektir.</p><p style="font-size: 16px; line-height: 1.8; margin-bottom: 20px;">Modern mimariyi sürdürülebilir malzeme ve akıllı yapı teknolojileriyle birleştirerek, her projede kaliteyi erişilebilir hale getirmeyi hedefleriz.</p><p style="font-size: 16px; line-height: 1.8; margin-top: 30px;">Her projemizde aynı titizlikle çalışmaya, kaliteli malzemeyi doğru mühendislikle birleştirmeye ve modern yaşamın ihtiyaçlarına cevap veren çözümler geliştirmeye devam ediyoruz. Müşterilerimizin güveni bizim en büyük motivasyonumuzdur.</p></div>
+    <div class="h9vy2-body"><h1 style="font-size: 32px; font-weight: bold; margin-bottom: 20px;">Misyonumuz</h1><p style="font-size: 16px; line-height: 1.8; margin-bottom: 20px;">A.A. ROOTS İnşaat olarak misyonumuz; güvenilir, dayanıklı ve estetik yaşam alanları tasarlayarak müşterilerimize uzun yıllar değer kazandıracak yapılar üretmektir.</p><p style="font-size: 16px; line-height: 1.8; margin-bottom: 20px;">Modern mimariyi sürdürülebilir malzeme ve akıllı yapı teknolojileriyle birleştirerek, her projede kaliteyi erişilebilir hale getirmeyi hedefleriz.</p><p style="font-size: 16px; line-height: 1.8; margin-top: 30px;">Her projemizde aynı titizlikle çalışmaya, kaliteli malzemeyi doğru mühendislikle birleştirmeye ve modern yaşamın ihtiyaçlarına cevap veren çözümler geliştirmeye devam ediyoruz. Müşterilerimizin güveni bizim en büyük motivasyonumuzdur.</p></div>
   </div>
 </div>
 
 <script>
   setTimeout(function() {
-    var menuToggleBtn = document.querySelector(".bfanl-menu-btn");
-    var menu = document.querySelector(".bfanl-menu");
-    var overlay = document.querySelector(".bfanl-menu-overlay");
-    var closeButton = document.querySelector(".bfanl-menu-close");
+    var menuToggleBtn = document.querySelector(".h9vy2-menu-btn");
+    var menu = document.querySelector(".h9vy2-menu");
+    var overlay = document.querySelector(".h9vy2-menu-overlay");
+    var closeButton = document.querySelector(".h9vy2-menu-close");
     
     if (!menuToggleBtn || !menu) {
       return;
@@ -208,7 +214,7 @@
     // Menü içindeki linklere tıklanınca kapat
     menu.addEventListener("click", function (event) {
       var link = event.target.closest("a");
-      var closeBtn = event.target.closest(".bfanl-menu-close");
+      var closeBtn = event.target.closest(".h9vy2-menu-close");
       if (link && !closeBtn) {
         closeMenu();
       }
@@ -256,15 +262,15 @@
     handleBreakpoint();
 
     // Alt menü toggle fonksiyonları
-    document.querySelectorAll(".bfanl-top").forEach(function (button) {
+    document.querySelectorAll(".h9vy2-top").forEach(function (button) {
       button.addEventListener("click", function (e) {
         e.stopPropagation();
-        var group = this.closest(".bfanl-menu-group");
+        var group = this.closest(".h9vy2-menu-group");
         if (!group) return;
-        var sub = group.querySelector(".bfanl-sub");
+        var sub = group.querySelector(".h9vy2-sub");
         var isOpen = group.classList.toggle("open");
         this.classList.toggle("active", isOpen);
-        var icon = this.querySelector(".bfanl-icon");
+        var icon = this.querySelector(".h9vy2-icon");
         if (icon) {
           icon.textContent = isOpen ? "expand_less" : "expand_more";
         }
@@ -302,8 +308,8 @@
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=v11vo"></script>
-<script defer src="/src/cookie.js?v=v11vo"></script>
+<script defer type="text/javascript" src="/src/js.js?v=z6qct"></script>
+<script defer src="/src/cookie.js?v=z6qct"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

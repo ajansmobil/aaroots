@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=rypry" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=rypry" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=f8oa4" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=f8oa4" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=rypry" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=f8oa4" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,84 +52,90 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=rypry">
+<link rel="stylesheet" href="style.css?v=f8oa4">
 </head>
 
 <body>
-  <div id="header"><div class="otlg4">
-  <div class="otlg4title">
-    <div class="otlg4titlebody">
-      <div class="otlg4titlebodylang">
+  <div id="header"><div class="rcxaj">
+  <div class="rcxajtitle">
+    <div class="rcxajtitlebody">
+      <div class="rcxajtitlebodylang">
         <ul>
-          
+          <li><a href="/tr/kullanici-haklari/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/kullanici-haklari/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li><li><a href="/ar/kullanici-haklari/"><img height="25" src="/src/lang/ar.png" alt="ar" loading="lazy"></a></li><li><a href="/ru/kullanici-haklari/"><img height="25" src="/src/lang/ru.png" alt="ru" loading="lazy"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="otlg4body">
+  <div class="rcxajbody">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=rypry"
+        src="/img/logo.svg?v=f8oa4"
         alt="A.A ROOTS INŞ. METAL LTD ŞTI. Logo"
-        class="otlg4bodylogo"
+        class="rcxajbodylogo"
         loading="lazy"
     /></a>
-    <button type="button" class="otlg4-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
+    <button type="button" class="rcxaj-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
       <span class="material-symbols-outlined" aria-hidden="true">menu</span>
     </button>
   </div>
-  <div class="otlg4menubody">
-    <div class="otlg4menu" id="menu-2-root">
-      <div class="otlg4menulistbody">
-        <div class="otlg4menulist">
+  <!-- Mobil: dış tıklamada menüyü kapatmak için yarı saydam arka plan (app drawer tarzı) -->
+  <div class="rcxaj-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
+  <div class="rcxajmenubody">
+    <div class="rcxajmenu" id="menu-2-root">
+      <div class="rcxajmenulistbody">
+        <div class="rcxajmenulist">
           <ul>
             <a href="/tr/">Anasayfa </a><a href="/tr/hakkimizda/">Kurumsal</a><a href="/tr/urunler/">Projelerimiz</a><a href="/tr/iletisim/">İletişim</a>
           </ul>
-          <div class="otlg4languages-mobile">
-            <ul>
-              
-            </ul>
-          </div>
         </div>
+      </div>
+      <!-- Mobil kural: lang drawer'ın en altında ve ortada -->
+      <div class="rcxajlanguages-mobile">
+        <ul>
+          <li><a href="/tr/kullanici-haklari/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/kullanici-haklari/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li><li><a href="/ar/kullanici-haklari/"><img height="25" src="/src/lang/ar.png" alt="ar" loading="lazy"></a></li><li><a href="/ru/kullanici-haklari/"><img height="25" src="/src/lang/ru.png" alt="ru" loading="lazy"></a></li>
+        </ul>
       </div>
     </div>
   </div>
 </div>
 
 <script>
+  /* Mobil menü aç/kapat: class wrapper (.rcxaj) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
   if (typeof menu2_toggle === "undefined") {
     function menu2_toggle() {
       var root = document.getElementById("menu-2-root");
       if (!root) {
         return;
       }
-      if (root.classList.contains("otlg4menu-open")) {
-        root.classList.remove("otlg4menu-open");
+      var wrapper = root.closest ? root.closest(".rcxaj") : null;
+      var target = wrapper || root;
+      if (target.classList.contains("rcxajmenu-open")) {
+        target.classList.remove("rcxajmenu-open");
       } else {
-        root.classList.add("otlg4menu-open");
+        target.classList.add("rcxajmenu-open");
       }
     }
   }
 </script>
 </div>
-  <div id="content"><div class="wehjd-title f36">
+  <div id="content"><div class="e17ws-title f36">
   <h1>Kullanıcı Hakları</h1>
 </div>
-<div class="wehjd">
-  <div class="wehjd-menu-btn">
+<div class="e17ws">
+  <div class="e17ws-menu-btn">
     <span>Menü</span>
-    <span class="material-symbols-outlined wehjd-icon">menu</span>
+    <span class="material-symbols-outlined e17ws-icon">menu</span>
   </div>
-  <div class="wehjd-menu-overlay" id="wehjd-menu-overlay" aria-hidden="true"></div>
-  <div class="wehjd-menu" id="wehjd-menu">
-    <button class="wehjd-menu-close" type="button" aria-label="Menüyü Kapat" aria-controls="wehjd-menu">
+  <div class="e17ws-menu-overlay" id="e17ws-menu-overlay" aria-hidden="true"></div>
+  <div class="e17ws-menu" id="e17ws-menu">
+    <button class="e17ws-menu-close" type="button" aria-label="Menüyü Kapat" aria-controls="e17ws-menu">
       <span class="material-symbols-outlined" aria-hidden="true">close</span>
     </button>
-    <a class="wehjd-menu-link" href="/tr/hakkimizda/">Hakkımızda</a><a class="wehjd-menu-link" href="/tr/misyon/">Misyon</a><a class="wehjd-menu-link" href="/tr/vizyon/">Vizyon</a><a class="wehjd-menu-link" href="/tr/kalite-politikamiz/">Kalite Politikamız</a><a class="wehjd-menu-link" href="/tr/gizlilik-politikasi/">Gizlilik Politikası</a><a class="wehjd-menu-link" href="/tr/kisisel-veriler/">Kişisel Veriler</a><a class="wehjd-menu-link active" href="/tr/kullanici-haklari/">Kullanıcı Hakları</a><a class="wehjd-menu-link" href="/tr/yasal-uyari/">Yasal Uyarı</a>
+    <a class="e17ws-menu-link" href="/tr/hakkimizda/">Hakkımızda</a><a class="e17ws-menu-link" href="/tr/misyon/">Misyon</a><a class="e17ws-menu-link" href="/tr/vizyon/">Vizyon</a><a class="e17ws-menu-link" href="/tr/kalite-politikamiz/">Kalite Politikamız</a><a class="e17ws-menu-link" href="/tr/gizlilik-politikasi/">Gizlilik Politikası</a><a class="e17ws-menu-link" href="/tr/kisisel-veriler/">Kişisel Veriler</a><a class="e17ws-menu-link active" href="/tr/kullanici-haklari/">Kullanıcı Hakları</a><a class="e17ws-menu-link" href="/tr/yasal-uyari/">Yasal Uyarı</a>
   </div>
-  <div class="wehjd-desc">
+  <div class="e17ws-desc">
     
-    <div class="wehjd-body"><h2 style="font-size: 24px;">Kullanıcı Hakları</h2>
+    <div class="e17ws-body"><h2 style="font-size: 24px;">Kullanıcı Hakları</h2>
     <p style="font-size: 16px;">
         Herkes, kişisel verilerinin korunmasını isteme hakkına sahiptir. Kişisel verilerinizin korunması bizim için çok önemlidir ve bu doğrultuda 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) ve ilgili mevzuat çerçevesinde hareket etmekteyiz. Kullanıcılar, verilerinin hangi amaçlarla toplandığı, nasıl saklandığı ve kimlerle paylaşıldığı konusunda bilgilendirilme hakkına sahiptir.
     </p>
@@ -142,10 +148,10 @@
 
 <script>
   setTimeout(function() {
-    var menuToggleBtn = document.querySelector(".wehjd-menu-btn");
-    var menu = document.querySelector(".wehjd-menu");
-    var overlay = document.querySelector(".wehjd-menu-overlay");
-    var closeButton = document.querySelector(".wehjd-menu-close");
+    var menuToggleBtn = document.querySelector(".e17ws-menu-btn");
+    var menu = document.querySelector(".e17ws-menu");
+    var overlay = document.querySelector(".e17ws-menu-overlay");
+    var closeButton = document.querySelector(".e17ws-menu-close");
     
     if (!menuToggleBtn || !menu) {
       return;
@@ -215,7 +221,7 @@
     // Menü içindeki linklere tıklanınca kapat
     menu.addEventListener("click", function (event) {
       var link = event.target.closest("a");
-      var closeBtn = event.target.closest(".wehjd-menu-close");
+      var closeBtn = event.target.closest(".e17ws-menu-close");
       if (link && !closeBtn) {
         closeMenu();
       }
@@ -263,15 +269,15 @@
     handleBreakpoint();
 
     // Alt menü toggle fonksiyonları
-    document.querySelectorAll(".wehjd-top").forEach(function (button) {
+    document.querySelectorAll(".e17ws-top").forEach(function (button) {
       button.addEventListener("click", function (e) {
         e.stopPropagation();
-        var group = this.closest(".wehjd-menu-group");
+        var group = this.closest(".e17ws-menu-group");
         if (!group) return;
-        var sub = group.querySelector(".wehjd-sub");
+        var sub = group.querySelector(".e17ws-sub");
         var isOpen = group.classList.toggle("open");
         this.classList.toggle("active", isOpen);
-        var icon = this.querySelector(".wehjd-icon");
+        var icon = this.querySelector(".e17ws-icon");
         if (icon) {
           icon.textContent = isOpen ? "expand_less" : "expand_more";
         }
@@ -309,8 +315,8 @@
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=rypry"></script>
-<script defer src="/src/cookie.js?v=rypry"></script>
+<script defer type="text/javascript" src="/src/js.js?v=f8oa4"></script>
+<script defer src="/src/cookie.js?v=f8oa4"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

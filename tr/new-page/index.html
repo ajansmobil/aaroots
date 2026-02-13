@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=en2ca" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=en2ca" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=fg0yd" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=fg0yd" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=en2ca" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=fg0yd" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,61 +52,67 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=en2ca">
+<link rel="stylesheet" href="style.css?v=fg0yd">
 </head>
 
 <body>
-  <div id="header"><div class="eyx25">
-  <div class="eyx25title">
-    <div class="eyx25titlebody">
-      <div class="eyx25titlebodylang">
+  <div id="header"><div class="mg8qe">
+  <div class="mg8qetitle">
+    <div class="mg8qetitlebody">
+      <div class="mg8qetitlebodylang">
         <ul>
-          
+          <li><a href="/tr/new-page/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/new-page/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li><li><a href="/ar/new-page/"><img height="25" src="/src/lang/ar.png" alt="ar" loading="lazy"></a></li><li><a href="/ru/new-page/"><img height="25" src="/src/lang/ru.png" alt="ru" loading="lazy"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="eyx25body">
+  <div class="mg8qebody">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=en2ca"
+        src="/img/logo.svg?v=fg0yd"
         alt="A.A ROOTS INŞ. METAL LTD ŞTI. Logo"
-        class="eyx25bodylogo"
+        class="mg8qebodylogo"
         loading="lazy"
     /></a>
-    <button type="button" class="eyx25-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
+    <button type="button" class="mg8qe-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
       <span class="material-symbols-outlined" aria-hidden="true">menu</span>
     </button>
   </div>
-  <div class="eyx25menubody">
-    <div class="eyx25menu" id="menu-2-root">
-      <div class="eyx25menulistbody">
-        <div class="eyx25menulist">
+  <!-- Mobil: dış tıklamada menüyü kapatmak için yarı saydam arka plan (app drawer tarzı) -->
+  <div class="mg8qe-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
+  <div class="mg8qemenubody">
+    <div class="mg8qemenu" id="menu-2-root">
+      <div class="mg8qemenulistbody">
+        <div class="mg8qemenulist">
           <ul>
             <a href="/tr/">Anasayfa </a><a href="/tr/hakkimizda/">Kurumsal</a><a href="/tr/urunler/">Projelerimiz</a><a href="/tr/iletisim/">İletişim</a>
           </ul>
-          <div class="eyx25languages-mobile">
-            <ul>
-              
-            </ul>
-          </div>
         </div>
+      </div>
+      <!-- Mobil kural: lang drawer'ın en altında ve ortada -->
+      <div class="mg8qelanguages-mobile">
+        <ul>
+          <li><a href="/tr/new-page/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/new-page/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li><li><a href="/ar/new-page/"><img height="25" src="/src/lang/ar.png" alt="ar" loading="lazy"></a></li><li><a href="/ru/new-page/"><img height="25" src="/src/lang/ru.png" alt="ru" loading="lazy"></a></li>
+        </ul>
       </div>
     </div>
   </div>
 </div>
 
 <script>
+  /* Mobil menü aç/kapat: class wrapper (.mg8qe) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
   if (typeof menu2_toggle === "undefined") {
     function menu2_toggle() {
       var root = document.getElementById("menu-2-root");
       if (!root) {
         return;
       }
-      if (root.classList.contains("eyx25menu-open")) {
-        root.classList.remove("eyx25menu-open");
+      var wrapper = root.closest ? root.closest(".mg8qe") : null;
+      var target = wrapper || root;
+      if (target.classList.contains("mg8qemenu-open")) {
+        target.classList.remove("mg8qemenu-open");
       } else {
-        root.classList.add("eyx25menu-open");
+        target.classList.add("mg8qemenu-open");
       }
     }
   }
@@ -138,8 +144,8 @@
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=en2ca"></script>
-<script defer src="/src/cookie.js?v=en2ca"></script>
+<script defer type="text/javascript" src="/src/js.js?v=fg0yd"></script>
+<script defer src="/src/cookie.js?v=fg0yd"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

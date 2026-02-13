@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=qaqcs" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=qaqcs" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=fx88f" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=fx88f" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=qaqcs" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=fx88f" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,93 +52,99 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=qaqcs">
+<link rel="stylesheet" href="style.css?v=fx88f">
 </head>
 
 <body>
-  <div id="header"><div class="l8xm6">
-  <div class="l8xm6title">
-    <div class="l8xm6titlebody">
-      <div class="l8xm6titlebodylang">
+  <div id="header"><div class="qpgfa">
+  <div class="qpgfatitle">
+    <div class="qpgfatitlebody">
+      <div class="qpgfatitlebodylang">
         <ul>
-          
+          <li><a href="/tr/vizyon/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/vizyon/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li><li><a href="/ar/vizyon/"><img height="25" src="/src/lang/ar.png" alt="ar" loading="lazy"></a></li><li><a href="/ru/vizyon/"><img height="25" src="/src/lang/ru.png" alt="ru" loading="lazy"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="l8xm6body">
+  <div class="qpgfabody">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=qaqcs"
+        src="/img/logo.svg?v=fx88f"
         alt="A.A ROOTS INŞ. METAL LTD ŞTI. Logo"
-        class="l8xm6bodylogo"
+        class="qpgfabodylogo"
         loading="lazy"
     /></a>
-    <button type="button" class="l8xm6-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
+    <button type="button" class="qpgfa-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
       <span class="material-symbols-outlined" aria-hidden="true">menu</span>
     </button>
   </div>
-  <div class="l8xm6menubody">
-    <div class="l8xm6menu" id="menu-2-root">
-      <div class="l8xm6menulistbody">
-        <div class="l8xm6menulist">
+  <!-- Mobil: dış tıklamada menüyü kapatmak için yarı saydam arka plan (app drawer tarzı) -->
+  <div class="qpgfa-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
+  <div class="qpgfamenubody">
+    <div class="qpgfamenu" id="menu-2-root">
+      <div class="qpgfamenulistbody">
+        <div class="qpgfamenulist">
           <ul>
             <a href="/tr/">Anasayfa </a><a href="/tr/hakkimizda/">Kurumsal</a><a href="/tr/urunler/">Projelerimiz</a><a href="/tr/iletisim/">İletişim</a>
           </ul>
-          <div class="l8xm6languages-mobile">
-            <ul>
-              
-            </ul>
-          </div>
         </div>
+      </div>
+      <!-- Mobil kural: lang drawer'ın en altında ve ortada -->
+      <div class="qpgfalanguages-mobile">
+        <ul>
+          <li><a href="/tr/vizyon/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/vizyon/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li><li><a href="/ar/vizyon/"><img height="25" src="/src/lang/ar.png" alt="ar" loading="lazy"></a></li><li><a href="/ru/vizyon/"><img height="25" src="/src/lang/ru.png" alt="ru" loading="lazy"></a></li>
+        </ul>
       </div>
     </div>
   </div>
 </div>
 
 <script>
+  /* Mobil menü aç/kapat: class wrapper (.qpgfa) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
   if (typeof menu2_toggle === "undefined") {
     function menu2_toggle() {
       var root = document.getElementById("menu-2-root");
       if (!root) {
         return;
       }
-      if (root.classList.contains("l8xm6menu-open")) {
-        root.classList.remove("l8xm6menu-open");
+      var wrapper = root.closest ? root.closest(".qpgfa") : null;
+      var target = wrapper || root;
+      if (target.classList.contains("qpgfamenu-open")) {
+        target.classList.remove("qpgfamenu-open");
       } else {
-        root.classList.add("l8xm6menu-open");
+        target.classList.add("qpgfamenu-open");
       }
     }
   }
 </script>
 </div>
-  <div id="content"><div class="ptikh-title f36">
+  <div id="content"><div class="j8zol-title f36">
   <h1>Vizyon</h1>
 </div>
-<div class="ptikh">
-  <div class="ptikh-menu-btn">
+<div class="j8zol">
+  <div class="j8zol-menu-btn">
     <span>Menü</span>
-    <span class="material-symbols-outlined ptikh-icon">menu</span>
+    <span class="material-symbols-outlined j8zol-icon">menu</span>
   </div>
-  <div class="ptikh-menu-overlay" id="ptikh-menu-overlay" aria-hidden="true"></div>
-  <div class="ptikh-menu" id="ptikh-menu">
-    <button class="ptikh-menu-close" type="button" aria-label="Menüyü Kapat" aria-controls="ptikh-menu">
+  <div class="j8zol-menu-overlay" id="j8zol-menu-overlay" aria-hidden="true"></div>
+  <div class="j8zol-menu" id="j8zol-menu">
+    <button class="j8zol-menu-close" type="button" aria-label="Menüyü Kapat" aria-controls="j8zol-menu">
       <span class="material-symbols-outlined" aria-hidden="true">close</span>
     </button>
-    <a class="ptikh-menu-link" href="/tr/hakkimizda/">Hakkımızda</a><a class="ptikh-menu-link" href="/tr/misyon/">Misyon</a><a class="ptikh-menu-link active" href="/tr/vizyon/">Vizyon</a><a class="ptikh-menu-link" href="/tr/kalite-politikamiz/">Kalite Politikamız</a><a class="ptikh-menu-link" href="/tr/gizlilik-politikasi/">Gizlilik Politikası</a><a class="ptikh-menu-link" href="/tr/kisisel-veriler/">Kişisel Veriler</a><a class="ptikh-menu-link" href="/tr/kullanici-haklari/">Kullanıcı Hakları</a><a class="ptikh-menu-link" href="/tr/yasal-uyari/">Yasal Uyarı</a>
+    <a class="j8zol-menu-link" href="/tr/hakkimizda/">Hakkımızda</a><a class="j8zol-menu-link" href="/tr/misyon/">Misyon</a><a class="j8zol-menu-link active" href="/tr/vizyon/">Vizyon</a><a class="j8zol-menu-link" href="/tr/kalite-politikamiz/">Kalite Politikamız</a><a class="j8zol-menu-link" href="/tr/gizlilik-politikasi/">Gizlilik Politikası</a><a class="j8zol-menu-link" href="/tr/kisisel-veriler/">Kişisel Veriler</a><a class="j8zol-menu-link" href="/tr/kullanici-haklari/">Kullanıcı Hakları</a><a class="j8zol-menu-link" href="/tr/yasal-uyari/">Yasal Uyarı</a>
   </div>
-  <div class="ptikh-desc">
+  <div class="j8zol-desc">
     
-    <div class="ptikh-body"><h1 style="font-size: 32px; font-weight: bold; margin-bottom: 20px;">Vizyonumuz</h1><p style="font-size: 16px; line-height: 1.8; margin-bottom: 20px;">Vizyonumuz; Bodrum başta olmak üzere Türkiye'nin önde gelen ve en güven duyulan inşaat markalarından biri olmak, yaşam alanlarını sadece inşa eden değil, aynı zamanda onları geliştiren bir marka olarak sektöre yön vermektir.</p><p style="font-size: 16px; line-height: 1.8; margin-bottom: 20px;">A.A. ROOTS, kökleri sağlam bir yapı kültürünü gelecek nesillere taşıyan öncü bir marka olmayı vizyon edinmiştir.</p><p style="font-size: 16px; line-height: 1.8; margin-top: 30px;">Bunun için, iş süreçlerimizi sürekli gözden geçiriyor, iyileştiriyor ve geliştirmeye odaklanıyoruz. Müşterilerimizin geri bildirimlerini dikkate alarak, ihtiyaçlarına en uygun çözümleri sunmak için çaba gösteriyoruz. Müşteri odaklı bir yaklaşım benimsememiz, işimizi daha da büyütmemize yardımcı oluyor ve sektördeki konumumuzu güçlendiriyor.</p></div>
+    <div class="j8zol-body"><h1 style="font-size: 32px; font-weight: bold; margin-bottom: 20px;">Vizyonumuz</h1><p style="font-size: 16px; line-height: 1.8; margin-bottom: 20px;">Vizyonumuz; Bodrum başta olmak üzere Türkiye'nin önde gelen ve en güven duyulan inşaat markalarından biri olmak, yaşam alanlarını sadece inşa eden değil, aynı zamanda onları geliştiren bir marka olarak sektöre yön vermektir.</p><p style="font-size: 16px; line-height: 1.8; margin-bottom: 20px;">A.A. ROOTS, kökleri sağlam bir yapı kültürünü gelecek nesillere taşıyan öncü bir marka olmayı vizyon edinmiştir.</p><p style="font-size: 16px; line-height: 1.8; margin-top: 30px;">Bunun için, iş süreçlerimizi sürekli gözden geçiriyor, iyileştiriyor ve geliştirmeye odaklanıyoruz. Müşterilerimizin geri bildirimlerini dikkate alarak, ihtiyaçlarına en uygun çözümleri sunmak için çaba gösteriyoruz. Müşteri odaklı bir yaklaşım benimsememiz, işimizi daha da büyütmemize yardımcı oluyor ve sektördeki konumumuzu güçlendiriyor.</p></div>
   </div>
 </div>
 
 <script>
   setTimeout(function() {
-    var menuToggleBtn = document.querySelector(".ptikh-menu-btn");
-    var menu = document.querySelector(".ptikh-menu");
-    var overlay = document.querySelector(".ptikh-menu-overlay");
-    var closeButton = document.querySelector(".ptikh-menu-close");
+    var menuToggleBtn = document.querySelector(".j8zol-menu-btn");
+    var menu = document.querySelector(".j8zol-menu");
+    var overlay = document.querySelector(".j8zol-menu-overlay");
+    var closeButton = document.querySelector(".j8zol-menu-close");
     
     if (!menuToggleBtn || !menu) {
       return;
@@ -208,7 +214,7 @@
     // Menü içindeki linklere tıklanınca kapat
     menu.addEventListener("click", function (event) {
       var link = event.target.closest("a");
-      var closeBtn = event.target.closest(".ptikh-menu-close");
+      var closeBtn = event.target.closest(".j8zol-menu-close");
       if (link && !closeBtn) {
         closeMenu();
       }
@@ -256,15 +262,15 @@
     handleBreakpoint();
 
     // Alt menü toggle fonksiyonları
-    document.querySelectorAll(".ptikh-top").forEach(function (button) {
+    document.querySelectorAll(".j8zol-top").forEach(function (button) {
       button.addEventListener("click", function (e) {
         e.stopPropagation();
-        var group = this.closest(".ptikh-menu-group");
+        var group = this.closest(".j8zol-menu-group");
         if (!group) return;
-        var sub = group.querySelector(".ptikh-sub");
+        var sub = group.querySelector(".j8zol-sub");
         var isOpen = group.classList.toggle("open");
         this.classList.toggle("active", isOpen);
-        var icon = this.querySelector(".ptikh-icon");
+        var icon = this.querySelector(".j8zol-icon");
         if (icon) {
           icon.textContent = isOpen ? "expand_less" : "expand_more";
         }
@@ -302,8 +308,8 @@
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=qaqcs"></script>
-<script defer src="/src/cookie.js?v=qaqcs"></script>
+<script defer type="text/javascript" src="/src/js.js?v=fx88f"></script>
+<script defer src="/src/cookie.js?v=fx88f"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği
