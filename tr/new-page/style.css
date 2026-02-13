@@ -1,7 +1,7 @@
 
  
 
-  .s0513 {
+  .le505 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .s0513title {
+  .le505title {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@
     z-index: 1;
   }
 
-  .s0513title:has(.s0513titlebodylang:empty),
-  .s0513title:has(.s0513titlebodylang ul:empty) {
+  .le505title:has(.le505titlebodylang:empty),
+  .le505title:has(.le505titlebodylang ul:empty) {
     display: none;
   }
 
-  .s0513titlebody {
+  .le505titlebody {
     color: #ffffff;
     width: var(--max);
     display: flex;
@@ -31,29 +31,29 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .s0513titlebodytitle {
+  .le505titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .s0513titlebodylang {
+  .le505titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .s0513titlebodylang:empty,
-  .s0513titlebodylang ul:empty {
+  .le505titlebodylang:empty,
+  .le505titlebodylang ul:empty {
     display: none;
   }
 
-  .s0513titlebodylang ul {
+  .le505titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .s0513body {
+  .le505body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -62,7 +62,7 @@
     position: relative;
   }
 
-  .s0513-mobile-toggle {
+  .le505-mobile-toggle {
     display: none;
     background: #000;
     color: #ffffff;
@@ -76,18 +76,18 @@
     right: 0;
   }
 
-  .s0513-mobile-toggle span {
+  .le505-mobile-toggle span {
     font-size: 24px;
   }
 
-  .s0513menu {
+  .le505menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .s0513menulist {
+  .le505menulist {
     width: calc(100% - 20px);
     background-color: #000;
     padding: 10px;
@@ -96,7 +96,7 @@
     display: flex;
   }
 
-  .s0513menubody {
+  .le505menubody {
     width: 100%;
     background-color: #000;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .s0513menulist ul {
+  .le505menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -113,7 +113,7 @@
     padding: 0;
   }
 
-  .s0513menulist ul a {
+  .le505menulist ul a {
     padding: 10px 15px;
     font-size: 16px;
     color: #ffffff !important;
@@ -126,40 +126,40 @@
     margin: 0 2px;
   }
 
-  .s0513menulist ul a:hover {
+  .le505menulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .s0513menulist ul a.s0513-menu-list-active {
+  .le505menulist ul a.le505-menu-list-active {
     color: #000000 !important;
   }
 
-  .s0513-menu-list-active {
+  .le505-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .s0513menulistbody {
+  .le505menulistbody {
     width: 100%;
   }
 
-  .s0513languages-mobile {
+  .le505languages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .s0513languages-mobile:empty,
-  .s0513languages-mobile ul:empty {
+  .le505languages-mobile:empty,
+  .le505languages-mobile ul:empty {
     display: none !important;
   }
 
-  .s0513languages-mobile ul {
+  .le505languages-mobile ul {
     display: flex;
     gap: 8px;
     margin: 0;
@@ -168,7 +168,7 @@
     justify-content: center;
   }
 
-  .s0513languages-mobile li {
+  .le505languages-mobile li {
     list-style: none;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 8px;
@@ -183,25 +183,25 @@
     transition: all 0.3s ease;
   }
 
-  .s0513languages-mobile li a {
+  .le505languages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .s0513languages-mobile li:hover {
+  .le505languages-mobile li:hover {
     background-color: #ffffff;
     border-color: #000000;
   }
 
   @media screen and (min-width: 1024px) {
-    .s0513bodylogo {
+    .le505bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .s0513title {
+    .le505title {
     margin-bottom: -30px;
   }
 
@@ -209,77 +209,77 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .s0513body {
+    .le505body {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: center;
     }
 
-    .s0513menulist ul {
+    .le505menulist ul {
       flex-direction: row;
     }
 
-    .s0513bodylogo {
+    .le505bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .s0513titlebody {
+    .le505titlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .s0513titlebodytitle {
+    .le505titlebodytitle {
       text-align: center;
       font-size: 14px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .s0513titlebodylang {
+    .le505titlebodylang {
       display: none;
     }
 
-    .s0513body {
+    .le505body {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .s0513-mobile-toggle {
+    .le505-mobile-toggle {
       display: inline-flex;
     }
 
-    .s0513bodylogo {
+    .le505bodylogo {
       width: 40vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
-    .s0513menulist {
+    .le505menulist {
       display: none;
       flex-direction: column;
       width: calc(100% - 24px);
       padding: 12px;
     }
 
-    .s0513menu.s0513menu-open .s0513menulist {
+    .le505menu.le505menu-open .le505menulist {
       display: flex;
     }
 
-    .s0513menu.s0513menu-open .s0513languages-mobile {
+    .le505menu.le505menu-open .le505languages-mobile {
       display: block;
     }
 
-    .s0513menulist ul {
+    .le505menulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .s0513menulist ul a {
+    .le505menulist ul a {
       font-size: 14px;
       width: 100%;
       padding: 12px;
@@ -288,16 +288,16 @@
       border-radius: 0;
     }
 
-    .s0513menulist ul a:last-child {
+    .le505menulist ul a:last-child {
       border-bottom: none;
     }
 
-    .s0513menulist ul a:hover {
+    .le505menulist ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    .s0513titlebodytitle {
+    .le505titlebodytitle {
       font-size: 12px;
     }
   }
