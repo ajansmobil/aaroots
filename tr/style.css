@@ -1,7 +1,7 @@
 
  
 
-  .nyqt2 {
+  .adwkn {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .nyqt2title {
+  .adwkntitle {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@
     z-index: 1;
   }
 
-  .nyqt2title:has(.nyqt2titlebodylang:empty),
-  .nyqt2title:has(.nyqt2titlebodylang ul:empty) {
+  .adwkntitle:has(.adwkntitlebodylang:empty),
+  .adwkntitle:has(.adwkntitlebodylang ul:empty) {
     display: none;
   }
 
-  .nyqt2titlebody {
+  .adwkntitlebody {
     color: #ffffff;
     width: var(--max);
     display: flex;
@@ -31,29 +31,29 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .nyqt2titlebodytitle {
+  .adwkntitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .nyqt2titlebodylang {
+  .adwkntitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .nyqt2titlebodylang:empty,
-  .nyqt2titlebodylang ul:empty {
+  .adwkntitlebodylang:empty,
+  .adwkntitlebodylang ul:empty {
     display: none;
   }
 
-  .nyqt2titlebodylang ul {
+  .adwkntitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .nyqt2body {
+  .adwknbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -62,7 +62,7 @@
     position: relative;
   }
 
-  .nyqt2-mobile-toggle {
+  .adwkn-mobile-toggle {
     display: none;
     background: #000;
     color: #ffffff;
@@ -76,18 +76,18 @@
     right: 0;
   }
 
-  .nyqt2-mobile-toggle span {
+  .adwkn-mobile-toggle span {
     font-size: 24px;
   }
 
-  .nyqt2menu {
+  .adwknmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .nyqt2menulist {
+  .adwknmenulist {
     width: calc(100% - 20px);
     background-color: #000;
     padding: 10px;
@@ -96,7 +96,7 @@
     display: flex;
   }
 
-  .nyqt2menubody {
+  .adwknmenubody {
     width: 100%;
     background-color: #000;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .nyqt2menulist ul {
+  .adwknmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -113,7 +113,7 @@
     padding: 0;
   }
 
-  .nyqt2menulist ul a {
+  .adwknmenulist ul a {
     padding: 10px 15px;
     font-size: 16px;
     color: #ffffff !important;
@@ -126,40 +126,40 @@
     margin: 0 2px;
   }
 
-  .nyqt2menulist ul a:hover {
+  .adwknmenulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .nyqt2menulist ul a.nyqt2-menu-list-active {
+  .adwknmenulist ul a.adwkn-menu-list-active {
     color: #000000 !important;
   }
 
-  .nyqt2-menu-list-active {
+  .adwkn-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .nyqt2menulistbody {
+  .adwknmenulistbody {
     width: 100%;
   }
 
-  .nyqt2languages-mobile {
+  .adwknlanguages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .nyqt2languages-mobile:empty,
-  .nyqt2languages-mobile ul:empty {
+  .adwknlanguages-mobile:empty,
+  .adwknlanguages-mobile ul:empty {
     display: none !important;
   }
 
-  .nyqt2languages-mobile ul {
+  .adwknlanguages-mobile ul {
     display: flex;
     gap: 8px;
     margin: 0;
@@ -168,7 +168,7 @@
     justify-content: center;
   }
 
-  .nyqt2languages-mobile li {
+  .adwknlanguages-mobile li {
     list-style: none;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 8px;
@@ -183,25 +183,25 @@
     transition: all 0.3s ease;
   }
 
-  .nyqt2languages-mobile li a {
+  .adwknlanguages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .nyqt2languages-mobile li:hover {
+  .adwknlanguages-mobile li:hover {
     background-color: #ffffff;
     border-color: #000000;
   }
 
   @media screen and (min-width: 1024px) {
-    .nyqt2bodylogo {
+    .adwknbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .nyqt2title {
+    .adwkntitle {
     margin-bottom: -30px;
   }
 
@@ -209,77 +209,77 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .nyqt2body {
+    .adwknbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: center;
     }
 
-    .nyqt2menulist ul {
+    .adwknmenulist ul {
       flex-direction: row;
     }
 
-    .nyqt2bodylogo {
+    .adwknbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .nyqt2titlebody {
+    .adwkntitlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .nyqt2titlebodytitle {
+    .adwkntitlebodytitle {
       text-align: center;
       font-size: 14px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .nyqt2titlebodylang {
+    .adwkntitlebodylang {
       display: none;
     }
 
-    .nyqt2body {
+    .adwknbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .nyqt2-mobile-toggle {
+    .adwkn-mobile-toggle {
       display: inline-flex;
     }
 
-    .nyqt2bodylogo {
+    .adwknbodylogo {
       width: 40vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
-    .nyqt2menulist {
+    .adwknmenulist {
       display: none;
       flex-direction: column;
       width: calc(100% - 24px);
       padding: 12px;
     }
 
-    .nyqt2menu.nyqt2menu-open .nyqt2menulist {
+    .adwknmenu.adwknmenu-open .adwknmenulist {
       display: flex;
     }
 
-    .nyqt2menu.nyqt2menu-open .nyqt2languages-mobile {
+    .adwknmenu.adwknmenu-open .adwknlanguages-mobile {
       display: block;
     }
 
-    .nyqt2menulist ul {
+    .adwknmenulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .nyqt2menulist ul a {
+    .adwknmenulist ul a {
       font-size: 14px;
       width: 100%;
       padding: 12px;
@@ -288,16 +288,16 @@
       border-radius: 0;
     }
 
-    .nyqt2menulist ul a:last-child {
+    .adwknmenulist ul a:last-child {
       border-bottom: none;
     }
 
-    .nyqt2menulist ul a:hover {
+    .adwknmenulist ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    .nyqt2titlebodytitle {
+    .adwkntitlebodytitle {
       font-size: 12px;
     }
   }
@@ -353,10 +353,10 @@
 
 
   .footer {
-    background-color: #000;
-    color: #ecf0f1;
+    background-color: #fff;
+    color: #000 !important;
     padding: 20px;
-    border-top: 5px solid #2980b9;
+    border-top: 5px solid #000;
   }
 
   .footer-top {
@@ -384,7 +384,7 @@
   }
 
   .menu_link {
-    color: #fff !important;
+    color: #000 !important;
   }
 
   .menu_link:hover {
