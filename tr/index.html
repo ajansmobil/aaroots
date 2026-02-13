@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=gzj1w" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=gzj1w" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=bn0ps" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=bn0ps" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=gzj1w" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=bn0ps" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,45 +52,45 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=gzj1w">
+<link rel="stylesheet" href="style.css?v=bn0ps">
 </head>
 
 <body>
-  <div id="header"><div class="z3mi6">
-  <div class="z3mi6title">
-    <div class="z3mi6titlebody">
-      <div class="z3mi6titlebodylang">
+  <div id="header"><div class="zdtmg">
+  <div class="zdtmgtitle">
+    <div class="zdtmgtitlebody">
+      <div class="zdtmgtitlebodylang">
         <ul>
           <li><a href="/tr/">TR</a></li><li><a href="/en/">EN</a></li><li><a href="/ar/">AR</a></li><li><a href="/ru/">RU</a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="z3mi6body">
+  <div class="zdtmgbody">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=gzj1w"
+        src="/img/logo.svg?v=bn0ps"
         alt="A.A ROOTS INŞ. METAL LTD ŞTI. Logo"
-        class="z3mi6bodylogo"
+        class="zdtmgbodylogo"
         loading="lazy"
     /></a>
-    <button type="button" class="z3mi6-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
+    <button type="button" class="zdtmg-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
       <span class="material-symbols-outlined" aria-hidden="true">menu</span>
     </button>
   </div>
   <!-- Mobil: dış tıklamada menüyü kapatmak için yarı saydam arka plan (app drawer tarzı) -->
-  <div class="z3mi6-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
-  <div class="z3mi6menubody">
-    <div class="z3mi6menu" id="menu-2-root">
-      <div class="z3mi6menulistbody">
-        <div class="z3mi6menulist">
+  <div class="zdtmg-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
+  <div class="zdtmgmenubody">
+    <div class="zdtmgmenu" id="menu-2-root">
+      <div class="zdtmgmenulistbody">
+        <div class="zdtmgmenulist">
           <ul>
             <a href="/tr/">Anasayfa </a><a href="/tr/hakkimizda/">Kurumsal</a><a href="/tr/urunler/">Projelerimiz</a><a href="/tr/iletisim/">İletişim</a>
           </ul>
         </div>
       </div>
       <!-- Mobil kural: lang drawer'ın en altında ve ortada -->
-      <div class="z3mi6languages-mobile">
+      <div class="zdtmglanguages-mobile">
         <ul>
           <li><a href="/tr/">TR</a></li><li><a href="/en/">EN</a></li><li><a href="/ar/">AR</a></li><li><a href="/ru/">RU</a></li>
         </ul>
@@ -100,25 +100,25 @@
 </div>
 
 <script>
-  /* Mobil menü aç/kapat: class wrapper (.z3mi6) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
+  /* Mobil menü aç/kapat: class wrapper (.zdtmg) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
   if (typeof menu2_toggle === "undefined") {
     function menu2_toggle() {
       var root = document.getElementById("menu-2-root");
       if (!root) {
         return;
       }
-      var wrapper = root.closest ? root.closest(".z3mi6") : null;
+      var wrapper = root.closest ? root.closest(".zdtmg") : null;
       var target = wrapper || root;
-      if (target.classList.contains("z3mi6menu-open")) {
-        target.classList.remove("z3mi6menu-open");
+      if (target.classList.contains("zdtmgmenu-open")) {
+        target.classList.remove("zdtmgmenu-open");
       } else {
-        target.classList.add("z3mi6menu-open");
+        target.classList.add("zdtmgmenu-open");
       }
     }
   }
 </script>
-<div class="swiper-container degin">
-  <div class="swiper-wrapper" id="degin"><div class="swiper-slide"><img src="/img/k4t90c/slider.jpg?v=1770982037675" alt="A.A ROOTS INŞ. METAL LTD ŞTI."  loading="lazy"/></div></div>
+<div class="swiper-container yfyac">
+  <div class="swiper-wrapper" id="yfyac"><div class="swiper-slide"><img src="/img/k4t90c/slider.jpg?v=1770982117876" alt="A.A ROOTS INŞ. METAL LTD ŞTI."  loading="lazy"/></div></div>
   <div class="swiper-button-next"></div>
   <div class="swiper-button-prev"></div>
   <div class="swiper-pagination"></div>
@@ -133,7 +133,7 @@
     attempts++;
     if (typeof Swiper === "function") {
       clearInterval(timer);
-      new Swiper(".degin", {
+      new Swiper(".yfyac", {
         slidesPerView: 1,
         spaceBetween: 30,
         loop: true,
@@ -158,55 +158,55 @@
 })();
 </script>
 </div>
-  <div id="content"><div class="ffgtq">
-  <div class="ffgtqbody"><div class="ffgtqbodyitem left" style="animation-delay: 0s;">
-        <a href="/tr/villa-insaati/" class="ffgtqbodyitemlink">
-          <div class="ffgtqbodyitemimg">
+  <div id="content"><div class="htkbf">
+  <div class="htkbfbody"><div class="htkbfbodyitem left" style="animation-delay: 0s;">
+        <a href="/tr/villa-insaati/" class="htkbfbodyitemlink">
+          <div class="htkbfbodyitemimg">
             <img alt="Villa İnşaatı" src="/page/villa-insaati/vz5ut.jpg" alt="Villa İnşaatı" loading="lazy">
           </div>
-          <div class="ffgtqbodyitemcontent">
-            <div class="ffgtqbodyitemtitle">Villa İnşaatı</div>
-            <div class="ffgtqbodyitemdesc">A.A. ROOTS Bodrum ve Türkiye genelinde özel villa inşaatı. Modern mimari, kaliteli malzeme, anahtar teslimi villa projeleri.</div>
+          <div class="htkbfbodyitemcontent">
+            <div class="htkbfbodyitemtitle">Villa İnşaatı</div>
+            <div class="htkbfbodyitemdesc">A.A. ROOTS Bodrum ve Türkiye genelinde özel villa inşaatı. Modern mimari, kaliteli malzeme, anahtar teslimi villa projeleri.</div>
           </div>
         </a>
-      </div><div class="ffgtqbodyitem right" style="animation-delay: 0.15s;">
-        <a href="/tr/konut-projeleri/" class="ffgtqbodyitemlink">
-          <div class="ffgtqbodyitemcontent">
-            <div class="ffgtqbodyitemtitle">Konut Projeleri</div>
-            <div class="ffgtqbodyitemdesc">Konut projeleri: çok katlı binalar, site projeleri, butik yaşam alanları. A.A. ROOTS güvenilir inşaat ve proje yönetimi.</div>
+      </div><div class="htkbfbodyitem right" style="animation-delay: 0.15s;">
+        <a href="/tr/konut-projeleri/" class="htkbfbodyitemlink">
+          <div class="htkbfbodyitemcontent">
+            <div class="htkbfbodyitemtitle">Konut Projeleri</div>
+            <div class="htkbfbodyitemdesc">Konut projeleri: çok katlı binalar, site projeleri, butik yaşam alanları. A.A. ROOTS güvenilir inşaat ve proje yönetimi.</div>
           </div>
-          <div class="ffgtqbodyitemimg">
+          <div class="htkbfbodyitemimg">
             <img alt="Konut Projeleri" src="/page/konut-projeleri/zv4lk.jpeg" alt="Konut Projeleri" loading="lazy">
           </div>
         </a>
-      </div><div class="ffgtqbodyitem left" style="animation-delay: 0.3s;">
-        <a href="/tr/ticari-yapilar/" class="ffgtqbodyitemlink">
-          <div class="ffgtqbodyitemimg">
+      </div><div class="htkbfbodyitem left" style="animation-delay: 0.3s;">
+        <a href="/tr/ticari-yapilar/" class="htkbfbodyitemlink">
+          <div class="htkbfbodyitemimg">
             <img alt="Ticari Yapılar" src="/page/ticari-yapilar/upakt.jpeg" alt="Ticari Yapılar" loading="lazy">
           </div>
-          <div class="ffgtqbodyitemcontent">
-            <div class="ffgtqbodyitemtitle">Ticari Yapılar</div>
-            <div class="ffgtqbodyitemdesc">Ticari yapılar: ofis, mağaza, otel ve karma kullanım projeleri. Bodrum ve Türkiye genelinde ticari inşaat hizmeti.</div>
+          <div class="htkbfbodyitemcontent">
+            <div class="htkbfbodyitemtitle">Ticari Yapılar</div>
+            <div class="htkbfbodyitemdesc">Ticari yapılar: ofis, mağaza, otel ve karma kullanım projeleri. Bodrum ve Türkiye genelinde ticari inşaat hizmeti.</div>
           </div>
         </a>
-      </div><div class="ffgtqbodyitem right" style="animation-delay: 0.44999999999999996s;">
-        <a href="/tr/renovasyon-tadilat/" class="ffgtqbodyitemlink">
-          <div class="ffgtqbodyitemcontent">
-            <div class="ffgtqbodyitemtitle">Renovasyon & Tadilat</div>
-            <div class="ffgtqbodyitemdesc">Mevcut yapıların renovasyonu ve tadilatı. İç-dış yenileme, güçlendirme, estetik ve işlevsel iyileştirme. A.A. ROOTS kalitesi.</div>
+      </div><div class="htkbfbodyitem right" style="animation-delay: 0.44999999999999996s;">
+        <a href="/tr/renovasyon-tadilat/" class="htkbfbodyitemlink">
+          <div class="htkbfbodyitemcontent">
+            <div class="htkbfbodyitemtitle">Renovasyon & Tadilat</div>
+            <div class="htkbfbodyitemdesc">Mevcut yapıların renovasyonu ve tadilatı. İç-dış yenileme, güçlendirme, estetik ve işlevsel iyileştirme. A.A. ROOTS kalitesi.</div>
           </div>
-          <div class="ffgtqbodyitemimg">
+          <div class="htkbfbodyitemimg">
             <img alt="Renovasyon & Tadilat" src="/page/renovasyon-tadilat/ajvw1.jpeg" alt="Renovasyon & Tadilat" loading="lazy">
           </div>
         </a>
-      </div><div class="ffgtqbodyitem left" style="animation-delay: 0.6s;">
-        <a href="/tr/kesif-proje-danismanligi/" class="ffgtqbodyitemlink">
-          <div class="ffgtqbodyitemimg">
+      </div><div class="htkbfbodyitem left" style="animation-delay: 0.6s;">
+        <a href="/tr/kesif-proje-danismanligi/" class="htkbfbodyitemlink">
+          <div class="htkbfbodyitemimg">
             <img alt="Keşif & Proje Danışmanlığı" src="/page/kesif-proje-danismanligi/etb8y.jpeg" alt="Keşif & Proje Danışmanlığı" loading="lazy">
           </div>
-          <div class="ffgtqbodyitemcontent">
-            <div class="ffgtqbodyitemtitle">Keşif & Proje Danışmanlığı</div>
-            <div class="ffgtqbodyitemdesc">Arsa keşfi, maliyet analizi, proje danışmanlığı ve teknik değerlendirme. A.A. ROOTS ile projenizi planlayın.</div>
+          <div class="htkbfbodyitemcontent">
+            <div class="htkbfbodyitemtitle">Keşif & Proje Danışmanlığı</div>
+            <div class="htkbfbodyitemdesc">Arsa keşfi, maliyet analizi, proje danışmanlığı ve teknik değerlendirme. A.A. ROOTS ile projenizi planlayın.</div>
           </div>
         </a>
       </div></div>
@@ -230,13 +230,13 @@ setTimeout(function() {
       rootMargin: '0px 0px -50px 0px'
     });
 
-    var items = document.querySelectorAll('.ffgtqbodyitem');
+    var items = document.querySelectorAll('.htkbfbodyitem');
     items.forEach(function(item) {
       observer.observe(item);
     });
   } else {
     // Fallback: IntersectionObserver desteklenmiyorsa direkt göster
-    var items = document.querySelectorAll('.ffgtqbodyitem');
+    var items = document.querySelectorAll('.htkbfbodyitem');
     items.forEach(function(item) {
       item.classList.add('visible');
     });
@@ -269,8 +269,8 @@ setTimeout(function() {
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=gzj1w"></script>
-<script defer src="/src/cookie.js?v=gzj1w"></script>
+<script defer type="text/javascript" src="/src/js.js?v=bn0ps"></script>
+<script defer src="/src/cookie.js?v=bn0ps"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği
