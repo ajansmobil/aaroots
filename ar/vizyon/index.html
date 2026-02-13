@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=s1mla" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=s1mla" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=ilwwr" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=ilwwr" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=s1mla" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=ilwwr" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,47 +52,47 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=s1mla">
+<link rel="stylesheet" href="style.css?v=ilwwr">
 </head>
 
 <body>
-  <div id="header"><div class="zkzx6">
-  <div class="zkzx6title">
-    <div class="zkzx6titlebody">
-      <div class="zkzx6titlebodylang">
+  <div id="header"><div class="fxip6">
+  <div class="fxip6title">
+    <div class="fxip6titlebody">
+      <div class="fxip6titlebodylang">
         <ul>
-          <li><a href="/tr/vizyon/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/vizyon/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li><li><a href="/ar/vizyon/"><img height="25" src="/src/lang/ar.png" alt="ar" loading="lazy"></a></li><li><a href="/ru/vizyon/"><img height="25" src="/src/lang/ru.png" alt="ru" loading="lazy"></a></li>
+          <li><a href="/tr/vizyon/">TR</a></li><li><a href="/en/vizyon/">EN</a></li><li><a href="/ar/vizyon/">AR</a></li><li><a href="/ru/vizyon/">RU</a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="zkzx6body">
+  <div class="fxip6body">
     <a href="/ar/"
       ><img
-        src="/img/logo.svg?v=s1mla"
+        src="/img/logo.svg?v=ilwwr"
         alt="A.A ROOTS INŞ. METAL LTD ŞTI. Logo"
-        class="zkzx6bodylogo"
+        class="fxip6bodylogo"
         loading="lazy"
     /></a>
-    <button type="button" class="zkzx6-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
+    <button type="button" class="fxip6-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
       <span class="material-symbols-outlined" aria-hidden="true">menu</span>
     </button>
   </div>
   <!-- Mobil: dış tıklamada menüyü kapatmak için yarı saydam arka plan (app drawer tarzı) -->
-  <div class="zkzx6-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
-  <div class="zkzx6menubody">
-    <div class="zkzx6menu" id="menu-2-root">
-      <div class="zkzx6menulistbody">
-        <div class="zkzx6menulist">
+  <div class="fxip6-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
+  <div class="fxip6menubody">
+    <div class="fxip6menu" id="menu-2-root">
+      <div class="fxip6menulistbody">
+        <div class="fxip6menulist">
           <ul>
             <a href="/ar/">الصفحة الرئيسية </a><a href="/ar/hakkimizda/"></a><a href="/ar/urunler/"></a><a href="/ar/iletisim/"></a>
           </ul>
         </div>
       </div>
       <!-- Mobil kural: lang drawer'ın en altında ve ortada -->
-      <div class="zkzx6languages-mobile">
+      <div class="fxip6languages-mobile">
         <ul>
-          <li><a href="/tr/vizyon/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/vizyon/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li><li><a href="/ar/vizyon/"><img height="25" src="/src/lang/ar.png" alt="ar" loading="lazy"></a></li><li><a href="/ru/vizyon/"><img height="25" src="/src/lang/ru.png" alt="ru" loading="lazy"></a></li>
+          <li><a href="/tr/vizyon/">TR</a></li><li><a href="/en/vizyon/">EN</a></li><li><a href="/ar/vizyon/">AR</a></li><li><a href="/ru/vizyon/">RU</a></li>
         </ul>
       </div>
     </div>
@@ -100,51 +100,51 @@
 </div>
 
 <script>
-  /* Mobil menü aç/kapat: class wrapper (.zkzx6) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
+  /* Mobil menü aç/kapat: class wrapper (.fxip6) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
   if (typeof menu2_toggle === "undefined") {
     function menu2_toggle() {
       var root = document.getElementById("menu-2-root");
       if (!root) {
         return;
       }
-      var wrapper = root.closest ? root.closest(".zkzx6") : null;
+      var wrapper = root.closest ? root.closest(".fxip6") : null;
       var target = wrapper || root;
-      if (target.classList.contains("zkzx6menu-open")) {
-        target.classList.remove("zkzx6menu-open");
+      if (target.classList.contains("fxip6menu-open")) {
+        target.classList.remove("fxip6menu-open");
       } else {
-        target.classList.add("zkzx6menu-open");
+        target.classList.add("fxip6menu-open");
       }
     }
   }
 </script>
 </div>
-  <div id="content"><div class="btots-title f36">
+  <div id="content"><div class="jibfq-title f36">
   <h1></h1>
 </div>
-<div class="btots">
-  <div class="btots-menu-btn">
+<div class="jibfq">
+  <div class="jibfq-menu-btn">
     <span>قائمة الصفحات</span>
-    <span class="material-symbols-outlined btots-icon">menu</span>
+    <span class="material-symbols-outlined jibfq-icon">menu</span>
   </div>
-  <div class="btots-menu-overlay" id="btots-menu-overlay" aria-hidden="true"></div>
-  <div class="btots-menu" id="btots-menu">
-    <button class="btots-menu-close" type="button" aria-label="إغلاق القائمة" aria-controls="btots-menu">
+  <div class="jibfq-menu-overlay" id="jibfq-menu-overlay" aria-hidden="true"></div>
+  <div class="jibfq-menu" id="jibfq-menu">
+    <button class="jibfq-menu-close" type="button" aria-label="إغلاق القائمة" aria-controls="jibfq-menu">
       <span class="material-symbols-outlined" aria-hidden="true">close</span>
     </button>
-    <a class="btots-menu-link" href="/ar/hakkimizda/">Hakkımızda</a><a class="btots-menu-link" href="/ar/misyon/">Misyon</a><a class="btots-menu-link active" href="/ar/vizyon/">Vizyon</a><a class="btots-menu-link" href="/ar/kalite-politikamiz/">Kalite Politikamız</a><a class="btots-menu-link" href="/ar/gizlilik-politikasi/">Gizlilik Politikası</a><a class="btots-menu-link" href="/ar/kisisel-veriler/">Kişisel Veriler</a><a class="btots-menu-link" href="/ar/kullanici-haklari/">Kullanıcı Hakları</a><a class="btots-menu-link" href="/ar/yasal-uyari/">Yasal Uyarı</a>
+    <a class="jibfq-menu-link" href="/ar/hakkimizda/">Hakkımızda</a><a class="jibfq-menu-link" href="/ar/misyon/">Misyon</a><a class="jibfq-menu-link active" href="/ar/vizyon/">Vizyon</a><a class="jibfq-menu-link" href="/ar/kalite-politikamiz/">Kalite Politikamız</a><a class="jibfq-menu-link" href="/ar/gizlilik-politikasi/">Gizlilik Politikası</a><a class="jibfq-menu-link" href="/ar/kisisel-veriler/">Kişisel Veriler</a><a class="jibfq-menu-link" href="/ar/kullanici-haklari/">Kullanıcı Hakları</a><a class="jibfq-menu-link" href="/ar/yasal-uyari/">Yasal Uyarı</a>
   </div>
-  <div class="btots-desc">
+  <div class="jibfq-desc">
     
-    <div class="btots-body"></div>
+    <div class="jibfq-body"></div>
   </div>
 </div>
 
 <script>
   setTimeout(function() {
-    var menuToggleBtn = document.querySelector(".btots-menu-btn");
-    var menu = document.querySelector(".btots-menu");
-    var overlay = document.querySelector(".btots-menu-overlay");
-    var closeButton = document.querySelector(".btots-menu-close");
+    var menuToggleBtn = document.querySelector(".jibfq-menu-btn");
+    var menu = document.querySelector(".jibfq-menu");
+    var overlay = document.querySelector(".jibfq-menu-overlay");
+    var closeButton = document.querySelector(".jibfq-menu-close");
     
     if (!menuToggleBtn || !menu) {
       return;
@@ -214,7 +214,7 @@
     // Menü içindeki linklere tıklanınca kapat
     menu.addEventListener("click", function (event) {
       var link = event.target.closest("a");
-      var closeBtn = event.target.closest(".btots-menu-close");
+      var closeBtn = event.target.closest(".jibfq-menu-close");
       if (link && !closeBtn) {
         closeMenu();
       }
@@ -262,15 +262,15 @@
     handleBreakpoint();
 
     // Alt menü toggle fonksiyonları
-    document.querySelectorAll(".btots-top").forEach(function (button) {
+    document.querySelectorAll(".jibfq-top").forEach(function (button) {
       button.addEventListener("click", function (e) {
         e.stopPropagation();
-        var group = this.closest(".btots-menu-group");
+        var group = this.closest(".jibfq-menu-group");
         if (!group) return;
-        var sub = group.querySelector(".btots-sub");
+        var sub = group.querySelector(".jibfq-sub");
         var isOpen = group.classList.toggle("open");
         this.classList.toggle("active", isOpen);
-        var icon = this.querySelector(".btots-icon");
+        var icon = this.querySelector(".jibfq-icon");
         if (icon) {
           icon.textContent = isOpen ? "expand_less" : "expand_more";
         }
@@ -308,8 +308,8 @@
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=s1mla"></script>
-<script defer src="/src/cookie.js?v=s1mla"></script>
+<script defer type="text/javascript" src="/src/js.js?v=ilwwr"></script>
+<script defer src="/src/cookie.js?v=ilwwr"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

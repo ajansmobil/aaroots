@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=qi0up" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=qi0up" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=wzxhv" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=wzxhv" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=qi0up" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=wzxhv" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,47 +52,47 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=qi0up">
+<link rel="stylesheet" href="style.css?v=wzxhv">
 </head>
 
 <body>
-  <div id="header"><div class="fum3i">
-  <div class="fum3ititle">
-    <div class="fum3ititlebody">
-      <div class="fum3ititlebodylang">
+  <div id="header"><div class="a7tm5">
+  <div class="a7tm5title">
+    <div class="a7tm5titlebody">
+      <div class="a7tm5titlebodylang">
         <ul>
-          <li><a href="/tr/kurumsal/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/kurumsal/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li><li><a href="/ar/kurumsal/"><img height="25" src="/src/lang/ar.png" alt="ar" loading="lazy"></a></li><li><a href="/ru/kurumsal/"><img height="25" src="/src/lang/ru.png" alt="ru" loading="lazy"></a></li>
+          <li><a href="/tr/kurumsal/">TR</a></li><li><a href="/en/kurumsal/">EN</a></li><li><a href="/ar/kurumsal/">AR</a></li><li><a href="/ru/kurumsal/">RU</a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="fum3ibody">
+  <div class="a7tm5body">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=qi0up"
+        src="/img/logo.svg?v=wzxhv"
         alt="A.A ROOTS INŞ. METAL LTD ŞTI. Logo"
-        class="fum3ibodylogo"
+        class="a7tm5bodylogo"
         loading="lazy"
     /></a>
-    <button type="button" class="fum3i-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
+    <button type="button" class="a7tm5-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
       <span class="material-symbols-outlined" aria-hidden="true">menu</span>
     </button>
   </div>
   <!-- Mobil: dış tıklamada menüyü kapatmak için yarı saydam arka plan (app drawer tarzı) -->
-  <div class="fum3i-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
-  <div class="fum3imenubody">
-    <div class="fum3imenu" id="menu-2-root">
-      <div class="fum3imenulistbody">
-        <div class="fum3imenulist">
+  <div class="a7tm5-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
+  <div class="a7tm5menubody">
+    <div class="a7tm5menu" id="menu-2-root">
+      <div class="a7tm5menulistbody">
+        <div class="a7tm5menulist">
           <ul>
-            <a href="/tr/">Anasayfa </a><a class="fum3i-menu-list-active" href="/tr/kurumsal/">Kurumsal</a><a href="/tr/urunler/">Projelerimiz</a><a href="/tr/iletisim/">İletişim</a>
+            <a href="/tr/">Anasayfa </a><a class="a7tm5-menu-list-active" href="/tr/kurumsal/">Kurumsal</a><a href="/tr/urunler/">Projelerimiz</a><a href="/tr/iletisim/">İletişim</a>
           </ul>
         </div>
       </div>
       <!-- Mobil kural: lang drawer'ın en altında ve ortada -->
-      <div class="fum3ilanguages-mobile">
+      <div class="a7tm5languages-mobile">
         <ul>
-          <li><a href="/tr/kurumsal/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/kurumsal/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li><li><a href="/ar/kurumsal/"><img height="25" src="/src/lang/ar.png" alt="ar" loading="lazy"></a></li><li><a href="/ru/kurumsal/"><img height="25" src="/src/lang/ru.png" alt="ru" loading="lazy"></a></li>
+          <li><a href="/tr/kurumsal/">TR</a></li><li><a href="/en/kurumsal/">EN</a></li><li><a href="/ar/kurumsal/">AR</a></li><li><a href="/ru/kurumsal/">RU</a></li>
         </ul>
       </div>
     </div>
@@ -100,19 +100,19 @@
 </div>
 
 <script>
-  /* Mobil menü aç/kapat: class wrapper (.fum3i) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
+  /* Mobil menü aç/kapat: class wrapper (.a7tm5) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
   if (typeof menu2_toggle === "undefined") {
     function menu2_toggle() {
       var root = document.getElementById("menu-2-root");
       if (!root) {
         return;
       }
-      var wrapper = root.closest ? root.closest(".fum3i") : null;
+      var wrapper = root.closest ? root.closest(".a7tm5") : null;
       var target = wrapper || root;
-      if (target.classList.contains("fum3imenu-open")) {
-        target.classList.remove("fum3imenu-open");
+      if (target.classList.contains("a7tm5menu-open")) {
+        target.classList.remove("a7tm5menu-open");
       } else {
-        target.classList.add("fum3imenu-open");
+        target.classList.add("a7tm5menu-open");
       }
     }
   }
@@ -144,8 +144,8 @@
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=qi0up"></script>
-<script defer src="/src/cookie.js?v=qi0up"></script>
+<script defer type="text/javascript" src="/src/js.js?v=wzxhv"></script>
+<script defer src="/src/cookie.js?v=wzxhv"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

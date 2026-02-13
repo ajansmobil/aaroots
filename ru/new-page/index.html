@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=b9188" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=b9188" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=ov78e" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=ov78e" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=b9188" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=ov78e" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,47 +52,47 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=b9188">
+<link rel="stylesheet" href="style.css?v=ov78e">
 </head>
 
 <body>
-  <div id="header"><div class="ptaxi">
-  <div class="ptaxititle">
-    <div class="ptaxititlebody">
-      <div class="ptaxititlebodylang">
+  <div id="header"><div class="n61gt">
+  <div class="n61gttitle">
+    <div class="n61gttitlebody">
+      <div class="n61gttitlebodylang">
         <ul>
-          <li><a href="/tr/new-page/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/new-page/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li><li><a href="/ar/new-page/"><img height="25" src="/src/lang/ar.png" alt="ar" loading="lazy"></a></li><li><a href="/ru/new-page/"><img height="25" src="/src/lang/ru.png" alt="ru" loading="lazy"></a></li>
+          <li><a href="/tr/new-page/">TR</a></li><li><a href="/en/new-page/">EN</a></li><li><a href="/ar/new-page/">AR</a></li><li><a href="/ru/new-page/">RU</a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="ptaxibody">
+  <div class="n61gtbody">
     <a href="/ru/"
       ><img
-        src="/img/logo.svg?v=b9188"
+        src="/img/logo.svg?v=ov78e"
         alt="A.A ROOTS INŞ. METAL LTD ŞTI. Logo"
-        class="ptaxibodylogo"
+        class="n61gtbodylogo"
         loading="lazy"
     /></a>
-    <button type="button" class="ptaxi-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
+    <button type="button" class="n61gt-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
       <span class="material-symbols-outlined" aria-hidden="true">menu</span>
     </button>
   </div>
   <!-- Mobil: dış tıklamada menüyü kapatmak için yarı saydam arka plan (app drawer tarzı) -->
-  <div class="ptaxi-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
-  <div class="ptaximenubody">
-    <div class="ptaximenu" id="menu-2-root">
-      <div class="ptaximenulistbody">
-        <div class="ptaximenulist">
+  <div class="n61gt-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
+  <div class="n61gtmenubody">
+    <div class="n61gtmenu" id="menu-2-root">
+      <div class="n61gtmenulistbody">
+        <div class="n61gtmenulist">
           <ul>
             <a href="/ru/">Домашняя страница </a><a href="/ru/hakkimizda/"></a><a href="/ru/urunler/"></a><a href="/ru/iletisim/"></a>
           </ul>
         </div>
       </div>
       <!-- Mobil kural: lang drawer'ın en altında ve ortada -->
-      <div class="ptaxilanguages-mobile">
+      <div class="n61gtlanguages-mobile">
         <ul>
-          <li><a href="/tr/new-page/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/new-page/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li><li><a href="/ar/new-page/"><img height="25" src="/src/lang/ar.png" alt="ar" loading="lazy"></a></li><li><a href="/ru/new-page/"><img height="25" src="/src/lang/ru.png" alt="ru" loading="lazy"></a></li>
+          <li><a href="/tr/new-page/">TR</a></li><li><a href="/en/new-page/">EN</a></li><li><a href="/ar/new-page/">AR</a></li><li><a href="/ru/new-page/">RU</a></li>
         </ul>
       </div>
     </div>
@@ -100,19 +100,19 @@
 </div>
 
 <script>
-  /* Mobil menü aç/kapat: class wrapper (.ptaxi) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
+  /* Mobil menü aç/kapat: class wrapper (.n61gt) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
   if (typeof menu2_toggle === "undefined") {
     function menu2_toggle() {
       var root = document.getElementById("menu-2-root");
       if (!root) {
         return;
       }
-      var wrapper = root.closest ? root.closest(".ptaxi") : null;
+      var wrapper = root.closest ? root.closest(".n61gt") : null;
       var target = wrapper || root;
-      if (target.classList.contains("ptaximenu-open")) {
-        target.classList.remove("ptaximenu-open");
+      if (target.classList.contains("n61gtmenu-open")) {
+        target.classList.remove("n61gtmenu-open");
       } else {
-        target.classList.add("ptaximenu-open");
+        target.classList.add("n61gtmenu-open");
       }
     }
   }
@@ -144,8 +144,8 @@
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=b9188"></script>
-<script defer src="/src/cookie.js?v=b9188"></script>
+<script defer type="text/javascript" src="/src/js.js?v=ov78e"></script>
+<script defer src="/src/cookie.js?v=ov78e"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

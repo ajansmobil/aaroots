@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=sooo3" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=sooo3" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=t2wp0" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=t2wp0" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=sooo3" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=t2wp0" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,47 +52,47 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=sooo3">
+<link rel="stylesheet" href="style.css?v=t2wp0">
 </head>
 
 <body>
-  <div id="header"><div class="tixr6">
-  <div class="tixr6title">
-    <div class="tixr6titlebody">
-      <div class="tixr6titlebodylang">
+  <div id="header"><div class="qiaza">
+  <div class="qiazatitle">
+    <div class="qiazatitlebody">
+      <div class="qiazatitlebodylang">
         <ul>
-          <li><a href="/tr/urunler/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/urunler/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li><li><a href="/ar/urunler/"><img height="25" src="/src/lang/ar.png" alt="ar" loading="lazy"></a></li><li><a href="/ru/urunler/"><img height="25" src="/src/lang/ru.png" alt="ru" loading="lazy"></a></li>
+          <li><a href="/tr/urunler/">TR</a></li><li><a href="/en/urunler/">EN</a></li><li><a href="/ar/urunler/">AR</a></li><li><a href="/ru/urunler/">RU</a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="tixr6body">
+  <div class="qiazabody">
     <a href="/en/"
       ><img
-        src="/img/logo.svg?v=sooo3"
+        src="/img/logo.svg?v=t2wp0"
         alt="A.A ROOTS INŞ. METAL LTD ŞTI. Logo"
-        class="tixr6bodylogo"
+        class="qiazabodylogo"
         loading="lazy"
     /></a>
-    <button type="button" class="tixr6-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
+    <button type="button" class="qiaza-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
       <span class="material-symbols-outlined" aria-hidden="true">menu</span>
     </button>
   </div>
   <!-- Mobil: dış tıklamada menüyü kapatmak için yarı saydam arka plan (app drawer tarzı) -->
-  <div class="tixr6-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
-  <div class="tixr6menubody">
-    <div class="tixr6menu" id="menu-2-root">
-      <div class="tixr6menulistbody">
-        <div class="tixr6menulist">
+  <div class="qiaza-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
+  <div class="qiazamenubody">
+    <div class="qiazamenu" id="menu-2-root">
+      <div class="qiazamenulistbody">
+        <div class="qiazamenulist">
           <ul>
-            <a href="/en/">Home </a><a href="/en/hakkimizda/"></a><a class="tixr6-menu-list-active" href="/en/urunler/"></a><a href="/en/iletisim/"></a>
+            <a href="/en/">Home </a><a href="/en/hakkimizda/"></a><a class="qiaza-menu-list-active" href="/en/urunler/"></a><a href="/en/iletisim/"></a>
           </ul>
         </div>
       </div>
       <!-- Mobil kural: lang drawer'ın en altında ve ortada -->
-      <div class="tixr6languages-mobile">
+      <div class="qiazalanguages-mobile">
         <ul>
-          <li><a href="/tr/urunler/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/urunler/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li><li><a href="/ar/urunler/"><img height="25" src="/src/lang/ar.png" alt="ar" loading="lazy"></a></li><li><a href="/ru/urunler/"><img height="25" src="/src/lang/ru.png" alt="ru" loading="lazy"></a></li>
+          <li><a href="/tr/urunler/">TR</a></li><li><a href="/en/urunler/">EN</a></li><li><a href="/ar/urunler/">AR</a></li><li><a href="/ru/urunler/">RU</a></li>
         </ul>
       </div>
     </div>
@@ -100,19 +100,19 @@
 </div>
 
 <script>
-  /* Mobil menü aç/kapat: class wrapper (.tixr6) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
+  /* Mobil menü aç/kapat: class wrapper (.qiaza) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
   if (typeof menu2_toggle === "undefined") {
     function menu2_toggle() {
       var root = document.getElementById("menu-2-root");
       if (!root) {
         return;
       }
-      var wrapper = root.closest ? root.closest(".tixr6") : null;
+      var wrapper = root.closest ? root.closest(".qiaza") : null;
       var target = wrapper || root;
-      if (target.classList.contains("tixr6menu-open")) {
-        target.classList.remove("tixr6menu-open");
+      if (target.classList.contains("qiazamenu-open")) {
+        target.classList.remove("qiazamenu-open");
       } else {
-        target.classList.add("tixr6menu-open");
+        target.classList.add("qiazamenu-open");
       }
     }
   }
@@ -144,8 +144,8 @@
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=sooo3"></script>
-<script defer src="/src/cookie.js?v=sooo3"></script>
+<script defer type="text/javascript" src="/src/js.js?v=t2wp0"></script>
+<script defer src="/src/cookie.js?v=t2wp0"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

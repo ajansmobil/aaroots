@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=utk1u" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=utk1u" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=dzrc3" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=dzrc3" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=utk1u" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=dzrc3" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,47 +52,47 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=utk1u">
+<link rel="stylesheet" href="style.css?v=dzrc3">
 </head>
 
 <body>
-  <div id="header"><div class="s1863">
-  <div class="s1863title">
-    <div class="s1863titlebody">
-      <div class="s1863titlebodylang">
+  <div id="header"><div class="tcevg">
+  <div class="tcevgtitle">
+    <div class="tcevgtitlebody">
+      <div class="tcevgtitlebodylang">
         <ul>
-          <li><a href="/tr/kullanici-haklari/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/kullanici-haklari/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li><li><a href="/ar/kullanici-haklari/"><img height="25" src="/src/lang/ar.png" alt="ar" loading="lazy"></a></li><li><a href="/ru/kullanici-haklari/"><img height="25" src="/src/lang/ru.png" alt="ru" loading="lazy"></a></li>
+          <li><a href="/tr/kullanici-haklari/">TR</a></li><li><a href="/en/kullanici-haklari/">EN</a></li><li><a href="/ar/kullanici-haklari/">AR</a></li><li><a href="/ru/kullanici-haklari/">RU</a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="s1863body">
+  <div class="tcevgbody">
     <a href="/ar/"
       ><img
-        src="/img/logo.svg?v=utk1u"
+        src="/img/logo.svg?v=dzrc3"
         alt="A.A ROOTS INŞ. METAL LTD ŞTI. Logo"
-        class="s1863bodylogo"
+        class="tcevgbodylogo"
         loading="lazy"
     /></a>
-    <button type="button" class="s1863-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
+    <button type="button" class="tcevg-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
       <span class="material-symbols-outlined" aria-hidden="true">menu</span>
     </button>
   </div>
   <!-- Mobil: dış tıklamada menüyü kapatmak için yarı saydam arka plan (app drawer tarzı) -->
-  <div class="s1863-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
-  <div class="s1863menubody">
-    <div class="s1863menu" id="menu-2-root">
-      <div class="s1863menulistbody">
-        <div class="s1863menulist">
+  <div class="tcevg-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
+  <div class="tcevgmenubody">
+    <div class="tcevgmenu" id="menu-2-root">
+      <div class="tcevgmenulistbody">
+        <div class="tcevgmenulist">
           <ul>
             <a href="/ar/">الصفحة الرئيسية </a><a href="/ar/hakkimizda/"></a><a href="/ar/urunler/"></a><a href="/ar/iletisim/"></a>
           </ul>
         </div>
       </div>
       <!-- Mobil kural: lang drawer'ın en altında ve ortada -->
-      <div class="s1863languages-mobile">
+      <div class="tcevglanguages-mobile">
         <ul>
-          <li><a href="/tr/kullanici-haklari/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/kullanici-haklari/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li><li><a href="/ar/kullanici-haklari/"><img height="25" src="/src/lang/ar.png" alt="ar" loading="lazy"></a></li><li><a href="/ru/kullanici-haklari/"><img height="25" src="/src/lang/ru.png" alt="ru" loading="lazy"></a></li>
+          <li><a href="/tr/kullanici-haklari/">TR</a></li><li><a href="/en/kullanici-haklari/">EN</a></li><li><a href="/ar/kullanici-haklari/">AR</a></li><li><a href="/ru/kullanici-haklari/">RU</a></li>
         </ul>
       </div>
     </div>
@@ -100,51 +100,51 @@
 </div>
 
 <script>
-  /* Mobil menü aç/kapat: class wrapper (.s1863) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
+  /* Mobil menü aç/kapat: class wrapper (.tcevg) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
   if (typeof menu2_toggle === "undefined") {
     function menu2_toggle() {
       var root = document.getElementById("menu-2-root");
       if (!root) {
         return;
       }
-      var wrapper = root.closest ? root.closest(".s1863") : null;
+      var wrapper = root.closest ? root.closest(".tcevg") : null;
       var target = wrapper || root;
-      if (target.classList.contains("s1863menu-open")) {
-        target.classList.remove("s1863menu-open");
+      if (target.classList.contains("tcevgmenu-open")) {
+        target.classList.remove("tcevgmenu-open");
       } else {
-        target.classList.add("s1863menu-open");
+        target.classList.add("tcevgmenu-open");
       }
     }
   }
 </script>
 </div>
-  <div id="content"><div class="om31w-title f36">
+  <div id="content"><div class="kfr1q-title f36">
   <h1></h1>
 </div>
-<div class="om31w">
-  <div class="om31w-menu-btn">
+<div class="kfr1q">
+  <div class="kfr1q-menu-btn">
     <span>قائمة الصفحات</span>
-    <span class="material-symbols-outlined om31w-icon">menu</span>
+    <span class="material-symbols-outlined kfr1q-icon">menu</span>
   </div>
-  <div class="om31w-menu-overlay" id="om31w-menu-overlay" aria-hidden="true"></div>
-  <div class="om31w-menu" id="om31w-menu">
-    <button class="om31w-menu-close" type="button" aria-label="إغلاق القائمة" aria-controls="om31w-menu">
+  <div class="kfr1q-menu-overlay" id="kfr1q-menu-overlay" aria-hidden="true"></div>
+  <div class="kfr1q-menu" id="kfr1q-menu">
+    <button class="kfr1q-menu-close" type="button" aria-label="إغلاق القائمة" aria-controls="kfr1q-menu">
       <span class="material-symbols-outlined" aria-hidden="true">close</span>
     </button>
-    <a class="om31w-menu-link" href="/ar/hakkimizda/">Hakkımızda</a><a class="om31w-menu-link" href="/ar/misyon/">Misyon</a><a class="om31w-menu-link" href="/ar/vizyon/">Vizyon</a><a class="om31w-menu-link" href="/ar/kalite-politikamiz/">Kalite Politikamız</a><a class="om31w-menu-link" href="/ar/gizlilik-politikasi/">Gizlilik Politikası</a><a class="om31w-menu-link" href="/ar/kisisel-veriler/">Kişisel Veriler</a><a class="om31w-menu-link active" href="/ar/kullanici-haklari/">Kullanıcı Hakları</a><a class="om31w-menu-link" href="/ar/yasal-uyari/">Yasal Uyarı</a>
+    <a class="kfr1q-menu-link" href="/ar/hakkimizda/">Hakkımızda</a><a class="kfr1q-menu-link" href="/ar/misyon/">Misyon</a><a class="kfr1q-menu-link" href="/ar/vizyon/">Vizyon</a><a class="kfr1q-menu-link" href="/ar/kalite-politikamiz/">Kalite Politikamız</a><a class="kfr1q-menu-link" href="/ar/gizlilik-politikasi/">Gizlilik Politikası</a><a class="kfr1q-menu-link" href="/ar/kisisel-veriler/">Kişisel Veriler</a><a class="kfr1q-menu-link active" href="/ar/kullanici-haklari/">Kullanıcı Hakları</a><a class="kfr1q-menu-link" href="/ar/yasal-uyari/">Yasal Uyarı</a>
   </div>
-  <div class="om31w-desc">
+  <div class="kfr1q-desc">
     
-    <div class="om31w-body"></div>
+    <div class="kfr1q-body"></div>
   </div>
 </div>
 
 <script>
   setTimeout(function() {
-    var menuToggleBtn = document.querySelector(".om31w-menu-btn");
-    var menu = document.querySelector(".om31w-menu");
-    var overlay = document.querySelector(".om31w-menu-overlay");
-    var closeButton = document.querySelector(".om31w-menu-close");
+    var menuToggleBtn = document.querySelector(".kfr1q-menu-btn");
+    var menu = document.querySelector(".kfr1q-menu");
+    var overlay = document.querySelector(".kfr1q-menu-overlay");
+    var closeButton = document.querySelector(".kfr1q-menu-close");
     
     if (!menuToggleBtn || !menu) {
       return;
@@ -214,7 +214,7 @@
     // Menü içindeki linklere tıklanınca kapat
     menu.addEventListener("click", function (event) {
       var link = event.target.closest("a");
-      var closeBtn = event.target.closest(".om31w-menu-close");
+      var closeBtn = event.target.closest(".kfr1q-menu-close");
       if (link && !closeBtn) {
         closeMenu();
       }
@@ -262,15 +262,15 @@
     handleBreakpoint();
 
     // Alt menü toggle fonksiyonları
-    document.querySelectorAll(".om31w-top").forEach(function (button) {
+    document.querySelectorAll(".kfr1q-top").forEach(function (button) {
       button.addEventListener("click", function (e) {
         e.stopPropagation();
-        var group = this.closest(".om31w-menu-group");
+        var group = this.closest(".kfr1q-menu-group");
         if (!group) return;
-        var sub = group.querySelector(".om31w-sub");
+        var sub = group.querySelector(".kfr1q-sub");
         var isOpen = group.classList.toggle("open");
         this.classList.toggle("active", isOpen);
-        var icon = this.querySelector(".om31w-icon");
+        var icon = this.querySelector(".kfr1q-icon");
         if (icon) {
           icon.textContent = isOpen ? "expand_less" : "expand_more";
         }
@@ -308,8 +308,8 @@
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=utk1u"></script>
-<script defer src="/src/cookie.js?v=utk1u"></script>
+<script defer type="text/javascript" src="/src/js.js?v=dzrc3"></script>
+<script defer src="/src/cookie.js?v=dzrc3"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=fg0yd" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=fg0yd" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=hpg40" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=hpg40" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=fg0yd" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=hpg40" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,47 +52,47 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=fg0yd">
+<link rel="stylesheet" href="style.css?v=hpg40">
 </head>
 
 <body>
-  <div id="header"><div class="mg8qe">
-  <div class="mg8qetitle">
-    <div class="mg8qetitlebody">
-      <div class="mg8qetitlebodylang">
+  <div id="header"><div class="cyaoz">
+  <div class="cyaoztitle">
+    <div class="cyaoztitlebody">
+      <div class="cyaoztitlebodylang">
         <ul>
-          <li><a href="/tr/new-page/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/new-page/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li><li><a href="/ar/new-page/"><img height="25" src="/src/lang/ar.png" alt="ar" loading="lazy"></a></li><li><a href="/ru/new-page/"><img height="25" src="/src/lang/ru.png" alt="ru" loading="lazy"></a></li>
+          <li><a href="/tr/new-page/">TR</a></li><li><a href="/en/new-page/">EN</a></li><li><a href="/ar/new-page/">AR</a></li><li><a href="/ru/new-page/">RU</a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="mg8qebody">
+  <div class="cyaozbody">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=fg0yd"
+        src="/img/logo.svg?v=hpg40"
         alt="A.A ROOTS INŞ. METAL LTD ŞTI. Logo"
-        class="mg8qebodylogo"
+        class="cyaozbodylogo"
         loading="lazy"
     /></a>
-    <button type="button" class="mg8qe-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
+    <button type="button" class="cyaoz-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
       <span class="material-symbols-outlined" aria-hidden="true">menu</span>
     </button>
   </div>
   <!-- Mobil: dış tıklamada menüyü kapatmak için yarı saydam arka plan (app drawer tarzı) -->
-  <div class="mg8qe-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
-  <div class="mg8qemenubody">
-    <div class="mg8qemenu" id="menu-2-root">
-      <div class="mg8qemenulistbody">
-        <div class="mg8qemenulist">
+  <div class="cyaoz-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
+  <div class="cyaozmenubody">
+    <div class="cyaozmenu" id="menu-2-root">
+      <div class="cyaozmenulistbody">
+        <div class="cyaozmenulist">
           <ul>
             <a href="/tr/">Anasayfa </a><a href="/tr/hakkimizda/">Kurumsal</a><a href="/tr/urunler/">Projelerimiz</a><a href="/tr/iletisim/">İletişim</a>
           </ul>
         </div>
       </div>
       <!-- Mobil kural: lang drawer'ın en altında ve ortada -->
-      <div class="mg8qelanguages-mobile">
+      <div class="cyaozlanguages-mobile">
         <ul>
-          <li><a href="/tr/new-page/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/new-page/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li><li><a href="/ar/new-page/"><img height="25" src="/src/lang/ar.png" alt="ar" loading="lazy"></a></li><li><a href="/ru/new-page/"><img height="25" src="/src/lang/ru.png" alt="ru" loading="lazy"></a></li>
+          <li><a href="/tr/new-page/">TR</a></li><li><a href="/en/new-page/">EN</a></li><li><a href="/ar/new-page/">AR</a></li><li><a href="/ru/new-page/">RU</a></li>
         </ul>
       </div>
     </div>
@@ -100,19 +100,19 @@
 </div>
 
 <script>
-  /* Mobil menü aç/kapat: class wrapper (.mg8qe) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
+  /* Mobil menü aç/kapat: class wrapper (.cyaoz) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
   if (typeof menu2_toggle === "undefined") {
     function menu2_toggle() {
       var root = document.getElementById("menu-2-root");
       if (!root) {
         return;
       }
-      var wrapper = root.closest ? root.closest(".mg8qe") : null;
+      var wrapper = root.closest ? root.closest(".cyaoz") : null;
       var target = wrapper || root;
-      if (target.classList.contains("mg8qemenu-open")) {
-        target.classList.remove("mg8qemenu-open");
+      if (target.classList.contains("cyaozmenu-open")) {
+        target.classList.remove("cyaozmenu-open");
       } else {
-        target.classList.add("mg8qemenu-open");
+        target.classList.add("cyaozmenu-open");
       }
     }
   }
@@ -144,8 +144,8 @@
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=fg0yd"></script>
-<script defer src="/src/cookie.js?v=fg0yd"></script>
+<script defer type="text/javascript" src="/src/js.js?v=hpg40"></script>
+<script defer src="/src/cookie.js?v=hpg40"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=a2tpn" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=a2tpn" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=n39jv" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=n39jv" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=a2tpn" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=n39jv" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,47 +52,47 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=a2tpn">
+<link rel="stylesheet" href="style.css?v=n39jv">
 </head>
 
 <body>
-  <div id="header"><div class="k71bu">
-  <div class="k71butitle">
-    <div class="k71butitlebody">
-      <div class="k71butitlebodylang">
+  <div id="header"><div class="xr7e3">
+  <div class="xr7e3title">
+    <div class="xr7e3titlebody">
+      <div class="xr7e3titlebodylang">
         <ul>
-          <li><a href="/tr/yasal-uyari/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/yasal-uyari/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li><li><a href="/ar/yasal-uyari/"><img height="25" src="/src/lang/ar.png" alt="ar" loading="lazy"></a></li><li><a href="/ru/yasal-uyari/"><img height="25" src="/src/lang/ru.png" alt="ru" loading="lazy"></a></li>
+          <li><a href="/tr/yasal-uyari/">TR</a></li><li><a href="/en/yasal-uyari/">EN</a></li><li><a href="/ar/yasal-uyari/">AR</a></li><li><a href="/ru/yasal-uyari/">RU</a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="k71bubody">
+  <div class="xr7e3body">
     <a href="/ar/"
       ><img
-        src="/img/logo.svg?v=a2tpn"
+        src="/img/logo.svg?v=n39jv"
         alt="A.A ROOTS INŞ. METAL LTD ŞTI. Logo"
-        class="k71bubodylogo"
+        class="xr7e3bodylogo"
         loading="lazy"
     /></a>
-    <button type="button" class="k71bu-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
+    <button type="button" class="xr7e3-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
       <span class="material-symbols-outlined" aria-hidden="true">menu</span>
     </button>
   </div>
   <!-- Mobil: dış tıklamada menüyü kapatmak için yarı saydam arka plan (app drawer tarzı) -->
-  <div class="k71bu-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
-  <div class="k71bumenubody">
-    <div class="k71bumenu" id="menu-2-root">
-      <div class="k71bumenulistbody">
-        <div class="k71bumenulist">
+  <div class="xr7e3-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
+  <div class="xr7e3menubody">
+    <div class="xr7e3menu" id="menu-2-root">
+      <div class="xr7e3menulistbody">
+        <div class="xr7e3menulist">
           <ul>
             <a href="/ar/">الصفحة الرئيسية </a><a href="/ar/hakkimizda/"></a><a href="/ar/urunler/"></a><a href="/ar/iletisim/"></a>
           </ul>
         </div>
       </div>
       <!-- Mobil kural: lang drawer'ın en altında ve ortada -->
-      <div class="k71bulanguages-mobile">
+      <div class="xr7e3languages-mobile">
         <ul>
-          <li><a href="/tr/yasal-uyari/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/yasal-uyari/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li><li><a href="/ar/yasal-uyari/"><img height="25" src="/src/lang/ar.png" alt="ar" loading="lazy"></a></li><li><a href="/ru/yasal-uyari/"><img height="25" src="/src/lang/ru.png" alt="ru" loading="lazy"></a></li>
+          <li><a href="/tr/yasal-uyari/">TR</a></li><li><a href="/en/yasal-uyari/">EN</a></li><li><a href="/ar/yasal-uyari/">AR</a></li><li><a href="/ru/yasal-uyari/">RU</a></li>
         </ul>
       </div>
     </div>
@@ -100,51 +100,51 @@
 </div>
 
 <script>
-  /* Mobil menü aç/kapat: class wrapper (.k71bu) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
+  /* Mobil menü aç/kapat: class wrapper (.xr7e3) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
   if (typeof menu2_toggle === "undefined") {
     function menu2_toggle() {
       var root = document.getElementById("menu-2-root");
       if (!root) {
         return;
       }
-      var wrapper = root.closest ? root.closest(".k71bu") : null;
+      var wrapper = root.closest ? root.closest(".xr7e3") : null;
       var target = wrapper || root;
-      if (target.classList.contains("k71bumenu-open")) {
-        target.classList.remove("k71bumenu-open");
+      if (target.classList.contains("xr7e3menu-open")) {
+        target.classList.remove("xr7e3menu-open");
       } else {
-        target.classList.add("k71bumenu-open");
+        target.classList.add("xr7e3menu-open");
       }
     }
   }
 </script>
 </div>
-  <div id="content"><div class="bcqsq-title f36">
+  <div id="content"><div class="sltn9-title f36">
   <h1></h1>
 </div>
-<div class="bcqsq">
-  <div class="bcqsq-menu-btn">
+<div class="sltn9">
+  <div class="sltn9-menu-btn">
     <span>قائمة الصفحات</span>
-    <span class="material-symbols-outlined bcqsq-icon">menu</span>
+    <span class="material-symbols-outlined sltn9-icon">menu</span>
   </div>
-  <div class="bcqsq-menu-overlay" id="bcqsq-menu-overlay" aria-hidden="true"></div>
-  <div class="bcqsq-menu" id="bcqsq-menu">
-    <button class="bcqsq-menu-close" type="button" aria-label="إغلاق القائمة" aria-controls="bcqsq-menu">
+  <div class="sltn9-menu-overlay" id="sltn9-menu-overlay" aria-hidden="true"></div>
+  <div class="sltn9-menu" id="sltn9-menu">
+    <button class="sltn9-menu-close" type="button" aria-label="إغلاق القائمة" aria-controls="sltn9-menu">
       <span class="material-symbols-outlined" aria-hidden="true">close</span>
     </button>
-    <a class="bcqsq-menu-link" href="/ar/hakkimizda/">Hakkımızda</a><a class="bcqsq-menu-link" href="/ar/misyon/">Misyon</a><a class="bcqsq-menu-link" href="/ar/vizyon/">Vizyon</a><a class="bcqsq-menu-link" href="/ar/kalite-politikamiz/">Kalite Politikamız</a><a class="bcqsq-menu-link" href="/ar/gizlilik-politikasi/">Gizlilik Politikası</a><a class="bcqsq-menu-link" href="/ar/kisisel-veriler/">Kişisel Veriler</a><a class="bcqsq-menu-link" href="/ar/kullanici-haklari/">Kullanıcı Hakları</a><a class="bcqsq-menu-link active" href="/ar/yasal-uyari/">Yasal Uyarı</a>
+    <a class="sltn9-menu-link" href="/ar/hakkimizda/">Hakkımızda</a><a class="sltn9-menu-link" href="/ar/misyon/">Misyon</a><a class="sltn9-menu-link" href="/ar/vizyon/">Vizyon</a><a class="sltn9-menu-link" href="/ar/kalite-politikamiz/">Kalite Politikamız</a><a class="sltn9-menu-link" href="/ar/gizlilik-politikasi/">Gizlilik Politikası</a><a class="sltn9-menu-link" href="/ar/kisisel-veriler/">Kişisel Veriler</a><a class="sltn9-menu-link" href="/ar/kullanici-haklari/">Kullanıcı Hakları</a><a class="sltn9-menu-link active" href="/ar/yasal-uyari/">Yasal Uyarı</a>
   </div>
-  <div class="bcqsq-desc">
+  <div class="sltn9-desc">
     
-    <div class="bcqsq-body"></div>
+    <div class="sltn9-body"></div>
   </div>
 </div>
 
 <script>
   setTimeout(function() {
-    var menuToggleBtn = document.querySelector(".bcqsq-menu-btn");
-    var menu = document.querySelector(".bcqsq-menu");
-    var overlay = document.querySelector(".bcqsq-menu-overlay");
-    var closeButton = document.querySelector(".bcqsq-menu-close");
+    var menuToggleBtn = document.querySelector(".sltn9-menu-btn");
+    var menu = document.querySelector(".sltn9-menu");
+    var overlay = document.querySelector(".sltn9-menu-overlay");
+    var closeButton = document.querySelector(".sltn9-menu-close");
     
     if (!menuToggleBtn || !menu) {
       return;
@@ -214,7 +214,7 @@
     // Menü içindeki linklere tıklanınca kapat
     menu.addEventListener("click", function (event) {
       var link = event.target.closest("a");
-      var closeBtn = event.target.closest(".bcqsq-menu-close");
+      var closeBtn = event.target.closest(".sltn9-menu-close");
       if (link && !closeBtn) {
         closeMenu();
       }
@@ -262,15 +262,15 @@
     handleBreakpoint();
 
     // Alt menü toggle fonksiyonları
-    document.querySelectorAll(".bcqsq-top").forEach(function (button) {
+    document.querySelectorAll(".sltn9-top").forEach(function (button) {
       button.addEventListener("click", function (e) {
         e.stopPropagation();
-        var group = this.closest(".bcqsq-menu-group");
+        var group = this.closest(".sltn9-menu-group");
         if (!group) return;
-        var sub = group.querySelector(".bcqsq-sub");
+        var sub = group.querySelector(".sltn9-sub");
         var isOpen = group.classList.toggle("open");
         this.classList.toggle("active", isOpen);
-        var icon = this.querySelector(".bcqsq-icon");
+        var icon = this.querySelector(".sltn9-icon");
         if (icon) {
           icon.textContent = isOpen ? "expand_less" : "expand_more";
         }
@@ -308,8 +308,8 @@
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=a2tpn"></script>
-<script defer src="/src/cookie.js?v=a2tpn"></script>
+<script defer type="text/javascript" src="/src/js.js?v=n39jv"></script>
+<script defer src="/src/cookie.js?v=n39jv"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

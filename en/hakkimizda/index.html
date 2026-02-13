@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=ult34" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=ult34" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=eeaui" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=eeaui" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=ult34" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=eeaui" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,47 +52,47 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=ult34">
+<link rel="stylesheet" href="style.css?v=eeaui">
 </head>
 
 <body>
-  <div id="header"><div class="uohbk">
-  <div class="uohbktitle">
-    <div class="uohbktitlebody">
-      <div class="uohbktitlebodylang">
+  <div id="header"><div class="xm071">
+  <div class="xm071title">
+    <div class="xm071titlebody">
+      <div class="xm071titlebodylang">
         <ul>
-          <li><a href="/tr/hakkimizda/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/hakkimizda/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li><li><a href="/ar/hakkimizda/"><img height="25" src="/src/lang/ar.png" alt="ar" loading="lazy"></a></li><li><a href="/ru/hakkimizda/"><img height="25" src="/src/lang/ru.png" alt="ru" loading="lazy"></a></li>
+          <li><a href="/tr/hakkimizda/">TR</a></li><li><a href="/en/hakkimizda/">EN</a></li><li><a href="/ar/hakkimizda/">AR</a></li><li><a href="/ru/hakkimizda/">RU</a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="uohbkbody">
+  <div class="xm071body">
     <a href="/en/"
       ><img
-        src="/img/logo.svg?v=ult34"
+        src="/img/logo.svg?v=eeaui"
         alt="A.A ROOTS INŞ. METAL LTD ŞTI. Logo"
-        class="uohbkbodylogo"
+        class="xm071bodylogo"
         loading="lazy"
     /></a>
-    <button type="button" class="uohbk-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
+    <button type="button" class="xm071-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
       <span class="material-symbols-outlined" aria-hidden="true">menu</span>
     </button>
   </div>
   <!-- Mobil: dış tıklamada menüyü kapatmak için yarı saydam arka plan (app drawer tarzı) -->
-  <div class="uohbk-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
-  <div class="uohbkmenubody">
-    <div class="uohbkmenu" id="menu-2-root">
-      <div class="uohbkmenulistbody">
-        <div class="uohbkmenulist">
+  <div class="xm071-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
+  <div class="xm071menubody">
+    <div class="xm071menu" id="menu-2-root">
+      <div class="xm071menulistbody">
+        <div class="xm071menulist">
           <ul>
             <a href="/en/">Home </a><a href="/en/hakkimizda/"></a><a href="/en/urunler/"></a><a href="/en/iletisim/"></a>
           </ul>
         </div>
       </div>
       <!-- Mobil kural: lang drawer'ın en altında ve ortada -->
-      <div class="uohbklanguages-mobile">
+      <div class="xm071languages-mobile">
         <ul>
-          <li><a href="/tr/hakkimizda/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/hakkimizda/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li><li><a href="/ar/hakkimizda/"><img height="25" src="/src/lang/ar.png" alt="ar" loading="lazy"></a></li><li><a href="/ru/hakkimizda/"><img height="25" src="/src/lang/ru.png" alt="ru" loading="lazy"></a></li>
+          <li><a href="/tr/hakkimizda/">TR</a></li><li><a href="/en/hakkimizda/">EN</a></li><li><a href="/ar/hakkimizda/">AR</a></li><li><a href="/ru/hakkimizda/">RU</a></li>
         </ul>
       </div>
     </div>
@@ -100,51 +100,51 @@
 </div>
 
 <script>
-  /* Mobil menü aç/kapat: class wrapper (.uohbk) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
+  /* Mobil menü aç/kapat: class wrapper (.xm071) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
   if (typeof menu2_toggle === "undefined") {
     function menu2_toggle() {
       var root = document.getElementById("menu-2-root");
       if (!root) {
         return;
       }
-      var wrapper = root.closest ? root.closest(".uohbk") : null;
+      var wrapper = root.closest ? root.closest(".xm071") : null;
       var target = wrapper || root;
-      if (target.classList.contains("uohbkmenu-open")) {
-        target.classList.remove("uohbkmenu-open");
+      if (target.classList.contains("xm071menu-open")) {
+        target.classList.remove("xm071menu-open");
       } else {
-        target.classList.add("uohbkmenu-open");
+        target.classList.add("xm071menu-open");
       }
     }
   }
 </script>
 </div>
-  <div id="content"><div class="icrv8-title f36">
+  <div id="content"><div class="vyx9r-title f36">
   <h1></h1>
 </div>
-<div class="icrv8">
-  <div class="icrv8-menu-btn">
+<div class="vyx9r">
+  <div class="vyx9r-menu-btn">
     <span>Menu</span>
-    <span class="material-symbols-outlined icrv8-icon">menu</span>
+    <span class="material-symbols-outlined vyx9r-icon">menu</span>
   </div>
-  <div class="icrv8-menu-overlay" id="icrv8-menu-overlay" aria-hidden="true"></div>
-  <div class="icrv8-menu" id="icrv8-menu">
-    <button class="icrv8-menu-close" type="button" aria-label="Close Menu" aria-controls="icrv8-menu">
+  <div class="vyx9r-menu-overlay" id="vyx9r-menu-overlay" aria-hidden="true"></div>
+  <div class="vyx9r-menu" id="vyx9r-menu">
+    <button class="vyx9r-menu-close" type="button" aria-label="Close Menu" aria-controls="vyx9r-menu">
       <span class="material-symbols-outlined" aria-hidden="true">close</span>
     </button>
-    <a class="icrv8-menu-link active" href="/en/hakkimizda/">Hakkımızda</a><a class="icrv8-menu-link" href="/en/misyon/">Misyon</a><a class="icrv8-menu-link" href="/en/vizyon/">Vizyon</a><a class="icrv8-menu-link" href="/en/kalite-politikamiz/">Kalite Politikamız</a><a class="icrv8-menu-link" href="/en/gizlilik-politikasi/">Gizlilik Politikası</a><a class="icrv8-menu-link" href="/en/kisisel-veriler/">Kişisel Veriler</a><a class="icrv8-menu-link" href="/en/kullanici-haklari/">Kullanıcı Hakları</a><a class="icrv8-menu-link" href="/en/yasal-uyari/">Yasal Uyarı</a>
+    <a class="vyx9r-menu-link active" href="/en/hakkimizda/">Hakkımızda</a><a class="vyx9r-menu-link" href="/en/misyon/">Misyon</a><a class="vyx9r-menu-link" href="/en/vizyon/">Vizyon</a><a class="vyx9r-menu-link" href="/en/kalite-politikamiz/">Kalite Politikamız</a><a class="vyx9r-menu-link" href="/en/gizlilik-politikasi/">Gizlilik Politikası</a><a class="vyx9r-menu-link" href="/en/kisisel-veriler/">Kişisel Veriler</a><a class="vyx9r-menu-link" href="/en/kullanici-haklari/">Kullanıcı Hakları</a><a class="vyx9r-menu-link" href="/en/yasal-uyari/">Yasal Uyarı</a>
   </div>
-  <div class="icrv8-desc">
+  <div class="vyx9r-desc">
     
-    <div class="icrv8-body"></div>
+    <div class="vyx9r-body"></div>
   </div>
 </div>
 
 <script>
   setTimeout(function() {
-    var menuToggleBtn = document.querySelector(".icrv8-menu-btn");
-    var menu = document.querySelector(".icrv8-menu");
-    var overlay = document.querySelector(".icrv8-menu-overlay");
-    var closeButton = document.querySelector(".icrv8-menu-close");
+    var menuToggleBtn = document.querySelector(".vyx9r-menu-btn");
+    var menu = document.querySelector(".vyx9r-menu");
+    var overlay = document.querySelector(".vyx9r-menu-overlay");
+    var closeButton = document.querySelector(".vyx9r-menu-close");
     
     if (!menuToggleBtn || !menu) {
       return;
@@ -214,7 +214,7 @@
     // Menü içindeki linklere tıklanınca kapat
     menu.addEventListener("click", function (event) {
       var link = event.target.closest("a");
-      var closeBtn = event.target.closest(".icrv8-menu-close");
+      var closeBtn = event.target.closest(".vyx9r-menu-close");
       if (link && !closeBtn) {
         closeMenu();
       }
@@ -262,15 +262,15 @@
     handleBreakpoint();
 
     // Alt menü toggle fonksiyonları
-    document.querySelectorAll(".icrv8-top").forEach(function (button) {
+    document.querySelectorAll(".vyx9r-top").forEach(function (button) {
       button.addEventListener("click", function (e) {
         e.stopPropagation();
-        var group = this.closest(".icrv8-menu-group");
+        var group = this.closest(".vyx9r-menu-group");
         if (!group) return;
-        var sub = group.querySelector(".icrv8-sub");
+        var sub = group.querySelector(".vyx9r-sub");
         var isOpen = group.classList.toggle("open");
         this.classList.toggle("active", isOpen);
-        var icon = this.querySelector(".icrv8-icon");
+        var icon = this.querySelector(".vyx9r-icon");
         if (icon) {
           icon.textContent = isOpen ? "expand_less" : "expand_more";
         }
@@ -308,8 +308,8 @@
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=ult34"></script>
-<script defer src="/src/cookie.js?v=ult34"></script>
+<script defer type="text/javascript" src="/src/js.js?v=eeaui"></script>
+<script defer src="/src/cookie.js?v=eeaui"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

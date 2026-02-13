@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=c4upz" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=c4upz" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=rfkuf" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=rfkuf" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=c4upz" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=rfkuf" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,47 +52,47 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=c4upz">
+<link rel="stylesheet" href="style.css?v=rfkuf">
 </head>
 
 <body>
-  <div id="header"><div class="ak66w">
-  <div class="ak66wtitle">
-    <div class="ak66wtitlebody">
-      <div class="ak66wtitlebodylang">
+  <div id="header"><div class="ezsam">
+  <div class="ezsamtitle">
+    <div class="ezsamtitlebody">
+      <div class="ezsamtitlebodylang">
         <ul>
-          <li><a href="/tr/kalite-politikamiz/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/kalite-politikamiz/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li><li><a href="/ar/kalite-politikamiz/"><img height="25" src="/src/lang/ar.png" alt="ar" loading="lazy"></a></li><li><a href="/ru/kalite-politikamiz/"><img height="25" src="/src/lang/ru.png" alt="ru" loading="lazy"></a></li>
+          <li><a href="/tr/kalite-politikamiz/">TR</a></li><li><a href="/en/kalite-politikamiz/">EN</a></li><li><a href="/ar/kalite-politikamiz/">AR</a></li><li><a href="/ru/kalite-politikamiz/">RU</a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="ak66wbody">
+  <div class="ezsambody">
     <a href="/en/"
       ><img
-        src="/img/logo.svg?v=c4upz"
+        src="/img/logo.svg?v=rfkuf"
         alt="A.A ROOTS INŞ. METAL LTD ŞTI. Logo"
-        class="ak66wbodylogo"
+        class="ezsambodylogo"
         loading="lazy"
     /></a>
-    <button type="button" class="ak66w-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
+    <button type="button" class="ezsam-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
       <span class="material-symbols-outlined" aria-hidden="true">menu</span>
     </button>
   </div>
   <!-- Mobil: dış tıklamada menüyü kapatmak için yarı saydam arka plan (app drawer tarzı) -->
-  <div class="ak66w-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
-  <div class="ak66wmenubody">
-    <div class="ak66wmenu" id="menu-2-root">
-      <div class="ak66wmenulistbody">
-        <div class="ak66wmenulist">
+  <div class="ezsam-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
+  <div class="ezsammenubody">
+    <div class="ezsammenu" id="menu-2-root">
+      <div class="ezsammenulistbody">
+        <div class="ezsammenulist">
           <ul>
             <a href="/en/">Home </a><a href="/en/hakkimizda/"></a><a href="/en/urunler/"></a><a href="/en/iletisim/"></a>
           </ul>
         </div>
       </div>
       <!-- Mobil kural: lang drawer'ın en altında ve ortada -->
-      <div class="ak66wlanguages-mobile">
+      <div class="ezsamlanguages-mobile">
         <ul>
-          <li><a href="/tr/kalite-politikamiz/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/kalite-politikamiz/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li><li><a href="/ar/kalite-politikamiz/"><img height="25" src="/src/lang/ar.png" alt="ar" loading="lazy"></a></li><li><a href="/ru/kalite-politikamiz/"><img height="25" src="/src/lang/ru.png" alt="ru" loading="lazy"></a></li>
+          <li><a href="/tr/kalite-politikamiz/">TR</a></li><li><a href="/en/kalite-politikamiz/">EN</a></li><li><a href="/ar/kalite-politikamiz/">AR</a></li><li><a href="/ru/kalite-politikamiz/">RU</a></li>
         </ul>
       </div>
     </div>
@@ -100,51 +100,51 @@
 </div>
 
 <script>
-  /* Mobil menü aç/kapat: class wrapper (.ak66w) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
+  /* Mobil menü aç/kapat: class wrapper (.ezsam) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
   if (typeof menu2_toggle === "undefined") {
     function menu2_toggle() {
       var root = document.getElementById("menu-2-root");
       if (!root) {
         return;
       }
-      var wrapper = root.closest ? root.closest(".ak66w") : null;
+      var wrapper = root.closest ? root.closest(".ezsam") : null;
       var target = wrapper || root;
-      if (target.classList.contains("ak66wmenu-open")) {
-        target.classList.remove("ak66wmenu-open");
+      if (target.classList.contains("ezsammenu-open")) {
+        target.classList.remove("ezsammenu-open");
       } else {
-        target.classList.add("ak66wmenu-open");
+        target.classList.add("ezsammenu-open");
       }
     }
   }
 </script>
 </div>
-  <div id="content"><div class="e807q-title f36">
+  <div id="content"><div class="uolxl-title f36">
   <h1></h1>
 </div>
-<div class="e807q">
-  <div class="e807q-menu-btn">
+<div class="uolxl">
+  <div class="uolxl-menu-btn">
     <span>Menu</span>
-    <span class="material-symbols-outlined e807q-icon">menu</span>
+    <span class="material-symbols-outlined uolxl-icon">menu</span>
   </div>
-  <div class="e807q-menu-overlay" id="e807q-menu-overlay" aria-hidden="true"></div>
-  <div class="e807q-menu" id="e807q-menu">
-    <button class="e807q-menu-close" type="button" aria-label="Close Menu" aria-controls="e807q-menu">
+  <div class="uolxl-menu-overlay" id="uolxl-menu-overlay" aria-hidden="true"></div>
+  <div class="uolxl-menu" id="uolxl-menu">
+    <button class="uolxl-menu-close" type="button" aria-label="Close Menu" aria-controls="uolxl-menu">
       <span class="material-symbols-outlined" aria-hidden="true">close</span>
     </button>
-    <a class="e807q-menu-link" href="/en/hakkimizda/">Hakkımızda</a><a class="e807q-menu-link" href="/en/misyon/">Misyon</a><a class="e807q-menu-link" href="/en/vizyon/">Vizyon</a><a class="e807q-menu-link active" href="/en/kalite-politikamiz/">Kalite Politikamız</a><a class="e807q-menu-link" href="/en/gizlilik-politikasi/">Gizlilik Politikası</a><a class="e807q-menu-link" href="/en/kisisel-veriler/">Kişisel Veriler</a><a class="e807q-menu-link" href="/en/kullanici-haklari/">Kullanıcı Hakları</a><a class="e807q-menu-link" href="/en/yasal-uyari/">Yasal Uyarı</a>
+    <a class="uolxl-menu-link" href="/en/hakkimizda/">Hakkımızda</a><a class="uolxl-menu-link" href="/en/misyon/">Misyon</a><a class="uolxl-menu-link" href="/en/vizyon/">Vizyon</a><a class="uolxl-menu-link active" href="/en/kalite-politikamiz/">Kalite Politikamız</a><a class="uolxl-menu-link" href="/en/gizlilik-politikasi/">Gizlilik Politikası</a><a class="uolxl-menu-link" href="/en/kisisel-veriler/">Kişisel Veriler</a><a class="uolxl-menu-link" href="/en/kullanici-haklari/">Kullanıcı Hakları</a><a class="uolxl-menu-link" href="/en/yasal-uyari/">Yasal Uyarı</a>
   </div>
-  <div class="e807q-desc">
+  <div class="uolxl-desc">
     
-    <div class="e807q-body"></div>
+    <div class="uolxl-body"></div>
   </div>
 </div>
 
 <script>
   setTimeout(function() {
-    var menuToggleBtn = document.querySelector(".e807q-menu-btn");
-    var menu = document.querySelector(".e807q-menu");
-    var overlay = document.querySelector(".e807q-menu-overlay");
-    var closeButton = document.querySelector(".e807q-menu-close");
+    var menuToggleBtn = document.querySelector(".uolxl-menu-btn");
+    var menu = document.querySelector(".uolxl-menu");
+    var overlay = document.querySelector(".uolxl-menu-overlay");
+    var closeButton = document.querySelector(".uolxl-menu-close");
     
     if (!menuToggleBtn || !menu) {
       return;
@@ -214,7 +214,7 @@
     // Menü içindeki linklere tıklanınca kapat
     menu.addEventListener("click", function (event) {
       var link = event.target.closest("a");
-      var closeBtn = event.target.closest(".e807q-menu-close");
+      var closeBtn = event.target.closest(".uolxl-menu-close");
       if (link && !closeBtn) {
         closeMenu();
       }
@@ -262,15 +262,15 @@
     handleBreakpoint();
 
     // Alt menü toggle fonksiyonları
-    document.querySelectorAll(".e807q-top").forEach(function (button) {
+    document.querySelectorAll(".uolxl-top").forEach(function (button) {
       button.addEventListener("click", function (e) {
         e.stopPropagation();
-        var group = this.closest(".e807q-menu-group");
+        var group = this.closest(".uolxl-menu-group");
         if (!group) return;
-        var sub = group.querySelector(".e807q-sub");
+        var sub = group.querySelector(".uolxl-sub");
         var isOpen = group.classList.toggle("open");
         this.classList.toggle("active", isOpen);
-        var icon = this.querySelector(".e807q-icon");
+        var icon = this.querySelector(".uolxl-icon");
         if (icon) {
           icon.textContent = isOpen ? "expand_less" : "expand_more";
         }
@@ -308,8 +308,8 @@
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=c4upz"></script>
-<script defer src="/src/cookie.js?v=c4upz"></script>
+<script defer type="text/javascript" src="/src/js.js?v=rfkuf"></script>
+<script defer src="/src/cookie.js?v=rfkuf"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

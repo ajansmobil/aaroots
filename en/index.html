@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=lineh" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=lineh" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=htfco" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=htfco" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=lineh" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=htfco" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,47 +52,47 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=lineh">
+<link rel="stylesheet" href="style.css?v=htfco">
 </head>
 
 <body>
-  <div id="header"><div class="zhcos">
-  <div class="zhcostitle">
-    <div class="zhcostitlebody">
-      <div class="zhcostitlebodylang">
+  <div id="header"><div class="j8jwc">
+  <div class="j8jwctitle">
+    <div class="j8jwctitlebody">
+      <div class="j8jwctitlebodylang">
         <ul>
-          <li><a href="/tr/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png" alt="ar" loading="lazy"></a></li><li><a href="/ru/"><img height="25" src="/src/lang/ru.png" alt="ru" loading="lazy"></a></li>
+          <li><a href="/tr/">TR</a></li><li><a href="/en/">EN</a></li><li><a href="/ar/">AR</a></li><li><a href="/ru/">RU</a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="zhcosbody">
+  <div class="j8jwcbody">
     <a href="/en/"
       ><img
-        src="/img/logo.svg?v=lineh"
+        src="/img/logo.svg?v=htfco"
         alt="A.A ROOTS INŞ. METAL LTD ŞTI. Logo"
-        class="zhcosbodylogo"
+        class="j8jwcbodylogo"
         loading="lazy"
     /></a>
-    <button type="button" class="zhcos-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
+    <button type="button" class="j8jwc-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
       <span class="material-symbols-outlined" aria-hidden="true">menu</span>
     </button>
   </div>
   <!-- Mobil: dış tıklamada menüyü kapatmak için yarı saydam arka plan (app drawer tarzı) -->
-  <div class="zhcos-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
-  <div class="zhcosmenubody">
-    <div class="zhcosmenu" id="menu-2-root">
-      <div class="zhcosmenulistbody">
-        <div class="zhcosmenulist">
+  <div class="j8jwc-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
+  <div class="j8jwcmenubody">
+    <div class="j8jwcmenu" id="menu-2-root">
+      <div class="j8jwcmenulistbody">
+        <div class="j8jwcmenulist">
           <ul>
             <a href="/en/">Home </a><a href="/en/hakkimizda/"></a><a href="/en/urunler/"></a><a href="/en/iletisim/"></a>
           </ul>
         </div>
       </div>
       <!-- Mobil kural: lang drawer'ın en altında ve ortada -->
-      <div class="zhcoslanguages-mobile">
+      <div class="j8jwclanguages-mobile">
         <ul>
-          <li><a href="/tr/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png" alt="ar" loading="lazy"></a></li><li><a href="/ru/"><img height="25" src="/src/lang/ru.png" alt="ru" loading="lazy"></a></li>
+          <li><a href="/tr/">TR</a></li><li><a href="/en/">EN</a></li><li><a href="/ar/">AR</a></li><li><a href="/ru/">RU</a></li>
         </ul>
       </div>
     </div>
@@ -100,25 +100,25 @@
 </div>
 
 <script>
-  /* Mobil menü aç/kapat: class wrapper (.zhcos) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
+  /* Mobil menü aç/kapat: class wrapper (.j8jwc) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
   if (typeof menu2_toggle === "undefined") {
     function menu2_toggle() {
       var root = document.getElementById("menu-2-root");
       if (!root) {
         return;
       }
-      var wrapper = root.closest ? root.closest(".zhcos") : null;
+      var wrapper = root.closest ? root.closest(".j8jwc") : null;
       var target = wrapper || root;
-      if (target.classList.contains("zhcosmenu-open")) {
-        target.classList.remove("zhcosmenu-open");
+      if (target.classList.contains("j8jwcmenu-open")) {
+        target.classList.remove("j8jwcmenu-open");
       } else {
-        target.classList.add("zhcosmenu-open");
+        target.classList.add("j8jwcmenu-open");
       }
     }
   }
 </script>
-<div class="swiper-container zdc7a">
-  <div class="swiper-wrapper" id="zdc7a"><div class="swiper-slide"><img src="/img/k4t90c/slider.jpg?v=1770978682792" alt="A.A ROOTS INŞ. METAL LTD ŞTI."  loading="lazy"/></div></div>
+<div class="swiper-container wyyib">
+  <div class="swiper-wrapper" id="wyyib"><div class="swiper-slide"><img src="/img/k4t90c/slider.jpg?v=1770979307479" alt="A.A ROOTS INŞ. METAL LTD ŞTI."  loading="lazy"/></div></div>
   <div class="swiper-button-next"></div>
   <div class="swiper-button-prev"></div>
   <div class="swiper-pagination"></div>
@@ -133,7 +133,7 @@
     attempts++;
     if (typeof Swiper === "function") {
       clearInterval(timer);
-      new Swiper(".zdc7a", {
+      new Swiper(".wyyib", {
         slidesPerView: 1,
         spaceBetween: 30,
         loop: true,
@@ -158,7 +158,92 @@
 })();
 </script>
 </div>
-  <div id="content"></div>
+  <div id="content"><div class="nmfmt">
+  <div class="nmfmtbody"><div class="nmfmtbodyitem left" style="animation-delay: 0s;">
+        <a href="/en/villa-insaati/" class="nmfmtbodyitemlink">
+          <div class="nmfmtbodyitemimg">
+            <img alt="Villa Construction" src="/page/villa-insaati/undefined" alt="Villa Construction" loading="lazy">
+          </div>
+          <div class="nmfmtbodyitemcontent">
+            <div class="nmfmtbodyitemtitle">Villa Construction</div>
+            
+          </div>
+        </a>
+      </div><div class="nmfmtbodyitem right" style="animation-delay: 0.15s;">
+        <a href="/en/konut-projeleri/" class="nmfmtbodyitemlink">
+          <div class="nmfmtbodyitemcontent">
+            <div class="nmfmtbodyitemtitle">Residential Projects</div>
+            
+          </div>
+          <div class="nmfmtbodyitemimg">
+            <img alt="Residential Projects" src="/page/konut-projeleri/undefined" alt="Residential Projects" loading="lazy">
+          </div>
+        </a>
+      </div><div class="nmfmtbodyitem left" style="animation-delay: 0.3s;">
+        <a href="/en/ticari-yapilar/" class="nmfmtbodyitemlink">
+          <div class="nmfmtbodyitemimg">
+            <img alt="Commercial Buildings" src="/page/ticari-yapilar/undefined" alt="Commercial Buildings" loading="lazy">
+          </div>
+          <div class="nmfmtbodyitemcontent">
+            <div class="nmfmtbodyitemtitle">Commercial Buildings</div>
+            
+          </div>
+        </a>
+      </div><div class="nmfmtbodyitem right" style="animation-delay: 0.44999999999999996s;">
+        <a href="/en/renovasyon-tadilat/" class="nmfmtbodyitemlink">
+          <div class="nmfmtbodyitemcontent">
+            <div class="nmfmtbodyitemtitle">Renovation & Renovation</div>
+            
+          </div>
+          <div class="nmfmtbodyitemimg">
+            <img alt="Renovation & Renovation" src="/page/renovasyon-tadilat/undefined" alt="Renovation & Renovation" loading="lazy">
+          </div>
+        </a>
+      </div><div class="nmfmtbodyitem left" style="animation-delay: 0.6s;">
+        <a href="/en/kesif-proje-danismanligi/" class="nmfmtbodyitemlink">
+          <div class="nmfmtbodyitemimg">
+            <img alt="Survey & Project Consulting" src="/page/kesif-proje-danismanligi/undefined" alt="Survey & Project Consulting" loading="lazy">
+          </div>
+          <div class="nmfmtbodyitemcontent">
+            <div class="nmfmtbodyitemtitle">Survey & Project Consulting</div>
+            
+          </div>
+        </a>
+      </div></div>
+</div>
+
+
+
+<script>
+  // Intersection Observer ile scroll-based animasyon
+setTimeout(function() {
+  if (typeof IntersectionObserver !== 'undefined') {
+    var observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    });
+
+    var items = document.querySelectorAll('.nmfmtbodyitem');
+    items.forEach(function(item) {
+      observer.observe(item);
+    });
+  } else {
+    // Fallback: IntersectionObserver desteklenmiyorsa direkt göster
+    var items = document.querySelectorAll('.nmfmtbodyitem');
+    items.forEach(function(item) {
+      item.classList.add('visible');
+    });
+  }
+}, 100);
+
+</script></div>
   <div id="footer"><footer class="footer">
   <div class="footer-top">
     <div class="footer-logo">
@@ -184,8 +269,8 @@
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=lineh"></script>
-<script defer src="/src/cookie.js?v=lineh"></script>
+<script defer type="text/javascript" src="/src/js.js?v=htfco"></script>
+<script defer src="/src/cookie.js?v=htfco"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

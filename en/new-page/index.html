@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=koeqm" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=koeqm" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=g1jiq" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=g1jiq" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=koeqm" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=g1jiq" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,47 +52,47 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=koeqm">
+<link rel="stylesheet" href="style.css?v=g1jiq">
 </head>
 
 <body>
-  <div id="header"><div class="ujhbl">
-  <div class="ujhbltitle">
-    <div class="ujhbltitlebody">
-      <div class="ujhbltitlebodylang">
+  <div id="header"><div class="xv3ge">
+  <div class="xv3getitle">
+    <div class="xv3getitlebody">
+      <div class="xv3getitlebodylang">
         <ul>
-          <li><a href="/tr/new-page/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/new-page/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li><li><a href="/ar/new-page/"><img height="25" src="/src/lang/ar.png" alt="ar" loading="lazy"></a></li><li><a href="/ru/new-page/"><img height="25" src="/src/lang/ru.png" alt="ru" loading="lazy"></a></li>
+          <li><a href="/tr/new-page/">TR</a></li><li><a href="/en/new-page/">EN</a></li><li><a href="/ar/new-page/">AR</a></li><li><a href="/ru/new-page/">RU</a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="ujhblbody">
+  <div class="xv3gebody">
     <a href="/en/"
       ><img
-        src="/img/logo.svg?v=koeqm"
+        src="/img/logo.svg?v=g1jiq"
         alt="A.A ROOTS INŞ. METAL LTD ŞTI. Logo"
-        class="ujhblbodylogo"
+        class="xv3gebodylogo"
         loading="lazy"
     /></a>
-    <button type="button" class="ujhbl-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
+    <button type="button" class="xv3ge-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
       <span class="material-symbols-outlined" aria-hidden="true">menu</span>
     </button>
   </div>
   <!-- Mobil: dış tıklamada menüyü kapatmak için yarı saydam arka plan (app drawer tarzı) -->
-  <div class="ujhbl-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
-  <div class="ujhblmenubody">
-    <div class="ujhblmenu" id="menu-2-root">
-      <div class="ujhblmenulistbody">
-        <div class="ujhblmenulist">
+  <div class="xv3ge-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
+  <div class="xv3gemenubody">
+    <div class="xv3gemenu" id="menu-2-root">
+      <div class="xv3gemenulistbody">
+        <div class="xv3gemenulist">
           <ul>
             <a href="/en/">Home </a><a href="/en/hakkimizda/"></a><a href="/en/urunler/"></a><a href="/en/iletisim/"></a>
           </ul>
         </div>
       </div>
       <!-- Mobil kural: lang drawer'ın en altında ve ortada -->
-      <div class="ujhbllanguages-mobile">
+      <div class="xv3gelanguages-mobile">
         <ul>
-          <li><a href="/tr/new-page/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/new-page/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li><li><a href="/ar/new-page/"><img height="25" src="/src/lang/ar.png" alt="ar" loading="lazy"></a></li><li><a href="/ru/new-page/"><img height="25" src="/src/lang/ru.png" alt="ru" loading="lazy"></a></li>
+          <li><a href="/tr/new-page/">TR</a></li><li><a href="/en/new-page/">EN</a></li><li><a href="/ar/new-page/">AR</a></li><li><a href="/ru/new-page/">RU</a></li>
         </ul>
       </div>
     </div>
@@ -100,19 +100,19 @@
 </div>
 
 <script>
-  /* Mobil menü aç/kapat: class wrapper (.ujhbl) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
+  /* Mobil menü aç/kapat: class wrapper (.xv3ge) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
   if (typeof menu2_toggle === "undefined") {
     function menu2_toggle() {
       var root = document.getElementById("menu-2-root");
       if (!root) {
         return;
       }
-      var wrapper = root.closest ? root.closest(".ujhbl") : null;
+      var wrapper = root.closest ? root.closest(".xv3ge") : null;
       var target = wrapper || root;
-      if (target.classList.contains("ujhblmenu-open")) {
-        target.classList.remove("ujhblmenu-open");
+      if (target.classList.contains("xv3gemenu-open")) {
+        target.classList.remove("xv3gemenu-open");
       } else {
-        target.classList.add("ujhblmenu-open");
+        target.classList.add("xv3gemenu-open");
       }
     }
   }
@@ -144,8 +144,8 @@
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=koeqm"></script>
-<script defer src="/src/cookie.js?v=koeqm"></script>
+<script defer type="text/javascript" src="/src/js.js?v=g1jiq"></script>
+<script defer src="/src/cookie.js?v=g1jiq"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=d47zq" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=d47zq" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=a6b2v" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=a6b2v" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=d47zq" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=a6b2v" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,47 +52,47 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=d47zq">
+<link rel="stylesheet" href="style.css?v=a6b2v">
 </head>
 
 <body>
-  <div id="header"><div class="sa9xs">
-  <div class="sa9xstitle">
-    <div class="sa9xstitlebody">
-      <div class="sa9xstitlebodylang">
+  <div id="header"><div class="lxonx">
+  <div class="lxonxtitle">
+    <div class="lxonxtitlebody">
+      <div class="lxonxtitlebodylang">
         <ul>
-          <li><a href="/tr/misyon/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/misyon/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li><li><a href="/ar/misyon/"><img height="25" src="/src/lang/ar.png" alt="ar" loading="lazy"></a></li><li><a href="/ru/misyon/"><img height="25" src="/src/lang/ru.png" alt="ru" loading="lazy"></a></li>
+          <li><a href="/tr/misyon/">TR</a></li><li><a href="/en/misyon/">EN</a></li><li><a href="/ar/misyon/">AR</a></li><li><a href="/ru/misyon/">RU</a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="sa9xsbody">
+  <div class="lxonxbody">
     <a href="/en/"
       ><img
-        src="/img/logo.svg?v=d47zq"
+        src="/img/logo.svg?v=a6b2v"
         alt="A.A ROOTS INŞ. METAL LTD ŞTI. Logo"
-        class="sa9xsbodylogo"
+        class="lxonxbodylogo"
         loading="lazy"
     /></a>
-    <button type="button" class="sa9xs-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
+    <button type="button" class="lxonx-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
       <span class="material-symbols-outlined" aria-hidden="true">menu</span>
     </button>
   </div>
   <!-- Mobil: dış tıklamada menüyü kapatmak için yarı saydam arka plan (app drawer tarzı) -->
-  <div class="sa9xs-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
-  <div class="sa9xsmenubody">
-    <div class="sa9xsmenu" id="menu-2-root">
-      <div class="sa9xsmenulistbody">
-        <div class="sa9xsmenulist">
+  <div class="lxonx-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
+  <div class="lxonxmenubody">
+    <div class="lxonxmenu" id="menu-2-root">
+      <div class="lxonxmenulistbody">
+        <div class="lxonxmenulist">
           <ul>
             <a href="/en/">Home </a><a href="/en/hakkimizda/"></a><a href="/en/urunler/"></a><a href="/en/iletisim/"></a>
           </ul>
         </div>
       </div>
       <!-- Mobil kural: lang drawer'ın en altında ve ortada -->
-      <div class="sa9xslanguages-mobile">
+      <div class="lxonxlanguages-mobile">
         <ul>
-          <li><a href="/tr/misyon/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/misyon/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li><li><a href="/ar/misyon/"><img height="25" src="/src/lang/ar.png" alt="ar" loading="lazy"></a></li><li><a href="/ru/misyon/"><img height="25" src="/src/lang/ru.png" alt="ru" loading="lazy"></a></li>
+          <li><a href="/tr/misyon/">TR</a></li><li><a href="/en/misyon/">EN</a></li><li><a href="/ar/misyon/">AR</a></li><li><a href="/ru/misyon/">RU</a></li>
         </ul>
       </div>
     </div>
@@ -100,51 +100,51 @@
 </div>
 
 <script>
-  /* Mobil menü aç/kapat: class wrapper (.sa9xs) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
+  /* Mobil menü aç/kapat: class wrapper (.lxonx) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
   if (typeof menu2_toggle === "undefined") {
     function menu2_toggle() {
       var root = document.getElementById("menu-2-root");
       if (!root) {
         return;
       }
-      var wrapper = root.closest ? root.closest(".sa9xs") : null;
+      var wrapper = root.closest ? root.closest(".lxonx") : null;
       var target = wrapper || root;
-      if (target.classList.contains("sa9xsmenu-open")) {
-        target.classList.remove("sa9xsmenu-open");
+      if (target.classList.contains("lxonxmenu-open")) {
+        target.classList.remove("lxonxmenu-open");
       } else {
-        target.classList.add("sa9xsmenu-open");
+        target.classList.add("lxonxmenu-open");
       }
     }
   }
 </script>
 </div>
-  <div id="content"><div class="yxv0l-title f36">
+  <div id="content"><div class="sin8y-title f36">
   <h1></h1>
 </div>
-<div class="yxv0l">
-  <div class="yxv0l-menu-btn">
+<div class="sin8y">
+  <div class="sin8y-menu-btn">
     <span>Menu</span>
-    <span class="material-symbols-outlined yxv0l-icon">menu</span>
+    <span class="material-symbols-outlined sin8y-icon">menu</span>
   </div>
-  <div class="yxv0l-menu-overlay" id="yxv0l-menu-overlay" aria-hidden="true"></div>
-  <div class="yxv0l-menu" id="yxv0l-menu">
-    <button class="yxv0l-menu-close" type="button" aria-label="Close Menu" aria-controls="yxv0l-menu">
+  <div class="sin8y-menu-overlay" id="sin8y-menu-overlay" aria-hidden="true"></div>
+  <div class="sin8y-menu" id="sin8y-menu">
+    <button class="sin8y-menu-close" type="button" aria-label="Close Menu" aria-controls="sin8y-menu">
       <span class="material-symbols-outlined" aria-hidden="true">close</span>
     </button>
-    <a class="yxv0l-menu-link" href="/en/hakkimizda/">Hakkımızda</a><a class="yxv0l-menu-link active" href="/en/misyon/">Misyon</a><a class="yxv0l-menu-link" href="/en/vizyon/">Vizyon</a><a class="yxv0l-menu-link" href="/en/kalite-politikamiz/">Kalite Politikamız</a><a class="yxv0l-menu-link" href="/en/gizlilik-politikasi/">Gizlilik Politikası</a><a class="yxv0l-menu-link" href="/en/kisisel-veriler/">Kişisel Veriler</a><a class="yxv0l-menu-link" href="/en/kullanici-haklari/">Kullanıcı Hakları</a><a class="yxv0l-menu-link" href="/en/yasal-uyari/">Yasal Uyarı</a>
+    <a class="sin8y-menu-link" href="/en/hakkimizda/">Hakkımızda</a><a class="sin8y-menu-link active" href="/en/misyon/">Misyon</a><a class="sin8y-menu-link" href="/en/vizyon/">Vizyon</a><a class="sin8y-menu-link" href="/en/kalite-politikamiz/">Kalite Politikamız</a><a class="sin8y-menu-link" href="/en/gizlilik-politikasi/">Gizlilik Politikası</a><a class="sin8y-menu-link" href="/en/kisisel-veriler/">Kişisel Veriler</a><a class="sin8y-menu-link" href="/en/kullanici-haklari/">Kullanıcı Hakları</a><a class="sin8y-menu-link" href="/en/yasal-uyari/">Yasal Uyarı</a>
   </div>
-  <div class="yxv0l-desc">
+  <div class="sin8y-desc">
     
-    <div class="yxv0l-body"></div>
+    <div class="sin8y-body"></div>
   </div>
 </div>
 
 <script>
   setTimeout(function() {
-    var menuToggleBtn = document.querySelector(".yxv0l-menu-btn");
-    var menu = document.querySelector(".yxv0l-menu");
-    var overlay = document.querySelector(".yxv0l-menu-overlay");
-    var closeButton = document.querySelector(".yxv0l-menu-close");
+    var menuToggleBtn = document.querySelector(".sin8y-menu-btn");
+    var menu = document.querySelector(".sin8y-menu");
+    var overlay = document.querySelector(".sin8y-menu-overlay");
+    var closeButton = document.querySelector(".sin8y-menu-close");
     
     if (!menuToggleBtn || !menu) {
       return;
@@ -214,7 +214,7 @@
     // Menü içindeki linklere tıklanınca kapat
     menu.addEventListener("click", function (event) {
       var link = event.target.closest("a");
-      var closeBtn = event.target.closest(".yxv0l-menu-close");
+      var closeBtn = event.target.closest(".sin8y-menu-close");
       if (link && !closeBtn) {
         closeMenu();
       }
@@ -262,15 +262,15 @@
     handleBreakpoint();
 
     // Alt menü toggle fonksiyonları
-    document.querySelectorAll(".yxv0l-top").forEach(function (button) {
+    document.querySelectorAll(".sin8y-top").forEach(function (button) {
       button.addEventListener("click", function (e) {
         e.stopPropagation();
-        var group = this.closest(".yxv0l-menu-group");
+        var group = this.closest(".sin8y-menu-group");
         if (!group) return;
-        var sub = group.querySelector(".yxv0l-sub");
+        var sub = group.querySelector(".sin8y-sub");
         var isOpen = group.classList.toggle("open");
         this.classList.toggle("active", isOpen);
-        var icon = this.querySelector(".yxv0l-icon");
+        var icon = this.querySelector(".sin8y-icon");
         if (icon) {
           icon.textContent = isOpen ? "expand_less" : "expand_more";
         }
@@ -308,8 +308,8 @@
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=d47zq"></script>
-<script defer src="/src/cookie.js?v=d47zq"></script>
+<script defer type="text/javascript" src="/src/js.js?v=a6b2v"></script>
+<script defer src="/src/cookie.js?v=a6b2v"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

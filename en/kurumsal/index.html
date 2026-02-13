@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=bsxgq" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=bsxgq" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=v9zvi" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=v9zvi" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=bsxgq" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=v9zvi" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,47 +52,47 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=bsxgq">
+<link rel="stylesheet" href="style.css?v=v9zvi">
 </head>
 
 <body>
-  <div id="header"><div class="aslre">
-  <div class="aslretitle">
-    <div class="aslretitlebody">
-      <div class="aslretitlebodylang">
+  <div id="header"><div class="j0glw">
+  <div class="j0glwtitle">
+    <div class="j0glwtitlebody">
+      <div class="j0glwtitlebodylang">
         <ul>
-          <li><a href="/tr/kurumsal/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/kurumsal/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li><li><a href="/ar/kurumsal/"><img height="25" src="/src/lang/ar.png" alt="ar" loading="lazy"></a></li><li><a href="/ru/kurumsal/"><img height="25" src="/src/lang/ru.png" alt="ru" loading="lazy"></a></li>
+          <li><a href="/tr/kurumsal/">TR</a></li><li><a href="/en/kurumsal/">EN</a></li><li><a href="/ar/kurumsal/">AR</a></li><li><a href="/ru/kurumsal/">RU</a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="aslrebody">
+  <div class="j0glwbody">
     <a href="/en/"
       ><img
-        src="/img/logo.svg?v=bsxgq"
+        src="/img/logo.svg?v=v9zvi"
         alt="A.A ROOTS INŞ. METAL LTD ŞTI. Logo"
-        class="aslrebodylogo"
+        class="j0glwbodylogo"
         loading="lazy"
     /></a>
-    <button type="button" class="aslre-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
+    <button type="button" class="j0glw-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
       <span class="material-symbols-outlined" aria-hidden="true">menu</span>
     </button>
   </div>
   <!-- Mobil: dış tıklamada menüyü kapatmak için yarı saydam arka plan (app drawer tarzı) -->
-  <div class="aslre-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
-  <div class="aslremenubody">
-    <div class="aslremenu" id="menu-2-root">
-      <div class="aslremenulistbody">
-        <div class="aslremenulist">
+  <div class="j0glw-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
+  <div class="j0glwmenubody">
+    <div class="j0glwmenu" id="menu-2-root">
+      <div class="j0glwmenulistbody">
+        <div class="j0glwmenulist">
           <ul>
-            <a href="/en/">Home </a><a class="aslre-menu-list-active" href="/en/kurumsal/"></a><a href="/en/urunler/"></a><a href="/en/iletisim/"></a>
+            <a href="/en/">Home </a><a class="j0glw-menu-list-active" href="/en/kurumsal/"></a><a href="/en/urunler/"></a><a href="/en/iletisim/"></a>
           </ul>
         </div>
       </div>
       <!-- Mobil kural: lang drawer'ın en altında ve ortada -->
-      <div class="aslrelanguages-mobile">
+      <div class="j0glwlanguages-mobile">
         <ul>
-          <li><a href="/tr/kurumsal/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/kurumsal/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li><li><a href="/ar/kurumsal/"><img height="25" src="/src/lang/ar.png" alt="ar" loading="lazy"></a></li><li><a href="/ru/kurumsal/"><img height="25" src="/src/lang/ru.png" alt="ru" loading="lazy"></a></li>
+          <li><a href="/tr/kurumsal/">TR</a></li><li><a href="/en/kurumsal/">EN</a></li><li><a href="/ar/kurumsal/">AR</a></li><li><a href="/ru/kurumsal/">RU</a></li>
         </ul>
       </div>
     </div>
@@ -100,19 +100,19 @@
 </div>
 
 <script>
-  /* Mobil menü aç/kapat: class wrapper (.aslre) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
+  /* Mobil menü aç/kapat: class wrapper (.j0glw) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
   if (typeof menu2_toggle === "undefined") {
     function menu2_toggle() {
       var root = document.getElementById("menu-2-root");
       if (!root) {
         return;
       }
-      var wrapper = root.closest ? root.closest(".aslre") : null;
+      var wrapper = root.closest ? root.closest(".j0glw") : null;
       var target = wrapper || root;
-      if (target.classList.contains("aslremenu-open")) {
-        target.classList.remove("aslremenu-open");
+      if (target.classList.contains("j0glwmenu-open")) {
+        target.classList.remove("j0glwmenu-open");
       } else {
-        target.classList.add("aslremenu-open");
+        target.classList.add("j0glwmenu-open");
       }
     }
   }
@@ -144,8 +144,8 @@
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=bsxgq"></script>
-<script defer src="/src/cookie.js?v=bsxgq"></script>
+<script defer type="text/javascript" src="/src/js.js?v=v9zvi"></script>
+<script defer src="/src/cookie.js?v=v9zvi"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

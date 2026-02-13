@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=n411n" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=n411n" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=b056v" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=b056v" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=n411n" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=b056v" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,47 +52,47 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=n411n">
+<link rel="stylesheet" href="style.css?v=b056v">
 </head>
 
 <body>
-  <div id="header"><div class="l1xbx">
-  <div class="l1xbxtitle">
-    <div class="l1xbxtitlebody">
-      <div class="l1xbxtitlebodylang">
+  <div id="header"><div class="dr40k">
+  <div class="dr40ktitle">
+    <div class="dr40ktitlebody">
+      <div class="dr40ktitlebodylang">
         <ul>
-          <li><a href="/tr/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png" alt="ar" loading="lazy"></a></li><li><a href="/ru/"><img height="25" src="/src/lang/ru.png" alt="ru" loading="lazy"></a></li>
+          <li><a href="/tr/">TR</a></li><li><a href="/en/">EN</a></li><li><a href="/ar/">AR</a></li><li><a href="/ru/">RU</a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="l1xbxbody">
+  <div class="dr40kbody">
     <a href="/ru/"
       ><img
-        src="/img/logo.svg?v=n411n"
+        src="/img/logo.svg?v=b056v"
         alt="A.A ROOTS INŞ. METAL LTD ŞTI. Logo"
-        class="l1xbxbodylogo"
+        class="dr40kbodylogo"
         loading="lazy"
     /></a>
-    <button type="button" class="l1xbx-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
+    <button type="button" class="dr40k-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
       <span class="material-symbols-outlined" aria-hidden="true">menu</span>
     </button>
   </div>
   <!-- Mobil: dış tıklamada menüyü kapatmak için yarı saydam arka plan (app drawer tarzı) -->
-  <div class="l1xbx-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
-  <div class="l1xbxmenubody">
-    <div class="l1xbxmenu" id="menu-2-root">
-      <div class="l1xbxmenulistbody">
-        <div class="l1xbxmenulist">
+  <div class="dr40k-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
+  <div class="dr40kmenubody">
+    <div class="dr40kmenu" id="menu-2-root">
+      <div class="dr40kmenulistbody">
+        <div class="dr40kmenulist">
           <ul>
             <a href="/ru/">Домашняя страница </a><a href="/ru/hakkimizda/"></a><a href="/ru/urunler/"></a><a href="/ru/iletisim/"></a>
           </ul>
         </div>
       </div>
       <!-- Mobil kural: lang drawer'ın en altında ve ortada -->
-      <div class="l1xbxlanguages-mobile">
+      <div class="dr40klanguages-mobile">
         <ul>
-          <li><a href="/tr/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li><li><a href="/ar/"><img height="25" src="/src/lang/ar.png" alt="ar" loading="lazy"></a></li><li><a href="/ru/"><img height="25" src="/src/lang/ru.png" alt="ru" loading="lazy"></a></li>
+          <li><a href="/tr/">TR</a></li><li><a href="/en/">EN</a></li><li><a href="/ar/">AR</a></li><li><a href="/ru/">RU</a></li>
         </ul>
       </div>
     </div>
@@ -100,25 +100,25 @@
 </div>
 
 <script>
-  /* Mobil menü aç/kapat: class wrapper (.l1xbx) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
+  /* Mobil menü aç/kapat: class wrapper (.dr40k) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
   if (typeof menu2_toggle === "undefined") {
     function menu2_toggle() {
       var root = document.getElementById("menu-2-root");
       if (!root) {
         return;
       }
-      var wrapper = root.closest ? root.closest(".l1xbx") : null;
+      var wrapper = root.closest ? root.closest(".dr40k") : null;
       var target = wrapper || root;
-      if (target.classList.contains("l1xbxmenu-open")) {
-        target.classList.remove("l1xbxmenu-open");
+      if (target.classList.contains("dr40kmenu-open")) {
+        target.classList.remove("dr40kmenu-open");
       } else {
-        target.classList.add("l1xbxmenu-open");
+        target.classList.add("dr40kmenu-open");
       }
     }
   }
 </script>
-<div class="swiper-container wr3ug">
-  <div class="swiper-wrapper" id="wr3ug"><div class="swiper-slide"><img src="/img/k4t90c/slider.jpg?v=1770978682859" alt="A.A ROOTS INŞ. METAL LTD ŞTI."  loading="lazy"/></div></div>
+<div class="swiper-container l4lsj">
+  <div class="swiper-wrapper" id="l4lsj"><div class="swiper-slide"><img src="/img/k4t90c/slider.jpg?v=1770979307570" alt="A.A ROOTS INŞ. METAL LTD ŞTI."  loading="lazy"/></div></div>
   <div class="swiper-button-next"></div>
   <div class="swiper-button-prev"></div>
   <div class="swiper-pagination"></div>
@@ -133,7 +133,7 @@
     attempts++;
     if (typeof Swiper === "function") {
       clearInterval(timer);
-      new Swiper(".wr3ug", {
+      new Swiper(".l4lsj", {
         slidesPerView: 1,
         spaceBetween: 30,
         loop: true,
@@ -158,7 +158,92 @@
 })();
 </script>
 </div>
-  <div id="content"></div>
+  <div id="content"><div class="qy6pd">
+  <div class="qy6pdbody"><div class="qy6pdbodyitem left" style="animation-delay: 0s;">
+        <a href="/ru/villa-insaati/" class="qy6pdbodyitemlink">
+          <div class="qy6pdbodyitemimg">
+            <img alt="Строительство вилл" src="/page/villa-insaati/undefined" alt="Строительство вилл" loading="lazy">
+          </div>
+          <div class="qy6pdbodyitemcontent">
+            <div class="qy6pdbodyitemtitle">Строительство вилл</div>
+            
+          </div>
+        </a>
+      </div><div class="qy6pdbodyitem right" style="animation-delay: 0.15s;">
+        <a href="/ru/konut-projeleri/" class="qy6pdbodyitemlink">
+          <div class="qy6pdbodyitemcontent">
+            <div class="qy6pdbodyitemtitle">Жилые проекты</div>
+            
+          </div>
+          <div class="qy6pdbodyitemimg">
+            <img alt="Жилые проекты" src="/page/konut-projeleri/undefined" alt="Жилые проекты" loading="lazy">
+          </div>
+        </a>
+      </div><div class="qy6pdbodyitem left" style="animation-delay: 0.3s;">
+        <a href="/ru/ticari-yapilar/" class="qy6pdbodyitemlink">
+          <div class="qy6pdbodyitemimg">
+            <img alt="Коммерческие здания" src="/page/ticari-yapilar/undefined" alt="Коммерческие здания" loading="lazy">
+          </div>
+          <div class="qy6pdbodyitemcontent">
+            <div class="qy6pdbodyitemtitle">Коммерческие здания</div>
+            
+          </div>
+        </a>
+      </div><div class="qy6pdbodyitem right" style="animation-delay: 0.44999999999999996s;">
+        <a href="/ru/renovasyon-tadilat/" class="qy6pdbodyitemlink">
+          <div class="qy6pdbodyitemcontent">
+            <div class="qy6pdbodyitemtitle">Реновация и ремонт</div>
+            
+          </div>
+          <div class="qy6pdbodyitemimg">
+            <img alt="Реновация и ремонт" src="/page/renovasyon-tadilat/undefined" alt="Реновация и ремонт" loading="lazy">
+          </div>
+        </a>
+      </div><div class="qy6pdbodyitem left" style="animation-delay: 0.6s;">
+        <a href="/ru/kesif-proje-danismanligi/" class="qy6pdbodyitemlink">
+          <div class="qy6pdbodyitemimg">
+            <img alt="Обследование и консультации по проектам" src="/page/kesif-proje-danismanligi/undefined" alt="Обследование и консультации по проектам" loading="lazy">
+          </div>
+          <div class="qy6pdbodyitemcontent">
+            <div class="qy6pdbodyitemtitle">Обследование и консультации по проектам</div>
+            
+          </div>
+        </a>
+      </div></div>
+</div>
+
+
+
+<script>
+  // Intersection Observer ile scroll-based animasyon
+setTimeout(function() {
+  if (typeof IntersectionObserver !== 'undefined') {
+    var observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    });
+
+    var items = document.querySelectorAll('.qy6pdbodyitem');
+    items.forEach(function(item) {
+      observer.observe(item);
+    });
+  } else {
+    // Fallback: IntersectionObserver desteklenmiyorsa direkt göster
+    var items = document.querySelectorAll('.qy6pdbodyitem');
+    items.forEach(function(item) {
+      item.classList.add('visible');
+    });
+  }
+}, 100);
+
+</script></div>
   <div id="footer"><footer class="footer">
   <div class="footer-top">
     <div class="footer-logo">
@@ -184,8 +269,8 @@
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=n411n"></script>
-<script defer src="/src/cookie.js?v=n411n"></script>
+<script defer type="text/javascript" src="/src/js.js?v=b056v"></script>
+<script defer src="/src/cookie.js?v=b056v"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

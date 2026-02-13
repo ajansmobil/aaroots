@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=o2njv" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=o2njv" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=f2c6x" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=f2c6x" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=o2njv" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=f2c6x" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,47 +52,47 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=o2njv">
+<link rel="stylesheet" href="style.css?v=f2c6x">
 </head>
 
 <body>
-  <div id="header"><div class="occex">
-  <div class="occextitle">
-    <div class="occextitlebody">
-      <div class="occextitlebodylang">
+  <div id="header"><div class="jaqco">
+  <div class="jaqcotitle">
+    <div class="jaqcotitlebody">
+      <div class="jaqcotitlebodylang">
         <ul>
-          <li><a href="/tr/new-page/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/new-page/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li><li><a href="/ar/new-page/"><img height="25" src="/src/lang/ar.png" alt="ar" loading="lazy"></a></li><li><a href="/ru/new-page/"><img height="25" src="/src/lang/ru.png" alt="ru" loading="lazy"></a></li>
+          <li><a href="/tr/new-page/">TR</a></li><li><a href="/en/new-page/">EN</a></li><li><a href="/ar/new-page/">AR</a></li><li><a href="/ru/new-page/">RU</a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="occexbody">
+  <div class="jaqcobody">
     <a href="/ar/"
       ><img
-        src="/img/logo.svg?v=o2njv"
+        src="/img/logo.svg?v=f2c6x"
         alt="A.A ROOTS INŞ. METAL LTD ŞTI. Logo"
-        class="occexbodylogo"
+        class="jaqcobodylogo"
         loading="lazy"
     /></a>
-    <button type="button" class="occex-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
+    <button type="button" class="jaqco-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
       <span class="material-symbols-outlined" aria-hidden="true">menu</span>
     </button>
   </div>
   <!-- Mobil: dış tıklamada menüyü kapatmak için yarı saydam arka plan (app drawer tarzı) -->
-  <div class="occex-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
-  <div class="occexmenubody">
-    <div class="occexmenu" id="menu-2-root">
-      <div class="occexmenulistbody">
-        <div class="occexmenulist">
+  <div class="jaqco-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
+  <div class="jaqcomenubody">
+    <div class="jaqcomenu" id="menu-2-root">
+      <div class="jaqcomenulistbody">
+        <div class="jaqcomenulist">
           <ul>
             <a href="/ar/">الصفحة الرئيسية </a><a href="/ar/hakkimizda/"></a><a href="/ar/urunler/"></a><a href="/ar/iletisim/"></a>
           </ul>
         </div>
       </div>
       <!-- Mobil kural: lang drawer'ın en altında ve ortada -->
-      <div class="occexlanguages-mobile">
+      <div class="jaqcolanguages-mobile">
         <ul>
-          <li><a href="/tr/new-page/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/new-page/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li><li><a href="/ar/new-page/"><img height="25" src="/src/lang/ar.png" alt="ar" loading="lazy"></a></li><li><a href="/ru/new-page/"><img height="25" src="/src/lang/ru.png" alt="ru" loading="lazy"></a></li>
+          <li><a href="/tr/new-page/">TR</a></li><li><a href="/en/new-page/">EN</a></li><li><a href="/ar/new-page/">AR</a></li><li><a href="/ru/new-page/">RU</a></li>
         </ul>
       </div>
     </div>
@@ -100,19 +100,19 @@
 </div>
 
 <script>
-  /* Mobil menü aç/kapat: class wrapper (.occex) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
+  /* Mobil menü aç/kapat: class wrapper (.jaqco) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
   if (typeof menu2_toggle === "undefined") {
     function menu2_toggle() {
       var root = document.getElementById("menu-2-root");
       if (!root) {
         return;
       }
-      var wrapper = root.closest ? root.closest(".occex") : null;
+      var wrapper = root.closest ? root.closest(".jaqco") : null;
       var target = wrapper || root;
-      if (target.classList.contains("occexmenu-open")) {
-        target.classList.remove("occexmenu-open");
+      if (target.classList.contains("jaqcomenu-open")) {
+        target.classList.remove("jaqcomenu-open");
       } else {
-        target.classList.add("occexmenu-open");
+        target.classList.add("jaqcomenu-open");
       }
     }
   }
@@ -144,8 +144,8 @@
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=o2njv"></script>
-<script defer src="/src/cookie.js?v=o2njv"></script>
+<script defer type="text/javascript" src="/src/js.js?v=f2c6x"></script>
+<script defer src="/src/cookie.js?v=f2c6x"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği
