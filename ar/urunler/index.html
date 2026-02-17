@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=dyq62" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=dyq62" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=qm593" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=qm593" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=dyq62" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=qm593" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,45 +52,45 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=dyq62">
+<link rel="stylesheet" href="style.css?v=qm593">
 </head>
 
 <body>
-  <div id="header"><div class="l12cx">
-  <div class="l12cxtitle">
-    <div class="l12cxtitlebody">
-      <div class="l12cxtitlebodylang">
+  <div id="header"><div class="x74lo">
+  <div class="x74lotitle">
+    <div class="x74lotitlebody">
+      <div class="x74lotitlebodylang">
         <ul>
           <li><a href="/tr/urunler/">TR</a></li><li><a href="/en/urunler/">EN</a></li><li><a href="/ar/urunler/">AR</a></li><li><a href="/ru/urunler/">RU</a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="l12cxbody">
+  <div class="x74lobody">
     <a href="/ar/"
       ><img
-        src="/img/logo.svg?v=dyq62"
+        src="/img/logo.svg?v=qm593"
         alt="A.A ROOTS INŞ. METAL LTD ŞTI. Logo"
-        class="l12cxbodylogo"
+        class="x74lobodylogo"
         loading="lazy"
     /></a>
-    <button type="button" class="l12cx-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
+    <button type="button" class="x74lo-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
       <span class="material-symbols-outlined" aria-hidden="true">menu</span>
     </button>
   </div>
   <!-- Mobil: dış tıklamada menüyü kapatmak için yarı saydam arka plan (app drawer tarzı) -->
-  <div class="l12cx-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
-  <div class="l12cxmenubody">
-    <div class="l12cxmenu" id="menu-2-root">
-      <div class="l12cxmenulistbody">
-        <div class="l12cxmenulist">
+  <div class="x74lo-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
+  <div class="x74lomenubody">
+    <div class="x74lomenu" id="menu-2-root">
+      <div class="x74lomenulistbody">
+        <div class="x74lomenulist">
           <ul>
-            <a href="/ar/">الصفحة الرئيسية </a><a href="/ar/hakkimizda/">الشركة</a><a class="l12cx-menu-list-active" href="/ar/urunler/">مشاريعنا</a><a href="/ar/iletisim/">اتصل بنا</a>
+            <a href="/ar/">الصفحة الرئيسية </a><a href="/ar/hakkimizda/">الشركة</a><a class="x74lo-menu-list-active" href="/ar/urunler/">مشاريعنا</a><a href="/ar/iletisim/">اتصل بنا</a>
           </ul>
         </div>
       </div>
       <!-- Mobil kural: lang drawer'ın en altında ve ortada -->
-      <div class="l12cxlanguages-mobile">
+      <div class="x74lolanguages-mobile">
         <ul>
           <li><a href="/tr/urunler/">TR</a></li><li><a href="/en/urunler/">EN</a></li><li><a href="/ar/urunler/">AR</a></li><li><a href="/ru/urunler/">RU</a></li>
         </ul>
@@ -100,73 +100,368 @@
 </div>
 
 <script>
-  /* Mobil menü aç/kapat: class wrapper (.l12cx) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
+  /* Mobil menü aç/kapat: class wrapper (.x74lo) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
   if (typeof menu2_toggle === "undefined") {
     function menu2_toggle() {
       var root = document.getElementById("menu-2-root");
       if (!root) {
         return;
       }
-      var wrapper = root.closest ? root.closest(".l12cx") : null;
+      var wrapper = root.closest ? root.closest(".x74lo") : null;
       var target = wrapper || root;
-      if (target.classList.contains("l12cxmenu-open")) {
-        target.classList.remove("l12cxmenu-open");
+      if (target.classList.contains("x74lomenu-open")) {
+        target.classList.remove("x74lomenu-open");
       } else {
-        target.classList.add("l12cxmenu-open");
+        target.classList.add("x74lomenu-open");
       }
     }
   }
 </script>
 </div>
-  <div id="content"><div class="i84mp">
-  <div class="i84mpbody">
-    <div class="i84mpbodyitem" style="--module-doc-card-bg:#f7f8fa;--module-doc-card-border:transparent;--module-doc-icon-bg:#fff;--module-doc-icon-color:#1b4c9d;--module-doc-button-bg:#1d4ed8;--module-doc-button-hover:#153ea8;--module-doc-button-text:#000">
-      <div class="i84mpbodyitemicon">
-        <span class="material-symbols-outlined">picture_as_pdf</span>
+  <div id="content"><div class="hdnfr">
+  <div class="hdnfrbody">
+      <div style="animation-delay: 0.3s;" class="hdnfrbodyitems left" >
+        <div class="hdnfrbodyitem lefts">
+          <a href="/ar/yalikavak-villa/" class="hdnfrbodyitemlink">
+            <div class="hdnfrbodyitemimg">
+              <img src="/page/bor4qi7acj/index.png" alt="" loading="lazy">
+            </div>
+
+            <h2 class="hdnfrbodyitemtitle">
+              
+            </h2>
+          </a>
+
+          <div class="hdnfrbodyitechile">
+           
+          </div>
+        </div>
+        <div class="hdnfrbodybg"  ></div>
       </div>
-      <div class="i84mpbodyitemcontent">
-        <div class="i84mpbodyitemtitle">AA Roots</div>
-        <div class="i84mpbodyitemmeta">PDF • 12 MB • 2025</div>
-        <div class="i84mpbodyitemdesc">مشاريعنا</div>
+      <div style="animation-delay: 0.6s;" class="hdnfrbodyitems right" >
+        <div class="hdnfrbodyitem rights">
+          <a href="/ar/oglakoren-villa-site-10/" class="hdnfrbodyitemlink">
+            <div class="hdnfrbodyitemimg">
+              <img src="/page/atfll9kcc0/index.png" alt="" loading="lazy">
+            </div>
+
+            <h2 class="hdnfrbodyitemtitle">
+              
+            </h2>
+          </a>
+
+          <div class="hdnfrbodyitechile">
+           
+          </div>
+        </div>
+        <div class="hdnfrbodybg"  ></div>
       </div>
-      <a class="i84mpbodyitembutton" target="_blank" rel="noopener" download href="/img/nrzcoi/AA Roots.pdf?v=dyq62">
-        <span class="material-symbols-outlined">download</span>
-        تحميل
-      </a>
-    </div>
-  
-    <div class="i84mpbodyitem" style="--module-doc-card-bg:#f7f8fa;--module-doc-card-border:transparent;--module-doc-icon-bg:#fff;--module-doc-icon-color:#1b4c9d;--module-doc-button-bg:#1d4ed8;--module-doc-button-hover:#153ea8;--module-doc-button-text:#000">
-      <div class="i84mpbodyitemicon">
-        <span class="material-symbols-outlined">picture_as_pdf</span>
+      <div style="animation-delay: 0.8999999999999999s;" class="hdnfrbodyitems left" >
+        <div class="hdnfrbodyitem lefts">
+          <a href="/ar/moduler-villa-112/" class="hdnfrbodyitemlink">
+            <div class="hdnfrbodyitemimg">
+              <img src="/page/obj6ble3t8/index.png" alt="" loading="lazy">
+            </div>
+
+            <h2 class="hdnfrbodyitemtitle">
+              
+            </h2>
+          </a>
+
+          <div class="hdnfrbodyitechile">
+           
+          </div>
+        </div>
+        <div class="hdnfrbodybg"  ></div>
       </div>
-      <div class="i84mpbodyitemcontent">
-        <div class="i84mpbodyitemtitle">AA ROOTS منازل نمطية</div>
-        <div class="i84mpbodyitemmeta">PDF • 12 MB • 2025</div>
-        <div class="i84mpbodyitemdesc">منازل نمطية مشاريعنا</div>
+      <div style="animation-delay: 1.2s;" class="hdnfrbodyitems right" >
+        <div class="hdnfrbodyitem rights">
+          <a href="/ar/mersin-ayas-38/" class="hdnfrbodyitemlink">
+            <div class="hdnfrbodyitemimg">
+              <img src="/page/vgpksv875j/index.png" alt="" loading="lazy">
+            </div>
+
+            <h2 class="hdnfrbodyitemtitle">
+              
+            </h2>
+          </a>
+
+          <div class="hdnfrbodyitechile">
+           
+          </div>
+        </div>
+        <div class="hdnfrbodybg"  ></div>
       </div>
-      <a class="i84mpbodyitembutton" target="_blank" rel="noopener" download href="/img/nrzcoi/AA ROOTS MODÜLER EVLER.pdf?v=dyq62">
-        <span class="material-symbols-outlined">download</span>
-        تحميل
-      </a>
-    </div>
-  
-    <div class="i84mpbodyitem" style="--module-doc-card-bg:#f7f8fa;--module-doc-card-border:transparent;--module-doc-icon-bg:#fff;--module-doc-icon-color:#1b4c9d;--module-doc-button-bg:#1d4ed8;--module-doc-button-hover:#153ea8;--module-doc-button-text:#000">
-      <div class="i84mpbodyitemicon">
-        <span class="material-symbols-outlined">picture_as_pdf</span>
+      <div style="animation-delay: 1.5s;" class="hdnfrbodyitems left" >
+        <div class="hdnfrbodyitem lefts">
+          <a href="/ar/kuzeytepe-villa-32/" class="hdnfrbodyitemlink">
+            <div class="hdnfrbodyitemimg">
+              <img src="/page/hkiw2wylco/index.png" alt="" loading="lazy">
+            </div>
+
+            <h2 class="hdnfrbodyitemtitle">
+              
+            </h2>
+          </a>
+
+          <div class="hdnfrbodyitechile">
+           
+          </div>
+        </div>
+        <div class="hdnfrbodybg"  ></div>
       </div>
-      <div class="i84mpbodyitemcontent">
-        <div class="i84mpbodyitemtitle">كتالوج أزرا عاشق GG</div>
-        <div class="i84mpbodyitemmeta">PDF • 12 MB • 2025</div>
-        <div class="i84mpbodyitemdesc">مشاريعنا</div>
+      <div style="animation-delay: 1.8s;" class="hdnfrbodyitems right" >
+        <div class="hdnfrbodyitem rights">
+          <a href="/ar/gulderen-villa-33/" class="hdnfrbodyitemlink">
+            <div class="hdnfrbodyitemimg">
+              <img src="/page/fisoy9av5o/index.png" alt="" loading="lazy">
+            </div>
+
+            <h2 class="hdnfrbodyitemtitle">
+              
+            </h2>
+          </a>
+
+          <div class="hdnfrbodyitechile">
+           
+          </div>
+        </div>
+        <div class="hdnfrbodybg"  ></div>
       </div>
-      <a class="i84mpbodyitembutton" target="_blank" rel="noopener" download href="/img/nrzcoi/Azra Aşkın GG Katalog.pdf?v=dyq62">
-        <span class="material-symbols-outlined">download</span>
-        تحميل
-      </a>
-    </div>
-  </div>
+      <div style="animation-delay: 2.1s;" class="hdnfrbodyitems left" >
+        <div class="hdnfrbodyitem lefts">
+          <a href="/ar/diyarbakir-plaza-2/" class="hdnfrbodyitemlink">
+            <div class="hdnfrbodyitemimg">
+              <img src="/page/fq91ap9iuh/index.png" alt="" loading="lazy">
+            </div>
+
+            <h2 class="hdnfrbodyitemtitle">
+              
+            </h2>
+          </a>
+
+          <div class="hdnfrbodyitechile">
+           
+          </div>
+        </div>
+        <div class="hdnfrbodybg"  ></div>
+      </div>
+      <div style="animation-delay: 2.4s;" class="hdnfrbodyitems right" >
+        <div class="hdnfrbodyitem rights">
+          <a href="/ar/diyarbakir-plaza-1/" class="hdnfrbodyitemlink">
+            <div class="hdnfrbodyitemimg">
+              <img src="/page/jj3ywryl2m/index.png" alt="" loading="lazy">
+            </div>
+
+            <h2 class="hdnfrbodyitemtitle">
+              
+            </h2>
+          </a>
+
+          <div class="hdnfrbodyitechile">
+           
+          </div>
+        </div>
+        <div class="hdnfrbodybg"  ></div>
+      </div>
+      <div style="animation-delay: 2.6999999999999997s;" class="hdnfrbodyitems left" >
+        <div class="hdnfrbodyitem lefts">
+          <a href="/ar/defne-villa-513/" class="hdnfrbodyitemlink">
+            <div class="hdnfrbodyitemimg">
+              <img src="/page/slrba1rkxm/index.png" alt="" loading="lazy">
+            </div>
+
+            <h2 class="hdnfrbodyitemtitle">
+              
+            </h2>
+          </a>
+
+          <div class="hdnfrbodyitechile">
+           
+          </div>
+        </div>
+        <div class="hdnfrbodybg"  ></div>
+      </div>
+      <div style="animation-delay: 2.9999999999999996s;" class="hdnfrbodyitems right" >
+        <div class="hdnfrbodyitem rights">
+          <a href="/ar/ballioz-villa-41/" class="hdnfrbodyitemlink">
+            <div class="hdnfrbodyitemimg">
+              <img src="/page/exrba7i4r1/index.png" alt="" loading="lazy">
+            </div>
+
+            <h2 class="hdnfrbodyitemtitle">
+              
+            </h2>
+          </a>
+
+          <div class="hdnfrbodyitechile">
+           
+          </div>
+        </div>
+        <div class="hdnfrbodybg"  ></div>
+      </div>
+      <div style="animation-delay: 3.2999999999999994s;" class="hdnfrbodyitems left" >
+        <div class="hdnfrbodyitem lefts">
+          <a href="/ar/bahcelievler-villa-site-18/" class="hdnfrbodyitemlink">
+            <div class="hdnfrbodyitemimg">
+              <img src="/page/zs14td0glv/index.png" alt="" loading="lazy">
+            </div>
+
+            <h2 class="hdnfrbodyitemtitle">
+              
+            </h2>
+          </a>
+
+          <div class="hdnfrbodyitechile">
+           
+          </div>
+        </div>
+        <div class="hdnfrbodybg"  ></div>
+      </div>
+      <div style="animation-delay: 3.599999999999999s;" class="hdnfrbodyitems right" >
+        <div class="hdnfrbodyitem rights">
+          <a href="/ar/bahcelievler-villa-2544/" class="hdnfrbodyitemlink">
+            <div class="hdnfrbodyitemimg">
+              <img src="/page/xj30xa1u86/index.png" alt="" loading="lazy">
+            </div>
+
+            <h2 class="hdnfrbodyitemtitle">
+              
+            </h2>
+          </a>
+
+          <div class="hdnfrbodyitechile">
+           
+          </div>
+        </div>
+        <div class="hdnfrbodybg"  ></div>
+      </div>
+      <div style="animation-delay: 3.899999999999999s;" class="hdnfrbodyitems left" >
+        <div class="hdnfrbodyitem lefts">
+          <a href="/ar/bahcelievler-villa-13/" class="hdnfrbodyitemlink">
+            <div class="hdnfrbodyitemimg">
+              <img src="/page/ebyzwrlx9s/index.png" alt="" loading="lazy">
+            </div>
+
+            <h2 class="hdnfrbodyitemtitle">
+              
+            </h2>
+          </a>
+
+          <div class="hdnfrbodyitechile">
+           
+          </div>
+        </div>
+        <div class="hdnfrbodybg"  ></div>
+      </div>
+      <div style="animation-delay: 4.199999999999999s;" class="hdnfrbodyitems right" >
+        <div class="hdnfrbodyitem rights">
+          <a href="/ar/arsuz-villa-516/" class="hdnfrbodyitemlink">
+            <div class="hdnfrbodyitemimg">
+              <img src="/page/ckn1uoyxtv/index.png" alt="" loading="lazy">
+            </div>
+
+            <h2 class="hdnfrbodyitemtitle">
+              
+            </h2>
+          </a>
+
+          <div class="hdnfrbodyitechile">
+           
+          </div>
+        </div>
+        <div class="hdnfrbodybg"  ></div>
+      </div>
+      <div style="animation-delay: 4.499999999999999s;" class="hdnfrbodyitems left" >
+        <div class="hdnfrbodyitem lefts">
+          <a href="/ar/arsuz-villa-47/" class="hdnfrbodyitemlink">
+            <div class="hdnfrbodyitemimg">
+              <img src="/page/jonwuf9dc9/index.png" alt="" loading="lazy">
+            </div>
+
+            <h2 class="hdnfrbodyitemtitle">
+              
+            </h2>
+          </a>
+
+          <div class="hdnfrbodyitechile">
+           
+          </div>
+        </div>
+        <div class="hdnfrbodybg"  ></div>
+      </div>
+      <div style="animation-delay: 4.799999999999999s;" class="hdnfrbodyitems right" >
+        <div class="hdnfrbodyitem rights">
+          <a href="/ar/arsuz-villa-203/" class="hdnfrbodyitemlink">
+            <div class="hdnfrbodyitemimg">
+              <img src="/page/h769k0c151/index.png" alt="" loading="lazy">
+            </div>
+
+            <h2 class="hdnfrbodyitemtitle">
+              
+            </h2>
+          </a>
+
+          <div class="hdnfrbodyitechile">
+           
+          </div>
+        </div>
+        <div class="hdnfrbodybg"  ></div>
+      </div>
+      <div style="animation-delay: 5.099999999999999s;" class="hdnfrbodyitems left" >
+        <div class="hdnfrbodyitem lefts">
+          <a href="/ar/antakya-1812/" class="hdnfrbodyitemlink">
+            <div class="hdnfrbodyitemimg">
+              <img src="/page/hzpaeijti9/index.png" alt="" loading="lazy">
+            </div>
+
+            <h2 class="hdnfrbodyitemtitle">
+              
+            </h2>
+          </a>
+
+          <div class="hdnfrbodyitechile">
+           
+          </div>
+        </div>
+        <div class="hdnfrbodybg"  ></div>
+      </div></div>
 </div>
 
+<script>
+  setTimeout(function () {
+    var observer = new IntersectionObserver(
+      function (entries) {
+        entries.forEach(function (entry, index) {
+          if (entry.isIntersecting) {
+            if (window.innerWidth <= 1024) {
+              entry.target.classList.add("visible");
+            } else {
+              setTimeout(function () {
+                entry.target.classList.add("visible");
+              }, index * 300);
+            }
+          } else {
+            entry.target.classList.remove("visible");
+          }
+        });
+      },
+      {
+        threshold: 0.1,
+        rootMargin: "0px 0px -10px 0px",
+      }
+    );
+
+    var items = Array.from(document.querySelectorAll(".hdnfrbodyitems"));
+    items
+      .sort(function (a, b) {
+        return a.offsetTop - b.offsetTop;
+      })
+      .forEach(function (item) {
+        observer.observe(item);
+      });
+  }, 100);
+</script>
 </div>
   <div id="footer"><footer class="footer">
   <div class="footer-top">
@@ -193,8 +488,8 @@
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=dyq62"></script>
-<script defer src="/src/cookie.js?v=dyq62"></script>
+<script defer type="text/javascript" src="/src/js.js?v=qm593"></script>
+<script defer src="/src/cookie.js?v=qm593"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

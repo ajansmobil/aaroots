@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=jlelv" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=jlelv" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=bxhrm" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=bxhrm" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=jlelv" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=bxhrm" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,45 +52,45 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=jlelv">
+<link rel="stylesheet" href="style.css?v=bxhrm">
 </head>
 
 <body>
-  <div id="header"><div class="nws16">
-  <div class="nws16title">
-    <div class="nws16titlebody">
-      <div class="nws16titlebodylang">
+  <div id="header"><div class="nnaua">
+  <div class="nnauatitle">
+    <div class="nnauatitlebody">
+      <div class="nnauatitlebodylang">
         <ul>
           <li><a href="/tr/">TR</a></li><li><a href="/en/">EN</a></li><li><a href="/ar/">AR</a></li><li><a href="/ru/">RU</a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="nws16body">
+  <div class="nnauabody">
     <a href="/ru/"
       ><img
-        src="/img/logo.svg?v=jlelv"
+        src="/img/logo.svg?v=bxhrm"
         alt="A.A ROOTS INŞ. METAL LTD ŞTI. Logo"
-        class="nws16bodylogo"
+        class="nnauabodylogo"
         loading="lazy"
     /></a>
-    <button type="button" class="nws16-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
+    <button type="button" class="nnaua-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
       <span class="material-symbols-outlined" aria-hidden="true">menu</span>
     </button>
   </div>
   <!-- Mobil: dış tıklamada menüyü kapatmak için yarı saydam arka plan (app drawer tarzı) -->
-  <div class="nws16-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
-  <div class="nws16menubody">
-    <div class="nws16menu" id="menu-2-root">
-      <div class="nws16menulistbody">
-        <div class="nws16menulist">
+  <div class="nnaua-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
+  <div class="nnauamenubody">
+    <div class="nnauamenu" id="menu-2-root">
+      <div class="nnauamenulistbody">
+        <div class="nnauamenulist">
           <ul>
             <a href="/ru/">Домашняя страница </a><a href="/ru/hakkimizda/">О компании</a><a href="/ru/urunler/">Наши проекты</a><a href="/ru/iletisim/">Контакты</a>
           </ul>
         </div>
       </div>
       <!-- Mobil kural: lang drawer'ın en altında ve ortada -->
-      <div class="nws16languages-mobile">
+      <div class="nnaualanguages-mobile">
         <ul>
           <li><a href="/tr/">TR</a></li><li><a href="/en/">EN</a></li><li><a href="/ar/">AR</a></li><li><a href="/ru/">RU</a></li>
         </ul>
@@ -100,25 +100,25 @@
 </div>
 
 <script>
-  /* Mobil menü aç/kapat: class wrapper (.nws16) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
+  /* Mobil menü aç/kapat: class wrapper (.nnaua) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
   if (typeof menu2_toggle === "undefined") {
     function menu2_toggle() {
       var root = document.getElementById("menu-2-root");
       if (!root) {
         return;
       }
-      var wrapper = root.closest ? root.closest(".nws16") : null;
+      var wrapper = root.closest ? root.closest(".nnaua") : null;
       var target = wrapper || root;
-      if (target.classList.contains("nws16menu-open")) {
-        target.classList.remove("nws16menu-open");
+      if (target.classList.contains("nnauamenu-open")) {
+        target.classList.remove("nnauamenu-open");
       } else {
-        target.classList.add("nws16menu-open");
+        target.classList.add("nnauamenu-open");
       }
     }
   }
 </script>
-<div class="swiper-container kygis">
-  <div class="swiper-wrapper" id="kygis"><div class="swiper-slide"><img src="/img/k4t90c/slider.jpg?v=1770982940957" alt="A.A ROOTS INŞ. METAL LTD ŞTI."  loading="lazy"/></div></div>
+<div class="swiper-container d1nfx">
+  <div class="swiper-wrapper" id="d1nfx"><div class="swiper-slide"><img src="/img/k4t90c/slider.jpg?v=1771314527909" alt="A.A ROOTS INŞ. METAL LTD ŞTI."  loading="lazy"/></div></div>
   <div class="swiper-button-next"></div>
   <div class="swiper-button-prev"></div>
   <div class="swiper-pagination"></div>
@@ -133,7 +133,7 @@
     attempts++;
     if (typeof Swiper === "function") {
       clearInterval(timer);
-      new Swiper(".kygis", {
+      new Swiper(".d1nfx", {
         slidesPerView: 1,
         spaceBetween: 30,
         loop: true,
@@ -158,55 +158,55 @@
 })();
 </script>
 </div>
-  <div id="content"><div class="bu9yb">
-  <div class="bu9ybbody"><div class="bu9ybbodyitem left" style="animation-delay: 0s;">
-        <a href="/ru/villa-insaati/" class="bu9ybbodyitemlink">
-          <div class="bu9ybbodyitemimg">
+  <div id="content"><div class="tqgf3">
+  <div class="tqgf3body"><div class="tqgf3bodyitem left" style="animation-delay: 0s;">
+        <a href="/ru/villa-insaati/" class="tqgf3bodyitemlink">
+          <div class="tqgf3bodyitemimg">
             <img alt="Строительство вилл" src="/page/villa-insaati/vz5ut.jpg" alt="Строительство вилл" loading="lazy">
           </div>
-          <div class="bu9ybbodyitemcontent">
-            <div class="bu9ybbodyitemtitle">Строительство вилл</div>
-            <div class="bu9ybbodyitemdesc">A.A. ROOTS строительство вилл под ключ в Бодруме и Турции. Современная архитектура, качественные материалы.</div>
+          <div class="tqgf3bodyitemcontent">
+            <div class="tqgf3bodyitemtitle">Строительство вилл</div>
+            <div class="tqgf3bodyitemdesc">A.A. ROOTS строительство вилл в Бодруме и Турции. Современная архитектура, качественные материалы.</div>
           </div>
         </a>
-      </div><div class="bu9ybbodyitem right" style="animation-delay: 0.15s;">
-        <a href="/ru/konut-projeleri/" class="bu9ybbodyitemlink">
-          <div class="bu9ybbodyitemcontent">
-            <div class="bu9ybbodyitemtitle">Жилые проекты</div>
-            <div class="bu9ybbodyitemdesc">Жилые проекты: многоэтажки, жилые комплексы, бутик. A.A. ROOTS надёжное управление проектами.</div>
+      </div><div class="tqgf3bodyitem right" style="animation-delay: 0.15s;">
+        <a href="/ru/konut-projeleri/" class="tqgf3bodyitemlink">
+          <div class="tqgf3bodyitemcontent">
+            <div class="tqgf3bodyitemtitle">Жилые проекты</div>
+            <div class="tqgf3bodyitemdesc">Жилые проекты: многоэтажки, жилые комплексы, бутик. A.A. ROOTS надёжное управление проектами.</div>
           </div>
-          <div class="bu9ybbodyitemimg">
+          <div class="tqgf3bodyitemimg">
             <img alt="Жилые проекты" src="/page/konut-projeleri/zv4lk.jpeg" alt="Жилые проекты" loading="lazy">
           </div>
         </a>
-      </div><div class="bu9ybbodyitem left" style="animation-delay: 0.3s;">
-        <a href="/ru/ticari-yapilar/" class="bu9ybbodyitemlink">
-          <div class="bu9ybbodyitemimg">
+      </div><div class="tqgf3bodyitem left" style="animation-delay: 0.3s;">
+        <a href="/ru/ticari-yapilar/" class="tqgf3bodyitemlink">
+          <div class="tqgf3bodyitemimg">
             <img alt="Коммерческие здания" src="/page/ticari-yapilar/upakt.jpeg" alt="Коммерческие здания" loading="lazy">
           </div>
-          <div class="bu9ybbodyitemcontent">
-            <div class="bu9ybbodyitemtitle">Коммерческие здания</div>
-            <div class="bu9ybbodyitemdesc">Коммерческие здания: офисы, магазины, отели. A.A. ROOTS коммерческое строительство в Бодруме и Турции.</div>
+          <div class="tqgf3bodyitemcontent">
+            <div class="tqgf3bodyitemtitle">Коммерческие здания</div>
+            <div class="tqgf3bodyitemdesc">Коммерческие здания: офисы, магазины, отели. A.A. ROOTS коммерческое строительство в Бодруме и Турции.</div>
           </div>
         </a>
-      </div><div class="bu9ybbodyitem right" style="animation-delay: 0.44999999999999996s;">
-        <a href="/ru/renovasyon-tadilat/" class="bu9ybbodyitemlink">
-          <div class="bu9ybbodyitemcontent">
-            <div class="bu9ybbodyitemtitle">Реновация и ремонт</div>
-            <div class="bu9ybbodyitemdesc">Реновация и ремонт существующих зданий. Внутренняя и внешняя отделка, усиление. Качество A.A. ROOTS.</div>
+      </div><div class="tqgf3bodyitem right" style="animation-delay: 0.44999999999999996s;">
+        <a href="/ru/renovasyon-tadilat/" class="tqgf3bodyitemlink">
+          <div class="tqgf3bodyitemcontent">
+            <div class="tqgf3bodyitemtitle">Реновация и ремонт</div>
+            <div class="tqgf3bodyitemdesc">Реновация и ремонт существующих зданий. Внутренняя и внешняя отделка. Качество A.A. ROOTS.</div>
           </div>
-          <div class="bu9ybbodyitemimg">
+          <div class="tqgf3bodyitemimg">
             <img alt="Реновация и ремонт" src="/page/renovasyon-tadilat/ajvw1.jpeg" alt="Реновация и ремонт" loading="lazy">
           </div>
         </a>
-      </div><div class="bu9ybbodyitem left" style="animation-delay: 0.6s;">
-        <a href="/ru/kesif-proje-danismanligi/" class="bu9ybbodyitemlink">
-          <div class="bu9ybbodyitemimg">
+      </div><div class="tqgf3bodyitem left" style="animation-delay: 0.6s;">
+        <a href="/ru/kesif-proje-danismanligi/" class="tqgf3bodyitemlink">
+          <div class="tqgf3bodyitemimg">
             <img alt="Обследование и консультации по проектам" src="/page/kesif-proje-danismanligi/etb8y.jpeg" alt="Обследование и консультации по проектам" loading="lazy">
           </div>
-          <div class="bu9ybbodyitemcontent">
-            <div class="bu9ybbodyitemtitle">Обследование и консультации по проектам</div>
-            <div class="bu9ybbodyitemdesc">Обследование участка, анализ затрат, консультации по проектам. Планируйте проект с A.A. ROOTS.</div>
+          <div class="tqgf3bodyitemcontent">
+            <div class="tqgf3bodyitemtitle">Обследование и консультации по проектам</div>
+            <div class="tqgf3bodyitemdesc">Обследование участка, анализ затрат, консультации по проектам. Планируйте проект с A.A. ROOTS.</div>
           </div>
         </a>
       </div></div>
@@ -230,13 +230,13 @@ setTimeout(function() {
       rootMargin: '0px 0px -50px 0px'
     });
 
-    var items = document.querySelectorAll('.bu9ybbodyitem');
+    var items = document.querySelectorAll('.tqgf3bodyitem');
     items.forEach(function(item) {
       observer.observe(item);
     });
   } else {
     // Fallback: IntersectionObserver desteklenmiyorsa direkt göster
-    var items = document.querySelectorAll('.bu9ybbodyitem');
+    var items = document.querySelectorAll('.tqgf3bodyitem');
     items.forEach(function(item) {
       item.classList.add('visible');
     });
@@ -269,8 +269,8 @@ setTimeout(function() {
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=jlelv"></script>
-<script defer src="/src/cookie.js?v=jlelv"></script>
+<script defer type="text/javascript" src="/src/js.js?v=bxhrm"></script>
+<script defer src="/src/cookie.js?v=bxhrm"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği
