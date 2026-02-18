@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=i9jkx" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=i9jkx" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=btbia" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=btbia" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=i9jkx" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=btbia" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,45 +52,45 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=i9jkx">
+<link rel="stylesheet" href="style.css?v=btbia">
 </head>
 
 <body>
-  <div id="header"><div class="d1vx0">
-  <div class="d1vx0title">
-    <div class="d1vx0titlebody">
-      <div class="d1vx0titlebodylang">
+  <div id="header"><div class="ngohc">
+  <div class="ngohctitle">
+    <div class="ngohctitlebody">
+      <div class="ngohctitlebodylang">
         <ul>
           <li><a href="/tr/kurumsal/">TR</a></li><li><a href="/en/kurumsal/">EN</a></li><li><a href="/ar/kurumsal/">AR</a></li><li><a href="/ru/kurumsal/">RU</a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="d1vx0body">
+  <div class="ngohcbody">
     <a href="/ru/"
       ><img
-        src="/img/logo.svg?v=i9jkx"
+        src="/img/logo.svg?v=btbia"
         alt="A.A ROOTS INŞ. METAL LTD ŞTI. Logo"
-        class="d1vx0bodylogo"
+        class="ngohcbodylogo"
         loading="lazy"
     /></a>
-    <button type="button" class="d1vx0-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
+    <button type="button" class="ngohc-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
       <span class="material-symbols-outlined" aria-hidden="true">menu</span>
     </button>
   </div>
   <!-- Mobil: dış tıklamada menüyü kapatmak için yarı saydam arka plan (app drawer tarzı) -->
-  <div class="d1vx0-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
-  <div class="d1vx0menubody">
-    <div class="d1vx0menu" id="menu-2-root">
-      <div class="d1vx0menulistbody">
-        <div class="d1vx0menulist">
+  <div class="ngohc-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
+  <div class="ngohcmenubody">
+    <div class="ngohcmenu" id="menu-2-root">
+      <div class="ngohcmenulistbody">
+        <div class="ngohcmenulist">
           <ul>
-            <a href="/ru/">Домашняя страница </a><a class="d1vx0-menu-list-active" href="/ru/kurumsal/">О компании</a><a href="/ru/urunler/">Наши проекты</a><a href="/ru/ticari-yapi/">Коммерческое здание</a><a href="/ru/moduler-evler/">Модульные дома</a><a href="/ru/iletisim/">Контакты</a>
+            <a href="/ru/">Домашняя страница </a><a class="ngohc-menu-list-active" href="/ru/kurumsal/">О компании</a><a href="/ru/urunler/">Наши проекты</a><a href="/ru/ticari-yapi/">Коммерческое здание</a><a href="/ru/moduler-evler/">Модульные дома</a><a href="/ru/iletisim/">Контакты</a>
           </ul>
         </div>
       </div>
       <!-- Mobil kural: lang drawer'ın en altında ve ortada -->
-      <div class="d1vx0languages-mobile">
+      <div class="ngohclanguages-mobile">
         <ul>
           <li><a href="/tr/kurumsal/">TR</a></li><li><a href="/en/kurumsal/">EN</a></li><li><a href="/ar/kurumsal/">AR</a></li><li><a href="/ru/kurumsal/">RU</a></li>
         </ul>
@@ -100,19 +100,19 @@
 </div>
 
 <script>
-  /* Mobil menü aç/kapat: class wrapper (.d1vx0) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
+  /* Mobil menü aç/kapat: class wrapper (.ngohc) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
   if (typeof menu2_toggle === "undefined") {
     function menu2_toggle() {
       var root = document.getElementById("menu-2-root");
       if (!root) {
         return;
       }
-      var wrapper = root.closest ? root.closest(".d1vx0") : null;
+      var wrapper = root.closest ? root.closest(".ngohc") : null;
       var target = wrapper || root;
-      if (target.classList.contains("d1vx0menu-open")) {
-        target.classList.remove("d1vx0menu-open");
+      if (target.classList.contains("ngohcmenu-open")) {
+        target.classList.remove("ngohcmenu-open");
       } else {
-        target.classList.add("d1vx0menu-open");
+        target.classList.add("ngohcmenu-open");
       }
     }
   }
@@ -144,8 +144,8 @@
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=i9jkx"></script>
-<script defer src="/src/cookie.js?v=i9jkx"></script>
+<script defer type="text/javascript" src="/src/js.js?v=btbia"></script>
+<script defer src="/src/cookie.js?v=btbia"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

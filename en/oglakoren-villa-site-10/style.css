@@ -1,7 +1,7 @@
 
  
 
-  .kkux2 {
+  .sg2gt {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .kkux2title {
+  .sg2gttitle {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@
     z-index: 1;
   }
 
-  .kkux2title:has(.kkux2titlebodylang:empty),
-  .kkux2title:has(.kkux2titlebodylang ul:empty) {
+  .sg2gttitle:has(.sg2gttitlebodylang:empty),
+  .sg2gttitle:has(.sg2gttitlebodylang ul:empty) {
     display: none;
   }
 
-  .kkux2titlebody {
+  .sg2gttitlebody {
     color: #ffffff;
     width: var(--max);
     display: flex;
@@ -31,34 +31,34 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .kkux2titlebodytitle {
+  .sg2gttitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .kkux2titlebodylang {
+  .sg2gttitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .kkux2titlebodylang:empty,
-  .kkux2titlebodylang ul:empty {
+  .sg2gttitlebodylang:empty,
+  .sg2gttitlebodylang ul:empty {
     display: none;
   }
 
-  .kkux2titlebodylang ul {
+  .sg2gttitlebodylang ul {
     display: flex;
     gap: 8px;
   }
 
   /* Dil seçici: TR / EN metin, bordür tema rengiyle uyumlu (renk uyumsuzluğu yok) */
-  .kkux2titlebodylang li {
+  .sg2gttitlebodylang li {
     list-style: none;
   }
 
-  .kkux2titlebodylang li a {
+  .sg2gttitlebodylang li a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -75,13 +75,13 @@
     cursor: pointer;
   }
 
-  .kkux2titlebodylang li a:hover {
+  .sg2gttitlebodylang li a:hover {
     border-color: #000000;
     background: #ffffff;
     color: #000000 !important;
   }
 
-  .kkux2body {
+  .sg2gtbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -91,7 +91,7 @@
   }
 
   /* Mobil hamburger butonu: onclick olduğu için cursor: pointer zorunlu (kural) */
-  .kkux2-mobile-toggle {
+  .sg2gt-mobile-toggle {
     display: none;
     background: #000;
     color: #ffffff;
@@ -105,18 +105,18 @@
     right: 0;
   }
 
-  .kkux2-mobile-toggle span {
+  .sg2gt-mobile-toggle span {
     font-size: 24px;
   }
 
-  .kkux2menu {
+  .sg2gtmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .kkux2menulist {
+  .sg2gtmenulist {
     width: calc(100% - 20px);
     background-color: #000;
     padding: 10px;
@@ -125,7 +125,7 @@
     display: flex;
   }
 
-  .kkux2menubody {
+  .sg2gtmenubody {
     width: 100%;
     background-color: #000;
     display: flex;
@@ -133,7 +133,7 @@
     justify-content: center;
   }
 
-  .kkux2menulist ul {
+  .sg2gtmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -142,7 +142,7 @@
     padding: 0;
   }
 
-  .kkux2menulist ul a {
+  .sg2gtmenulist ul a {
     padding: 10px 15px;
     font-size: 16px;
     color: #ffffff !important;
@@ -155,40 +155,40 @@
     margin: 0 2px;
   }
 
-  .kkux2menulist ul a:hover {
+  .sg2gtmenulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .kkux2menulist ul a.kkux2-menu-list-active {
+  .sg2gtmenulist ul a.sg2gt-menu-list-active {
     color: #000000 !important;
   }
 
-  .kkux2-menu-list-active {
+  .sg2gt-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .kkux2menulistbody {
+  .sg2gtmenulistbody {
     width: 100%;
   }
 
-  .kkux2languages-mobile {
+  .sg2gtlanguages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .kkux2languages-mobile:empty,
-  .kkux2languages-mobile ul:empty {
+  .sg2gtlanguages-mobile:empty,
+  .sg2gtlanguages-mobile ul:empty {
     display: none !important;
   }
 
-  .kkux2languages-mobile ul {
+  .sg2gtlanguages-mobile ul {
     display: flex;
     gap: 8px;
     margin: 0;
@@ -198,7 +198,7 @@
   }
 
   /* Dil seçici: TR / EN metin, bordür ve arka plan tema ile uyumlu */
-  .kkux2languages-mobile li {
+  .sg2gtlanguages-mobile li {
     list-style: none;
     border: 1px solid color-mix(in srgb, #ffffff 35%, transparent);
     padding: 0;
@@ -212,7 +212,7 @@
     transition: border-color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
   }
 
-  .kkux2languages-mobile li a {
+  .sg2gtlanguages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -227,29 +227,29 @@
     cursor: pointer;
   }
 
-  .kkux2languages-mobile li:hover {
+  .sg2gtlanguages-mobile li:hover {
     background-color: #ffffff;
     border-color: #000000;
     box-shadow: 0 2px 8px color-mix(in srgb, #000000 25%, transparent);
   }
 
-  .kkux2languages-mobile li:hover a {
+  .sg2gtlanguages-mobile li:hover a {
     color: #000000 !important;
   }
 
   /* Mobil drawer için backdrop: masaüstünde görünmez */
-  .kkux2-menu-backdrop {
+  .sg2gt-menu-backdrop {
     display: none;
   }
 
   @media screen and (min-width: 1024px) {
-    .kkux2bodylogo {
+    .sg2gtbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .kkux2title {
+    .sg2gttitle {
     margin-bottom: -30px;
   }
 
@@ -257,30 +257,30 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .kkux2body {
+    .sg2gtbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: center;
     }
 
-    .kkux2menulist ul {
+    .sg2gtmenulist ul {
       flex-direction: row;
     }
 
-    .kkux2bodylogo {
+    .sg2gtbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .kkux2titlebody {
+    .sg2gttitlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .kkux2titlebodytitle {
+    .sg2gttitlebodytitle {
       text-align: center;
       font-size: 14px;
     }
@@ -288,28 +288,28 @@
 
     /* Mobil: app tarzı sağdan kayan drawer menü */
   @media screen and (max-width: 768px) {
-    .kkux2titlebodylang {
+    .sg2gttitlebodylang {
       display: none;
     }
 
-    .kkux2body {
+    .sg2gtbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .kkux2-mobile-toggle {
+    .sg2gt-mobile-toggle {
       display: inline-flex;
     }
 
-    .kkux2bodylogo {
+    .sg2gtbodylogo {
       width: 40vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
     /* Backdrop: sadece menü açıkken görünür; tıklanınca menü kapanır (onclick ile) */
-    .kkux2-menu-backdrop {
+    .sg2gt-menu-backdrop {
       display: block;
       position: fixed;
       inset: 0;
@@ -322,14 +322,14 @@
       cursor: pointer;
     }
 
-    .kkux2.kkux2menu-open .kkux2-menu-backdrop {
+    .sg2gt.sg2gtmenu-open .sg2gt-menu-backdrop {
       opacity: 1;
       visibility: visible;
       pointer-events: auto;
     }
 
     /* Drawer: sağdan kayan panel, fixed, tam yükseklik; kapalıyken ekran dışında */
-    .kkux2menubody {
+    .sg2gtmenubody {
       position: fixed;
       top: 0;
       right: 0;
@@ -349,22 +349,22 @@
       overflow-y: auto;
     }
 
-    .kkux2.kkux2menu-open .kkux2menubody {
+    .sg2gt.sg2gtmenu-open .sg2gtmenubody {
       transform: translateX(0);
     }
 
-    .kkux2menu {
+    .sg2gtmenu {
       width: 100%;
       flex-direction: column;
       height: 100%;
     }
 
-    .kkux2menulistbody {
+    .sg2gtmenulistbody {
       flex: 1;
       overflow-y: auto;
     }
 
-    .kkux2menulist {
+    .sg2gtmenulist {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -374,12 +374,12 @@
       box-shadow: none;
     }
 
-    .kkux2.kkux2menu-open .kkux2menulist {
+    .sg2gt.sg2gtmenu-open .sg2gtmenulist {
       display: flex;
     }
 
     /* Mobil kural: lang sayfanın (drawer) en altında ve ortada */
-    .kkux2.kkux2menu-open .kkux2languages-mobile {
+    .sg2gt.sg2gtmenu-open .sg2gtlanguages-mobile {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -391,16 +391,16 @@
       flex-shrink: 0;
     }
 
-    .kkux2.kkux2menu-open .kkux2languages-mobile ul {
+    .sg2gt.sg2gtmenu-open .sg2gtlanguages-mobile ul {
       justify-content: center;
     }
 
-    .kkux2menulist ul {
+    .sg2gtmenulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .kkux2menulist ul a {
+    .sg2gtmenulist ul a {
       font-size: 15px;
       width: 100%;
       padding: 14px 12px;
@@ -411,22 +411,22 @@
       box-sizing: border-box;
     }
 
-    .kkux2menulist ul a:last-child {
+    .sg2gtmenulist ul a:last-child {
       border-bottom: none;
     }
 
-    .kkux2menulist ul a:hover {
+    .sg2gtmenulist ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    .kkux2titlebodytitle {
+    .sg2gttitlebodytitle {
       font-size: 12px;
     }
   }
 
 
-  .cislx {
+  .ricut {
     width: 100%;
     margin: 30px 0px 30px 0px;
     display: flex;
@@ -435,14 +435,14 @@
     position: relative;
   }
 
-  .cislxcontainertitle {
+  .ricutcontainertitle {
     font-size: 28px;
     font-weight: bold;
     color: #333;
     margin: 0 0 20px 0;
   }
 
-  .cislxcontainerlist {
+  .ricutcontainerlist {
     padding: 10px;
     display: flex;
     border-radius: 8px;
@@ -451,26 +451,26 @@
     transition: background-color 0.3s ease;
   }
 
-  .cislxcontainerlist>div {
+  .ricutcontainerlist>div {
     display: flex;
     align-items: center;
     font-size: 20px;
     color: #444;
   }
 
-  .cislxcontainerlist:hover {
+  .ricutcontainerlist:hover {
     background-color: #f9f9f9;
     border-bottom-color: #000;
   }
 
-  .cislxcontainer {
+  .ricutcontainer {
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 20px;
   }
 
-  .cislxcontainerbody {
+  .ricutcontainerbody {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -480,7 +480,7 @@
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
 
-  .cislxbody {
+  .ricutbody {
     width: calc(var(--max) - 40px);
     background-color: #ebebeb;
     border: 1px solid #dedede;
@@ -488,19 +488,19 @@
     padding: 20px;
   }
 
-  .cislxcontainerlist>span {
+  .ricutcontainerlist>span {
     font-size: 24px;
     color: #000;
   }
 
   @media screen and (max-width: 1024px) {
-    .cislxbody {
+    .ricutbody {
       width: 100%;
       padding: 20px;
       flex-direction: column;
     }
 
-    .cislxcontainerbody {
+    .ricutcontainerbody {
       padding: 15px;
     }
   }

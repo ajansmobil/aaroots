@@ -1,7 +1,7 @@
 
  
 
-  .nu7py {
+  .vaglv {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .nu7pytitle {
+  .vaglvtitle {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@
     z-index: 1;
   }
 
-  .nu7pytitle:has(.nu7pytitlebodylang:empty),
-  .nu7pytitle:has(.nu7pytitlebodylang ul:empty) {
+  .vaglvtitle:has(.vaglvtitlebodylang:empty),
+  .vaglvtitle:has(.vaglvtitlebodylang ul:empty) {
     display: none;
   }
 
-  .nu7pytitlebody {
+  .vaglvtitlebody {
     color: #ffffff;
     width: var(--max);
     display: flex;
@@ -31,34 +31,34 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .nu7pytitlebodytitle {
+  .vaglvtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .nu7pytitlebodylang {
+  .vaglvtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .nu7pytitlebodylang:empty,
-  .nu7pytitlebodylang ul:empty {
+  .vaglvtitlebodylang:empty,
+  .vaglvtitlebodylang ul:empty {
     display: none;
   }
 
-  .nu7pytitlebodylang ul {
+  .vaglvtitlebodylang ul {
     display: flex;
     gap: 8px;
   }
 
   /* Dil seçici: TR / EN metin, bordür tema rengiyle uyumlu (renk uyumsuzluğu yok) */
-  .nu7pytitlebodylang li {
+  .vaglvtitlebodylang li {
     list-style: none;
   }
 
-  .nu7pytitlebodylang li a {
+  .vaglvtitlebodylang li a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -75,13 +75,13 @@
     cursor: pointer;
   }
 
-  .nu7pytitlebodylang li a:hover {
+  .vaglvtitlebodylang li a:hover {
     border-color: #000000;
     background: #ffffff;
     color: #000000 !important;
   }
 
-  .nu7pybody {
+  .vaglvbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -91,7 +91,7 @@
   }
 
   /* Mobil hamburger butonu: onclick olduğu için cursor: pointer zorunlu (kural) */
-  .nu7py-mobile-toggle {
+  .vaglv-mobile-toggle {
     display: none;
     background: #000;
     color: #ffffff;
@@ -105,18 +105,18 @@
     right: 0;
   }
 
-  .nu7py-mobile-toggle span {
+  .vaglv-mobile-toggle span {
     font-size: 24px;
   }
 
-  .nu7pymenu {
+  .vaglvmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .nu7pymenulist {
+  .vaglvmenulist {
     width: calc(100% - 20px);
     background-color: #000;
     padding: 10px;
@@ -125,7 +125,7 @@
     display: flex;
   }
 
-  .nu7pymenubody {
+  .vaglvmenubody {
     width: 100%;
     background-color: #000;
     display: flex;
@@ -133,7 +133,7 @@
     justify-content: center;
   }
 
-  .nu7pymenulist ul {
+  .vaglvmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -142,7 +142,7 @@
     padding: 0;
   }
 
-  .nu7pymenulist ul a {
+  .vaglvmenulist ul a {
     padding: 10px 15px;
     font-size: 16px;
     color: #ffffff !important;
@@ -155,40 +155,40 @@
     margin: 0 2px;
   }
 
-  .nu7pymenulist ul a:hover {
+  .vaglvmenulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .nu7pymenulist ul a.nu7py-menu-list-active {
+  .vaglvmenulist ul a.vaglv-menu-list-active {
     color: #000000 !important;
   }
 
-  .nu7py-menu-list-active {
+  .vaglv-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .nu7pymenulistbody {
+  .vaglvmenulistbody {
     width: 100%;
   }
 
-  .nu7pylanguages-mobile {
+  .vaglvlanguages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .nu7pylanguages-mobile:empty,
-  .nu7pylanguages-mobile ul:empty {
+  .vaglvlanguages-mobile:empty,
+  .vaglvlanguages-mobile ul:empty {
     display: none !important;
   }
 
-  .nu7pylanguages-mobile ul {
+  .vaglvlanguages-mobile ul {
     display: flex;
     gap: 8px;
     margin: 0;
@@ -198,7 +198,7 @@
   }
 
   /* Dil seçici: TR / EN metin, bordür ve arka plan tema ile uyumlu */
-  .nu7pylanguages-mobile li {
+  .vaglvlanguages-mobile li {
     list-style: none;
     border: 1px solid color-mix(in srgb, #ffffff 35%, transparent);
     padding: 0;
@@ -212,7 +212,7 @@
     transition: border-color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
   }
 
-  .nu7pylanguages-mobile li a {
+  .vaglvlanguages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -227,29 +227,29 @@
     cursor: pointer;
   }
 
-  .nu7pylanguages-mobile li:hover {
+  .vaglvlanguages-mobile li:hover {
     background-color: #ffffff;
     border-color: #000000;
     box-shadow: 0 2px 8px color-mix(in srgb, #000000 25%, transparent);
   }
 
-  .nu7pylanguages-mobile li:hover a {
+  .vaglvlanguages-mobile li:hover a {
     color: #000000 !important;
   }
 
   /* Mobil drawer için backdrop: masaüstünde görünmez */
-  .nu7py-menu-backdrop {
+  .vaglv-menu-backdrop {
     display: none;
   }
 
   @media screen and (min-width: 1024px) {
-    .nu7pybodylogo {
+    .vaglvbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .nu7pytitle {
+    .vaglvtitle {
     margin-bottom: -30px;
   }
 
@@ -257,30 +257,30 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .nu7pybody {
+    .vaglvbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: center;
     }
 
-    .nu7pymenulist ul {
+    .vaglvmenulist ul {
       flex-direction: row;
     }
 
-    .nu7pybodylogo {
+    .vaglvbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .nu7pytitlebody {
+    .vaglvtitlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .nu7pytitlebodytitle {
+    .vaglvtitlebodytitle {
       text-align: center;
       font-size: 14px;
     }
@@ -288,28 +288,28 @@
 
     /* Mobil: app tarzı sağdan kayan drawer menü */
   @media screen and (max-width: 768px) {
-    .nu7pytitlebodylang {
+    .vaglvtitlebodylang {
       display: none;
     }
 
-    .nu7pybody {
+    .vaglvbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .nu7py-mobile-toggle {
+    .vaglv-mobile-toggle {
       display: inline-flex;
     }
 
-    .nu7pybodylogo {
+    .vaglvbodylogo {
       width: 40vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
     /* Backdrop: sadece menü açıkken görünür; tıklanınca menü kapanır (onclick ile) */
-    .nu7py-menu-backdrop {
+    .vaglv-menu-backdrop {
       display: block;
       position: fixed;
       inset: 0;
@@ -322,14 +322,14 @@
       cursor: pointer;
     }
 
-    .nu7py.nu7pymenu-open .nu7py-menu-backdrop {
+    .vaglv.vaglvmenu-open .vaglv-menu-backdrop {
       opacity: 1;
       visibility: visible;
       pointer-events: auto;
     }
 
     /* Drawer: sağdan kayan panel, fixed, tam yükseklik; kapalıyken ekran dışında */
-    .nu7pymenubody {
+    .vaglvmenubody {
       position: fixed;
       top: 0;
       right: 0;
@@ -349,22 +349,22 @@
       overflow-y: auto;
     }
 
-    .nu7py.nu7pymenu-open .nu7pymenubody {
+    .vaglv.vaglvmenu-open .vaglvmenubody {
       transform: translateX(0);
     }
 
-    .nu7pymenu {
+    .vaglvmenu {
       width: 100%;
       flex-direction: column;
       height: 100%;
     }
 
-    .nu7pymenulistbody {
+    .vaglvmenulistbody {
       flex: 1;
       overflow-y: auto;
     }
 
-    .nu7pymenulist {
+    .vaglvmenulist {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -374,12 +374,12 @@
       box-shadow: none;
     }
 
-    .nu7py.nu7pymenu-open .nu7pymenulist {
+    .vaglv.vaglvmenu-open .vaglvmenulist {
       display: flex;
     }
 
     /* Mobil kural: lang sayfanın (drawer) en altında ve ortada */
-    .nu7py.nu7pymenu-open .nu7pylanguages-mobile {
+    .vaglv.vaglvmenu-open .vaglvlanguages-mobile {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -391,16 +391,16 @@
       flex-shrink: 0;
     }
 
-    .nu7py.nu7pymenu-open .nu7pylanguages-mobile ul {
+    .vaglv.vaglvmenu-open .vaglvlanguages-mobile ul {
       justify-content: center;
     }
 
-    .nu7pymenulist ul {
+    .vaglvmenulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .nu7pymenulist ul a {
+    .vaglvmenulist ul a {
       font-size: 15px;
       width: 100%;
       padding: 14px 12px;
@@ -411,22 +411,22 @@
       box-sizing: border-box;
     }
 
-    .nu7pymenulist ul a:last-child {
+    .vaglvmenulist ul a:last-child {
       border-bottom: none;
     }
 
-    .nu7pymenulist ul a:hover {
+    .vaglvmenulist ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    .nu7pytitlebodytitle {
+    .vaglvtitlebodytitle {
       font-size: 12px;
     }
   }
 
 
-  .t1j08 {
+  .a33no {
     width: 100%;
     margin: 30px 0px 30px 0px;
     display: flex;
@@ -435,14 +435,14 @@
     position: relative;
   }
 
-  .t1j08containertitle {
+  .a33nocontainertitle {
     font-size: 28px;
     font-weight: bold;
     color: #333;
     margin: 0 0 20px 0;
   }
 
-  .t1j08containerlist {
+  .a33nocontainerlist {
     padding: 10px;
     display: flex;
     border-radius: 8px;
@@ -451,26 +451,26 @@
     transition: background-color 0.3s ease;
   }
 
-  .t1j08containerlist>div {
+  .a33nocontainerlist>div {
     display: flex;
     align-items: center;
     font-size: 20px;
     color: #444;
   }
 
-  .t1j08containerlist:hover {
+  .a33nocontainerlist:hover {
     background-color: #f9f9f9;
     border-bottom-color: #000;
   }
 
-  .t1j08container {
+  .a33nocontainer {
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 20px;
   }
 
-  .t1j08containerbody {
+  .a33nocontainerbody {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -480,7 +480,7 @@
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
 
-  .t1j08body {
+  .a33nobody {
     width: calc(var(--max) - 40px);
     background-color: #ebebeb;
     border: 1px solid #dedede;
@@ -488,19 +488,19 @@
     padding: 20px;
   }
 
-  .t1j08containerlist>span {
+  .a33nocontainerlist>span {
     font-size: 24px;
     color: #000;
   }
 
   @media screen and (max-width: 1024px) {
-    .t1j08body {
+    .a33nobody {
       width: 100%;
       padding: 20px;
       flex-direction: column;
     }
 
-    .t1j08containerbody {
+    .a33nocontainerbody {
       padding: 15px;
     }
   }
