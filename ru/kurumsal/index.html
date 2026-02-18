@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=fidac" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=fidac" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=f9381" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=f9381" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=fidac" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=f9381" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,45 +52,45 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=fidac">
+<link rel="stylesheet" href="style.css?v=f9381">
 </head>
 
 <body>
-  <div id="header"><div class="ugod3">
-  <div class="ugod3title">
-    <div class="ugod3titlebody">
-      <div class="ugod3titlebodylang">
+  <div id="header"><div class="untdv">
+  <div class="untdvtitle">
+    <div class="untdvtitlebody">
+      <div class="untdvtitlebodylang">
         <ul>
           <li><a href="/tr/kurumsal/">TR</a></li><li><a href="/en/kurumsal/">EN</a></li><li><a href="/ar/kurumsal/">AR</a></li><li><a href="/ru/kurumsal/">RU</a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="ugod3body">
+  <div class="untdvbody">
     <a href="/ru/"
       ><img
-        src="/img/logo.svg?v=fidac"
+        src="/img/logo.svg?v=f9381"
         alt="A.A ROOTS INŞ. METAL LTD ŞTI. Logo"
-        class="ugod3bodylogo"
+        class="untdvbodylogo"
         loading="lazy"
     /></a>
-    <button type="button" class="ugod3-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
+    <button type="button" class="untdv-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
       <span class="material-symbols-outlined" aria-hidden="true">menu</span>
     </button>
   </div>
   <!-- Mobil: dış tıklamada menüyü kapatmak için yarı saydam arka plan (app drawer tarzı) -->
-  <div class="ugod3-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
-  <div class="ugod3menubody">
-    <div class="ugod3menu" id="menu-2-root">
-      <div class="ugod3menulistbody">
-        <div class="ugod3menulist">
+  <div class="untdv-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
+  <div class="untdvmenubody">
+    <div class="untdvmenu" id="menu-2-root">
+      <div class="untdvmenulistbody">
+        <div class="untdvmenulist">
           <ul>
-            <a href="/ru/">Домашняя страница </a><a class="ugod3-menu-list-active" href="/ru/kurumsal/">О компании</a><a href="/ru/ticari-yapi/"></a><a href="/ru/urunler/">Наши проекты</a><a href="/ru/moduler-evler/"></a><a href="/ru/iletisim/">Контакты</a>
+            <a href="/ru/">Домашняя страница </a><a class="untdv-menu-list-active" href="/ru/kurumsal/">О компании</a><a href="/ru/urunler/">Наши проекты</a><a href="/ru/ticari-yapi/"></a><a href="/ru/moduler-evler/"></a><a href="/ru/iletisim/">Контакты</a>
           </ul>
         </div>
       </div>
       <!-- Mobil kural: lang drawer'ın en altında ve ortada -->
-      <div class="ugod3languages-mobile">
+      <div class="untdvlanguages-mobile">
         <ul>
           <li><a href="/tr/kurumsal/">TR</a></li><li><a href="/en/kurumsal/">EN</a></li><li><a href="/ar/kurumsal/">AR</a></li><li><a href="/ru/kurumsal/">RU</a></li>
         </ul>
@@ -100,19 +100,19 @@
 </div>
 
 <script>
-  /* Mobil menü aç/kapat: class wrapper (.ugod3) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
+  /* Mobil menü aç/kapat: class wrapper (.untdv) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
   if (typeof menu2_toggle === "undefined") {
     function menu2_toggle() {
       var root = document.getElementById("menu-2-root");
       if (!root) {
         return;
       }
-      var wrapper = root.closest ? root.closest(".ugod3") : null;
+      var wrapper = root.closest ? root.closest(".untdv") : null;
       var target = wrapper || root;
-      if (target.classList.contains("ugod3menu-open")) {
-        target.classList.remove("ugod3menu-open");
+      if (target.classList.contains("untdvmenu-open")) {
+        target.classList.remove("untdvmenu-open");
       } else {
-        target.classList.add("ugod3menu-open");
+        target.classList.add("untdvmenu-open");
       }
     }
   }
@@ -125,7 +125,7 @@
       <img src="/img/logo.svg" height="60"   alt="A.A ROOTS INŞ. METAL LTD ŞTI. Logo"  loading="lazy"/>
     </div>
     <ul class="menu">
-      <li class="menu__item"><a class="menu_link" href="/ru/">Домашняя страница</a></li><li class="menu__item"><a class="menu_link" href="/ru/kurumsal/">О компании</a></li><li class="menu__item"><a class="menu_link" href="/ru/ticari-yapi/"></a></li><li class="menu__item"><a class="menu_link" href="/ru/urunler/">Наши проекты</a></li><li class="menu__item"><a class="menu_link" href="/ru/moduler-evler/"></a></li><li class="menu__item"><a class="menu_link" href="/ru/iletisim/">Контакты</a></li>
+      <li class="menu__item"><a class="menu_link" href="/ru/">Домашняя страница</a></li><li class="menu__item"><a class="menu_link" href="/ru/kurumsal/">О компании</a></li><li class="menu__item"><a class="menu_link" href="/ru/urunler/">Наши проекты</a></li><li class="menu__item"><a class="menu_link" href="/ru/ticari-yapi/"></a></li><li class="menu__item"><a class="menu_link" href="/ru/moduler-evler/"></a></li><li class="menu__item"><a class="menu_link" href="/ru/iletisim/">Контакты</a></li>
     </ul>
   </div>
   <div class="footer-bottom">
@@ -144,8 +144,8 @@
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=fidac"></script>
-<script defer src="/src/cookie.js?v=fidac"></script>
+<script defer type="text/javascript" src="/src/js.js?v=f9381"></script>
+<script defer src="/src/cookie.js?v=f9381"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

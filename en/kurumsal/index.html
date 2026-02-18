@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=ufgd7" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=ufgd7" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=k38xo" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=k38xo" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=ufgd7" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=k38xo" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,45 +52,45 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=ufgd7">
+<link rel="stylesheet" href="style.css?v=k38xo">
 </head>
 
 <body>
-  <div id="header"><div class="tzaz4">
-  <div class="tzaz4title">
-    <div class="tzaz4titlebody">
-      <div class="tzaz4titlebodylang">
+  <div id="header"><div class="myzdj">
+  <div class="myzdjtitle">
+    <div class="myzdjtitlebody">
+      <div class="myzdjtitlebodylang">
         <ul>
           <li><a href="/tr/kurumsal/">TR</a></li><li><a href="/en/kurumsal/">EN</a></li><li><a href="/ar/kurumsal/">AR</a></li><li><a href="/ru/kurumsal/">RU</a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="tzaz4body">
+  <div class="myzdjbody">
     <a href="/en/"
       ><img
-        src="/img/logo.svg?v=ufgd7"
+        src="/img/logo.svg?v=k38xo"
         alt="A.A ROOTS INŞ. METAL LTD ŞTI. Logo"
-        class="tzaz4bodylogo"
+        class="myzdjbodylogo"
         loading="lazy"
     /></a>
-    <button type="button" class="tzaz4-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
+    <button type="button" class="myzdj-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
       <span class="material-symbols-outlined" aria-hidden="true">menu</span>
     </button>
   </div>
   <!-- Mobil: dış tıklamada menüyü kapatmak için yarı saydam arka plan (app drawer tarzı) -->
-  <div class="tzaz4-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
-  <div class="tzaz4menubody">
-    <div class="tzaz4menu" id="menu-2-root">
-      <div class="tzaz4menulistbody">
-        <div class="tzaz4menulist">
+  <div class="myzdj-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
+  <div class="myzdjmenubody">
+    <div class="myzdjmenu" id="menu-2-root">
+      <div class="myzdjmenulistbody">
+        <div class="myzdjmenulist">
           <ul>
-            <a href="/en/">Home </a><a class="tzaz4-menu-list-active" href="/en/kurumsal/">Corporate</a><a href="/en/ticari-yapi/"></a><a href="/en/urunler/">Our Projects</a><a href="/en/moduler-evler/"></a><a href="/en/iletisim/">Contact</a>
+            <a href="/en/">Home </a><a class="myzdj-menu-list-active" href="/en/kurumsal/">Corporate</a><a href="/en/urunler/">Our Projects</a><a href="/en/ticari-yapi/"></a><a href="/en/moduler-evler/"></a><a href="/en/iletisim/">Contact</a>
           </ul>
         </div>
       </div>
       <!-- Mobil kural: lang drawer'ın en altında ve ortada -->
-      <div class="tzaz4languages-mobile">
+      <div class="myzdjlanguages-mobile">
         <ul>
           <li><a href="/tr/kurumsal/">TR</a></li><li><a href="/en/kurumsal/">EN</a></li><li><a href="/ar/kurumsal/">AR</a></li><li><a href="/ru/kurumsal/">RU</a></li>
         </ul>
@@ -100,19 +100,19 @@
 </div>
 
 <script>
-  /* Mobil menü aç/kapat: class wrapper (.tzaz4) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
+  /* Mobil menü aç/kapat: class wrapper (.myzdj) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
   if (typeof menu2_toggle === "undefined") {
     function menu2_toggle() {
       var root = document.getElementById("menu-2-root");
       if (!root) {
         return;
       }
-      var wrapper = root.closest ? root.closest(".tzaz4") : null;
+      var wrapper = root.closest ? root.closest(".myzdj") : null;
       var target = wrapper || root;
-      if (target.classList.contains("tzaz4menu-open")) {
-        target.classList.remove("tzaz4menu-open");
+      if (target.classList.contains("myzdjmenu-open")) {
+        target.classList.remove("myzdjmenu-open");
       } else {
-        target.classList.add("tzaz4menu-open");
+        target.classList.add("myzdjmenu-open");
       }
     }
   }
@@ -125,7 +125,7 @@
       <img src="/img/logo.svg" height="60"   alt="A.A ROOTS INŞ. METAL LTD ŞTI. Logo"  loading="lazy"/>
     </div>
     <ul class="menu">
-      <li class="menu__item"><a class="menu_link" href="/en/">Home</a></li><li class="menu__item"><a class="menu_link" href="/en/kurumsal/">Corporate</a></li><li class="menu__item"><a class="menu_link" href="/en/ticari-yapi/"></a></li><li class="menu__item"><a class="menu_link" href="/en/urunler/">Our Projects</a></li><li class="menu__item"><a class="menu_link" href="/en/moduler-evler/"></a></li><li class="menu__item"><a class="menu_link" href="/en/iletisim/">Contact</a></li>
+      <li class="menu__item"><a class="menu_link" href="/en/">Home</a></li><li class="menu__item"><a class="menu_link" href="/en/kurumsal/">Corporate</a></li><li class="menu__item"><a class="menu_link" href="/en/urunler/">Our Projects</a></li><li class="menu__item"><a class="menu_link" href="/en/ticari-yapi/"></a></li><li class="menu__item"><a class="menu_link" href="/en/moduler-evler/"></a></li><li class="menu__item"><a class="menu_link" href="/en/iletisim/">Contact</a></li>
     </ul>
   </div>
   <div class="footer-bottom">
@@ -144,8 +144,8 @@
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=ufgd7"></script>
-<script defer src="/src/cookie.js?v=ufgd7"></script>
+<script defer type="text/javascript" src="/src/js.js?v=k38xo"></script>
+<script defer src="/src/cookie.js?v=k38xo"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği
