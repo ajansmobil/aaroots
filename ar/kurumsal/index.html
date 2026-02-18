@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=py339" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=py339" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=moedr" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=moedr" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=py339" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=moedr" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,45 +52,45 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=py339">
+<link rel="stylesheet" href="style.css?v=moedr">
 </head>
 
 <body>
-  <div id="header"><div class="c3fad">
-  <div class="c3fadtitle">
-    <div class="c3fadtitlebody">
-      <div class="c3fadtitlebodylang">
+  <div id="header"><div class="c2eq7">
+  <div class="c2eq7title">
+    <div class="c2eq7titlebody">
+      <div class="c2eq7titlebodylang">
         <ul>
           <li><a href="/tr/kurumsal/">TR</a></li><li><a href="/en/kurumsal/">EN</a></li><li><a href="/ar/kurumsal/">AR</a></li><li><a href="/ru/kurumsal/">RU</a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="c3fadbody">
+  <div class="c2eq7body">
     <a href="/ar/"
       ><img
-        src="/img/logo.svg?v=py339"
+        src="/img/logo.svg?v=moedr"
         alt="A.A ROOTS INŞ. METAL LTD ŞTI. Logo"
-        class="c3fadbodylogo"
+        class="c2eq7bodylogo"
         loading="lazy"
     /></a>
-    <button type="button" class="c3fad-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
+    <button type="button" class="c2eq7-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
       <span class="material-symbols-outlined" aria-hidden="true">menu</span>
     </button>
   </div>
   <!-- Mobil: dış tıklamada menüyü kapatmak için yarı saydam arka plan (app drawer tarzı) -->
-  <div class="c3fad-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
-  <div class="c3fadmenubody">
-    <div class="c3fadmenu" id="menu-2-root">
-      <div class="c3fadmenulistbody">
-        <div class="c3fadmenulist">
+  <div class="c2eq7-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
+  <div class="c2eq7menubody">
+    <div class="c2eq7menu" id="menu-2-root">
+      <div class="c2eq7menulistbody">
+        <div class="c2eq7menulist">
           <ul>
-            <a href="/ar/">الصفحة الرئيسية </a><a class="c3fad-menu-list-active" href="/ar/kurumsal/">الشركة</a><a href="/ar/urunler/">مشاريعنا</a><a href="/ar/ticari-yapi/"></a><a href="/ar/moduler-evler/"></a><a href="/ar/iletisim/">اتصل بنا</a>
+            <a href="/ar/">الصفحة الرئيسية </a><a class="c2eq7-menu-list-active" href="/ar/kurumsal/">الشركة</a><a href="/ar/urunler/">مشاريعنا</a><a href="/ar/ticari-yapi/">مبنى تجاري</a><a href="/ar/moduler-evler/">منازل نمطية</a><a href="/ar/iletisim/">اتصل بنا</a>
           </ul>
         </div>
       </div>
       <!-- Mobil kural: lang drawer'ın en altında ve ortada -->
-      <div class="c3fadlanguages-mobile">
+      <div class="c2eq7languages-mobile">
         <ul>
           <li><a href="/tr/kurumsal/">TR</a></li><li><a href="/en/kurumsal/">EN</a></li><li><a href="/ar/kurumsal/">AR</a></li><li><a href="/ru/kurumsal/">RU</a></li>
         </ul>
@@ -100,19 +100,19 @@
 </div>
 
 <script>
-  /* Mobil menü aç/kapat: class wrapper (.c3fad) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
+  /* Mobil menü aç/kapat: class wrapper (.c2eq7) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
   if (typeof menu2_toggle === "undefined") {
     function menu2_toggle() {
       var root = document.getElementById("menu-2-root");
       if (!root) {
         return;
       }
-      var wrapper = root.closest ? root.closest(".c3fad") : null;
+      var wrapper = root.closest ? root.closest(".c2eq7") : null;
       var target = wrapper || root;
-      if (target.classList.contains("c3fadmenu-open")) {
-        target.classList.remove("c3fadmenu-open");
+      if (target.classList.contains("c2eq7menu-open")) {
+        target.classList.remove("c2eq7menu-open");
       } else {
-        target.classList.add("c3fadmenu-open");
+        target.classList.add("c2eq7menu-open");
       }
     }
   }
@@ -125,7 +125,7 @@
       <img src="/img/logo.svg" height="60"   alt="A.A ROOTS INŞ. METAL LTD ŞTI. Logo"  loading="lazy"/>
     </div>
     <ul class="menu">
-      <li class="menu__item"><a class="menu_link" href="/ar/">الصفحة الرئيسية</a></li><li class="menu__item"><a class="menu_link" href="/ar/kurumsal/">الشركة</a></li><li class="menu__item"><a class="menu_link" href="/ar/urunler/">مشاريعنا</a></li><li class="menu__item"><a class="menu_link" href="/ar/ticari-yapi/"></a></li><li class="menu__item"><a class="menu_link" href="/ar/moduler-evler/"></a></li><li class="menu__item"><a class="menu_link" href="/ar/iletisim/">اتصل بنا</a></li>
+      <li class="menu__item"><a class="menu_link" href="/ar/">الصفحة الرئيسية</a></li><li class="menu__item"><a class="menu_link" href="/ar/kurumsal/">الشركة</a></li><li class="menu__item"><a class="menu_link" href="/ar/urunler/">مشاريعنا</a></li><li class="menu__item"><a class="menu_link" href="/ar/ticari-yapi/">مبنى تجاري</a></li><li class="menu__item"><a class="menu_link" href="/ar/moduler-evler/">منازل نمطية</a></li><li class="menu__item"><a class="menu_link" href="/ar/iletisim/">اتصل بنا</a></li>
     </ul>
   </div>
   <div class="footer-bottom">
@@ -144,8 +144,8 @@
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=py339"></script>
-<script defer src="/src/cookie.js?v=py339"></script>
+<script defer type="text/javascript" src="/src/js.js?v=moedr"></script>
+<script defer src="/src/cookie.js?v=moedr"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği
