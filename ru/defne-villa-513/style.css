@@ -1,7 +1,7 @@
 
  
 
-  .wm9a8 {
+  .oemmc {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .wm9a8title {
+  .oemmctitle {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@
     z-index: 1;
   }
 
-  .wm9a8title:has(.wm9a8titlebodylang:empty),
-  .wm9a8title:has(.wm9a8titlebodylang ul:empty) {
+  .oemmctitle:has(.oemmctitlebodylang:empty),
+  .oemmctitle:has(.oemmctitlebodylang ul:empty) {
     display: none;
   }
 
-  .wm9a8titlebody {
+  .oemmctitlebody {
     color: #ffffff;
     width: var(--max);
     display: flex;
@@ -31,34 +31,34 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .wm9a8titlebodytitle {
+  .oemmctitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .wm9a8titlebodylang {
+  .oemmctitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .wm9a8titlebodylang:empty,
-  .wm9a8titlebodylang ul:empty {
+  .oemmctitlebodylang:empty,
+  .oemmctitlebodylang ul:empty {
     display: none;
   }
 
-  .wm9a8titlebodylang ul {
+  .oemmctitlebodylang ul {
     display: flex;
     gap: 8px;
   }
 
   /* Dil seçici: TR / EN metin, bordür tema rengiyle uyumlu (renk uyumsuzluğu yok) */
-  .wm9a8titlebodylang li {
+  .oemmctitlebodylang li {
     list-style: none;
   }
 
-  .wm9a8titlebodylang li a {
+  .oemmctitlebodylang li a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -75,13 +75,13 @@
     cursor: pointer;
   }
 
-  .wm9a8titlebodylang li a:hover {
+  .oemmctitlebodylang li a:hover {
     border-color: #000000;
     background: #ffffff;
     color: #000000 !important;
   }
 
-  .wm9a8body {
+  .oemmcbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -91,7 +91,7 @@
   }
 
   /* Mobil hamburger butonu: onclick olduğu için cursor: pointer zorunlu (kural) */
-  .wm9a8-mobile-toggle {
+  .oemmc-mobile-toggle {
     display: none;
     background: #000;
     color: #ffffff;
@@ -105,18 +105,18 @@
     right: 0;
   }
 
-  .wm9a8-mobile-toggle span {
+  .oemmc-mobile-toggle span {
     font-size: 24px;
   }
 
-  .wm9a8menu {
+  .oemmcmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .wm9a8menulist {
+  .oemmcmenulist {
     width: calc(100% - 20px);
     background-color: #000;
     padding: 10px;
@@ -125,7 +125,7 @@
     display: flex;
   }
 
-  .wm9a8menubody {
+  .oemmcmenubody {
     width: 100%;
     background-color: #000;
     display: flex;
@@ -133,7 +133,7 @@
     justify-content: center;
   }
 
-  .wm9a8menulist ul {
+  .oemmcmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -142,7 +142,7 @@
     padding: 0;
   }
 
-  .wm9a8menulist ul a {
+  .oemmcmenulist ul a {
     padding: 10px 15px;
     font-size: 16px;
     color: #ffffff !important;
@@ -155,40 +155,40 @@
     margin: 0 2px;
   }
 
-  .wm9a8menulist ul a:hover {
+  .oemmcmenulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .wm9a8menulist ul a.wm9a8-menu-list-active {
+  .oemmcmenulist ul a.oemmc-menu-list-active {
     color: #000000 !important;
   }
 
-  .wm9a8-menu-list-active {
+  .oemmc-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .wm9a8menulistbody {
+  .oemmcmenulistbody {
     width: 100%;
   }
 
-  .wm9a8languages-mobile {
+  .oemmclanguages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .wm9a8languages-mobile:empty,
-  .wm9a8languages-mobile ul:empty {
+  .oemmclanguages-mobile:empty,
+  .oemmclanguages-mobile ul:empty {
     display: none !important;
   }
 
-  .wm9a8languages-mobile ul {
+  .oemmclanguages-mobile ul {
     display: flex;
     gap: 8px;
     margin: 0;
@@ -198,7 +198,7 @@
   }
 
   /* Dil seçici: TR / EN metin, bordür ve arka plan tema ile uyumlu */
-  .wm9a8languages-mobile li {
+  .oemmclanguages-mobile li {
     list-style: none;
     border: 1px solid color-mix(in srgb, #ffffff 35%, transparent);
     padding: 0;
@@ -212,7 +212,7 @@
     transition: border-color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
   }
 
-  .wm9a8languages-mobile li a {
+  .oemmclanguages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -227,29 +227,29 @@
     cursor: pointer;
   }
 
-  .wm9a8languages-mobile li:hover {
+  .oemmclanguages-mobile li:hover {
     background-color: #ffffff;
     border-color: #000000;
     box-shadow: 0 2px 8px color-mix(in srgb, #000000 25%, transparent);
   }
 
-  .wm9a8languages-mobile li:hover a {
+  .oemmclanguages-mobile li:hover a {
     color: #000000 !important;
   }
 
   /* Mobil drawer için backdrop: masaüstünde görünmez */
-  .wm9a8-menu-backdrop {
+  .oemmc-menu-backdrop {
     display: none;
   }
 
   @media screen and (min-width: 1024px) {
-    .wm9a8bodylogo {
+    .oemmcbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .wm9a8title {
+    .oemmctitle {
     margin-bottom: -30px;
   }
 
@@ -257,30 +257,30 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .wm9a8body {
+    .oemmcbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: center;
     }
 
-    .wm9a8menulist ul {
+    .oemmcmenulist ul {
       flex-direction: row;
     }
 
-    .wm9a8bodylogo {
+    .oemmcbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .wm9a8titlebody {
+    .oemmctitlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .wm9a8titlebodytitle {
+    .oemmctitlebodytitle {
       text-align: center;
       font-size: 14px;
     }
@@ -288,28 +288,28 @@
 
     /* Mobil: app tarzı sağdan kayan drawer menü */
   @media screen and (max-width: 768px) {
-    .wm9a8titlebodylang {
+    .oemmctitlebodylang {
       display: none;
     }
 
-    .wm9a8body {
+    .oemmcbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .wm9a8-mobile-toggle {
+    .oemmc-mobile-toggle {
       display: inline-flex;
     }
 
-    .wm9a8bodylogo {
+    .oemmcbodylogo {
       width: 40vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
     /* Backdrop: sadece menü açıkken görünür; tıklanınca menü kapanır (onclick ile) */
-    .wm9a8-menu-backdrop {
+    .oemmc-menu-backdrop {
       display: block;
       position: fixed;
       inset: 0;
@@ -322,14 +322,14 @@
       cursor: pointer;
     }
 
-    .wm9a8.wm9a8menu-open .wm9a8-menu-backdrop {
+    .oemmc.oemmcmenu-open .oemmc-menu-backdrop {
       opacity: 1;
       visibility: visible;
       pointer-events: auto;
     }
 
     /* Drawer: sağdan kayan panel, fixed, tam yükseklik; kapalıyken ekran dışında */
-    .wm9a8menubody {
+    .oemmcmenubody {
       position: fixed;
       top: 0;
       right: 0;
@@ -349,22 +349,22 @@
       overflow-y: auto;
     }
 
-    .wm9a8.wm9a8menu-open .wm9a8menubody {
+    .oemmc.oemmcmenu-open .oemmcmenubody {
       transform: translateX(0);
     }
 
-    .wm9a8menu {
+    .oemmcmenu {
       width: 100%;
       flex-direction: column;
       height: 100%;
     }
 
-    .wm9a8menulistbody {
+    .oemmcmenulistbody {
       flex: 1;
       overflow-y: auto;
     }
 
-    .wm9a8menulist {
+    .oemmcmenulist {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -374,12 +374,12 @@
       box-shadow: none;
     }
 
-    .wm9a8.wm9a8menu-open .wm9a8menulist {
+    .oemmc.oemmcmenu-open .oemmcmenulist {
       display: flex;
     }
 
     /* Mobil kural: lang sayfanın (drawer) en altında ve ortada */
-    .wm9a8.wm9a8menu-open .wm9a8languages-mobile {
+    .oemmc.oemmcmenu-open .oemmclanguages-mobile {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -391,16 +391,16 @@
       flex-shrink: 0;
     }
 
-    .wm9a8.wm9a8menu-open .wm9a8languages-mobile ul {
+    .oemmc.oemmcmenu-open .oemmclanguages-mobile ul {
       justify-content: center;
     }
 
-    .wm9a8menulist ul {
+    .oemmcmenulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .wm9a8menulist ul a {
+    .oemmcmenulist ul a {
       font-size: 15px;
       width: 100%;
       padding: 14px 12px;
@@ -411,22 +411,22 @@
       box-sizing: border-box;
     }
 
-    .wm9a8menulist ul a:last-child {
+    .oemmcmenulist ul a:last-child {
       border-bottom: none;
     }
 
-    .wm9a8menulist ul a:hover {
+    .oemmcmenulist ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    .wm9a8titlebodytitle {
+    .oemmctitlebodytitle {
       font-size: 12px;
     }
   }
 
 
-  .uehox {
+  .vc2ns {
     width: 100%;
     margin: 30px 0px 30px 0px;
     display: flex;
@@ -435,14 +435,14 @@
     position: relative;
   }
 
-  .uehoxcontainertitle {
+  .vc2nscontainertitle {
     font-size: 28px;
     font-weight: bold;
     color: #333;
     margin: 0 0 20px 0;
   }
 
-  .uehoxcontainerlist {
+  .vc2nscontainerlist {
     padding: 10px;
     display: flex;
     border-radius: 8px;
@@ -451,26 +451,26 @@
     transition: background-color 0.3s ease;
   }
 
-  .uehoxcontainerlist>div {
+  .vc2nscontainerlist>div {
     display: flex;
     align-items: center;
     font-size: 20px;
     color: #444;
   }
 
-  .uehoxcontainerlist:hover {
+  .vc2nscontainerlist:hover {
     background-color: #f9f9f9;
     border-bottom-color: #000;
   }
 
-  .uehoxcontainer {
+  .vc2nscontainer {
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 20px;
   }
 
-  .uehoxcontainerbody {
+  .vc2nscontainerbody {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -480,7 +480,7 @@
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
 
-  .uehoxbody {
+  .vc2nsbody {
     width: calc(var(--max) - 40px);
     background-color: #ebebeb;
     border: 1px solid #dedede;
@@ -488,19 +488,19 @@
     padding: 20px;
   }
 
-  .uehoxcontainerlist>span {
+  .vc2nscontainerlist>span {
     font-size: 24px;
     color: #000;
   }
 
   @media screen and (max-width: 1024px) {
-    .uehoxbody {
+    .vc2nsbody {
       width: 100%;
       padding: 20px;
       flex-direction: column;
     }
 
-    .uehoxcontainerbody {
+    .vc2nscontainerbody {
       padding: 15px;
     }
   }
