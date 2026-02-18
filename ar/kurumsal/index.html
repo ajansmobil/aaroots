@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=ijfri" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=ijfri" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=dmkdu" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=dmkdu" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=ijfri" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=dmkdu" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,45 +52,45 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=ijfri">
+<link rel="stylesheet" href="style.css?v=dmkdu">
 </head>
 
 <body>
-  <div id="header"><div class="uxnf5">
-  <div class="uxnf5title">
-    <div class="uxnf5titlebody">
-      <div class="uxnf5titlebodylang">
+  <div id="header"><div class="cmjez">
+  <div class="cmjeztitle">
+    <div class="cmjeztitlebody">
+      <div class="cmjeztitlebodylang">
         <ul>
           <li><a href="/tr/kurumsal/">TR</a></li><li><a href="/en/kurumsal/">EN</a></li><li><a href="/ar/kurumsal/">AR</a></li><li><a href="/ru/kurumsal/">RU</a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="uxnf5body">
+  <div class="cmjezbody">
     <a href="/ar/"
       ><img
-        src="/img/logo.svg?v=ijfri"
+        src="/img/logo.svg?v=dmkdu"
         alt="A.A ROOTS INŞ. METAL LTD ŞTI. Logo"
-        class="uxnf5bodylogo"
+        class="cmjezbodylogo"
         loading="lazy"
     /></a>
-    <button type="button" class="uxnf5-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
+    <button type="button" class="cmjez-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
       <span class="material-symbols-outlined" aria-hidden="true">menu</span>
     </button>
   </div>
   <!-- Mobil: dış tıklamada menüyü kapatmak için yarı saydam arka plan (app drawer tarzı) -->
-  <div class="uxnf5-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
-  <div class="uxnf5menubody">
-    <div class="uxnf5menu" id="menu-2-root">
-      <div class="uxnf5menulistbody">
-        <div class="uxnf5menulist">
+  <div class="cmjez-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
+  <div class="cmjezmenubody">
+    <div class="cmjezmenu" id="menu-2-root">
+      <div class="cmjezmenulistbody">
+        <div class="cmjezmenulist">
           <ul>
-            <a href="/ar/">الصفحة الرئيسية </a><a class="uxnf5-menu-list-active" href="/ar/kurumsal/">الشركة</a><a href="/ar/urunler/">مشاريعنا</a><a href="/ar/iletisim/">اتصل بنا</a>
+            <a href="/ar/">الصفحة الرئيسية </a><a class="cmjez-menu-list-active" href="/ar/kurumsal/">الشركة</a><a href="/ar/urunler/">مشاريعنا</a><a href="/ar/iletisim/">اتصل بنا</a>
           </ul>
         </div>
       </div>
       <!-- Mobil kural: lang drawer'ın en altında ve ortada -->
-      <div class="uxnf5languages-mobile">
+      <div class="cmjezlanguages-mobile">
         <ul>
           <li><a href="/tr/kurumsal/">TR</a></li><li><a href="/en/kurumsal/">EN</a></li><li><a href="/ar/kurumsal/">AR</a></li><li><a href="/ru/kurumsal/">RU</a></li>
         </ul>
@@ -100,19 +100,19 @@
 </div>
 
 <script>
-  /* Mobil menü aç/kapat: class wrapper (.uxnf5) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
+  /* Mobil menü aç/kapat: class wrapper (.cmjez) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
   if (typeof menu2_toggle === "undefined") {
     function menu2_toggle() {
       var root = document.getElementById("menu-2-root");
       if (!root) {
         return;
       }
-      var wrapper = root.closest ? root.closest(".uxnf5") : null;
+      var wrapper = root.closest ? root.closest(".cmjez") : null;
       var target = wrapper || root;
-      if (target.classList.contains("uxnf5menu-open")) {
-        target.classList.remove("uxnf5menu-open");
+      if (target.classList.contains("cmjezmenu-open")) {
+        target.classList.remove("cmjezmenu-open");
       } else {
-        target.classList.add("uxnf5menu-open");
+        target.classList.add("cmjezmenu-open");
       }
     }
   }
@@ -144,8 +144,8 @@
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=ijfri"></script>
-<script defer src="/src/cookie.js?v=ijfri"></script>
+<script defer type="text/javascript" src="/src/js.js?v=dmkdu"></script>
+<script defer src="/src/cookie.js?v=dmkdu"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği
