@@ -1,7 +1,7 @@
 
  
 
-  .embg5 {
+  .lokfl {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .embg5title {
+  .lokfltitle {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@
     z-index: 1;
   }
 
-  .embg5title:has(.embg5titlebodylang:empty),
-  .embg5title:has(.embg5titlebodylang ul:empty) {
+  .lokfltitle:has(.lokfltitlebodylang:empty),
+  .lokfltitle:has(.lokfltitlebodylang ul:empty) {
     display: none;
   }
 
-  .embg5titlebody {
+  .lokfltitlebody {
     color: #ffffff;
     width: var(--max);
     display: flex;
@@ -31,34 +31,34 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .embg5titlebodytitle {
+  .lokfltitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .embg5titlebodylang {
+  .lokfltitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .embg5titlebodylang:empty,
-  .embg5titlebodylang ul:empty {
+  .lokfltitlebodylang:empty,
+  .lokfltitlebodylang ul:empty {
     display: none;
   }
 
-  .embg5titlebodylang ul {
+  .lokfltitlebodylang ul {
     display: flex;
     gap: 8px;
   }
 
   /* Dil seçici: TR / EN metin, bordür tema rengiyle uyumlu (renk uyumsuzluğu yok) */
-  .embg5titlebodylang li {
+  .lokfltitlebodylang li {
     list-style: none;
   }
 
-  .embg5titlebodylang li a {
+  .lokfltitlebodylang li a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -75,13 +75,13 @@
     cursor: pointer;
   }
 
-  .embg5titlebodylang li a:hover {
+  .lokfltitlebodylang li a:hover {
     border-color: #000000;
     background: #ffffff;
     color: #000000 !important;
   }
 
-  .embg5body {
+  .lokflbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -91,7 +91,7 @@
   }
 
   /* Mobil hamburger butonu: onclick olduğu için cursor: pointer zorunlu (kural) */
-  .embg5-mobile-toggle {
+  .lokfl-mobile-toggle {
     display: none;
     background: #000;
     color: #ffffff;
@@ -105,18 +105,18 @@
     right: 0;
   }
 
-  .embg5-mobile-toggle span {
+  .lokfl-mobile-toggle span {
     font-size: 24px;
   }
 
-  .embg5menu {
+  .lokflmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .embg5menulist {
+  .lokflmenulist {
     width: calc(100% - 20px);
     background-color: #000;
     padding: 10px;
@@ -125,7 +125,7 @@
     display: flex;
   }
 
-  .embg5menubody {
+  .lokflmenubody {
     width: 100%;
     background-color: #000;
     display: flex;
@@ -133,7 +133,7 @@
     justify-content: center;
   }
 
-  .embg5menulist ul {
+  .lokflmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -142,7 +142,7 @@
     padding: 0;
   }
 
-  .embg5menulist ul a {
+  .lokflmenulist ul a {
     padding: 10px 15px;
     font-size: 16px;
     color: #ffffff !important;
@@ -155,40 +155,40 @@
     margin: 0 2px;
   }
 
-  .embg5menulist ul a:hover {
+  .lokflmenulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .embg5menulist ul a.embg5-menu-list-active {
+  .lokflmenulist ul a.lokfl-menu-list-active {
     color: #000000 !important;
   }
 
-  .embg5-menu-list-active {
+  .lokfl-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .embg5menulistbody {
+  .lokflmenulistbody {
     width: 100%;
   }
 
-  .embg5languages-mobile {
+  .lokfllanguages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .embg5languages-mobile:empty,
-  .embg5languages-mobile ul:empty {
+  .lokfllanguages-mobile:empty,
+  .lokfllanguages-mobile ul:empty {
     display: none !important;
   }
 
-  .embg5languages-mobile ul {
+  .lokfllanguages-mobile ul {
     display: flex;
     gap: 8px;
     margin: 0;
@@ -198,7 +198,7 @@
   }
 
   /* Dil seçici: TR / EN metin, bordür ve arka plan tema ile uyumlu */
-  .embg5languages-mobile li {
+  .lokfllanguages-mobile li {
     list-style: none;
     border: 1px solid color-mix(in srgb, #ffffff 35%, transparent);
     padding: 0;
@@ -212,7 +212,7 @@
     transition: border-color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
   }
 
-  .embg5languages-mobile li a {
+  .lokfllanguages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -227,29 +227,29 @@
     cursor: pointer;
   }
 
-  .embg5languages-mobile li:hover {
+  .lokfllanguages-mobile li:hover {
     background-color: #ffffff;
     border-color: #000000;
     box-shadow: 0 2px 8px color-mix(in srgb, #000000 25%, transparent);
   }
 
-  .embg5languages-mobile li:hover a {
+  .lokfllanguages-mobile li:hover a {
     color: #000000 !important;
   }
 
   /* Mobil drawer için backdrop: masaüstünde görünmez */
-  .embg5-menu-backdrop {
+  .lokfl-menu-backdrop {
     display: none;
   }
 
   @media screen and (min-width: 1024px) {
-    .embg5bodylogo {
+    .lokflbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .embg5title {
+    .lokfltitle {
     margin-bottom: -30px;
   }
 
@@ -257,30 +257,30 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .embg5body {
+    .lokflbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: center;
     }
 
-    .embg5menulist ul {
+    .lokflmenulist ul {
       flex-direction: row;
     }
 
-    .embg5bodylogo {
+    .lokflbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .embg5titlebody {
+    .lokfltitlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .embg5titlebodytitle {
+    .lokfltitlebodytitle {
       text-align: center;
       font-size: 14px;
     }
@@ -288,28 +288,28 @@
 
     /* Mobil: app tarzı sağdan kayan drawer menü */
   @media screen and (max-width: 768px) {
-    .embg5titlebodylang {
+    .lokfltitlebodylang {
       display: none;
     }
 
-    .embg5body {
+    .lokflbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .embg5-mobile-toggle {
+    .lokfl-mobile-toggle {
       display: inline-flex;
     }
 
-    .embg5bodylogo {
+    .lokflbodylogo {
       width: 40vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
     /* Backdrop: sadece menü açıkken görünür; tıklanınca menü kapanır (onclick ile) */
-    .embg5-menu-backdrop {
+    .lokfl-menu-backdrop {
       display: block;
       position: fixed;
       inset: 0;
@@ -322,14 +322,14 @@
       cursor: pointer;
     }
 
-    .embg5.embg5menu-open .embg5-menu-backdrop {
+    .lokfl.lokflmenu-open .lokfl-menu-backdrop {
       opacity: 1;
       visibility: visible;
       pointer-events: auto;
     }
 
     /* Drawer: sağdan kayan panel, fixed, tam yükseklik; kapalıyken ekran dışında */
-    .embg5menubody {
+    .lokflmenubody {
       position: fixed;
       top: 0;
       right: 0;
@@ -349,22 +349,22 @@
       overflow-y: auto;
     }
 
-    .embg5.embg5menu-open .embg5menubody {
+    .lokfl.lokflmenu-open .lokflmenubody {
       transform: translateX(0);
     }
 
-    .embg5menu {
+    .lokflmenu {
       width: 100%;
       flex-direction: column;
       height: 100%;
     }
 
-    .embg5menulistbody {
+    .lokflmenulistbody {
       flex: 1;
       overflow-y: auto;
     }
 
-    .embg5menulist {
+    .lokflmenulist {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -374,12 +374,12 @@
       box-shadow: none;
     }
 
-    .embg5.embg5menu-open .embg5menulist {
+    .lokfl.lokflmenu-open .lokflmenulist {
       display: flex;
     }
 
     /* Mobil kural: lang sayfanın (drawer) en altında ve ortada */
-    .embg5.embg5menu-open .embg5languages-mobile {
+    .lokfl.lokflmenu-open .lokfllanguages-mobile {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -391,16 +391,16 @@
       flex-shrink: 0;
     }
 
-    .embg5.embg5menu-open .embg5languages-mobile ul {
+    .lokfl.lokflmenu-open .lokfllanguages-mobile ul {
       justify-content: center;
     }
 
-    .embg5menulist ul {
+    .lokflmenulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .embg5menulist ul a {
+    .lokflmenulist ul a {
       font-size: 15px;
       width: 100%;
       padding: 14px 12px;
@@ -411,22 +411,22 @@
       box-sizing: border-box;
     }
 
-    .embg5menulist ul a:last-child {
+    .lokflmenulist ul a:last-child {
       border-bottom: none;
     }
 
-    .embg5menulist ul a:hover {
+    .lokflmenulist ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    .embg5titlebodytitle {
+    .lokfltitlebodytitle {
       font-size: 12px;
     }
   }
 
 
-  .mkkdk {
+  .rq2o1 {
     width: 100%;
     margin: 30px 0px 30px 0px;
     display: flex;
@@ -435,14 +435,14 @@
     position: relative;
   }
 
-  .mkkdkcontainertitle {
+  .rq2o1containertitle {
     font-size: 28px;
     font-weight: bold;
     color: #333;
     margin: 0 0 20px 0;
   }
 
-  .mkkdkcontainerlist {
+  .rq2o1containerlist {
     padding: 10px;
     display: flex;
     border-radius: 8px;
@@ -451,26 +451,26 @@
     transition: background-color 0.3s ease;
   }
 
-  .mkkdkcontainerlist>div {
+  .rq2o1containerlist>div {
     display: flex;
     align-items: center;
     font-size: 20px;
     color: #444;
   }
 
-  .mkkdkcontainerlist:hover {
+  .rq2o1containerlist:hover {
     background-color: #f9f9f9;
     border-bottom-color: #000;
   }
 
-  .mkkdkcontainer {
+  .rq2o1container {
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 20px;
   }
 
-  .mkkdkcontainerbody {
+  .rq2o1containerbody {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -480,7 +480,7 @@
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
 
-  .mkkdkbody {
+  .rq2o1body {
     width: calc(var(--max) - 40px);
     background-color: #ebebeb;
     border: 1px solid #dedede;
@@ -488,19 +488,19 @@
     padding: 20px;
   }
 
-  .mkkdkcontainerlist>span {
+  .rq2o1containerlist>span {
     font-size: 24px;
     color: #000;
   }
 
   @media screen and (max-width: 1024px) {
-    .mkkdkbody {
+    .rq2o1body {
       width: 100%;
       padding: 20px;
       flex-direction: column;
     }
 
-    .mkkdkcontainerbody {
+    .rq2o1containerbody {
       padding: 15px;
     }
   }

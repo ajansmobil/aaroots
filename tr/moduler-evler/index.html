@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=g2xpv" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=g2xpv" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=hespk" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=hespk" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=g2xpv" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=hespk" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,45 +52,45 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=g2xpv">
+<link rel="stylesheet" href="style.css?v=hespk">
 </head>
 
 <body>
-  <div id="header"><div class="hjuta">
-  <div class="hjutatitle">
-    <div class="hjutatitlebody">
-      <div class="hjutatitlebodylang">
+  <div id="header"><div class="qgm11">
+  <div class="qgm11title">
+    <div class="qgm11titlebody">
+      <div class="qgm11titlebodylang">
         <ul>
           <li><a href="/tr/moduler-evler/">TR</a></li><li><a href="/en/moduler-evler/">EN</a></li><li><a href="/ar/moduler-evler/">AR</a></li><li><a href="/ru/moduler-evler/">RU</a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="hjutabody">
+  <div class="qgm11body">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=g2xpv"
+        src="/img/logo.svg?v=hespk"
         alt="A.A ROOTS INŞ. METAL LTD ŞTI. Logo"
-        class="hjutabodylogo"
+        class="qgm11bodylogo"
         loading="lazy"
     /></a>
-    <button type="button" class="hjuta-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
+    <button type="button" class="qgm11-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
       <span class="material-symbols-outlined" aria-hidden="true">menu</span>
     </button>
   </div>
   <!-- Mobil: dış tıklamada menüyü kapatmak için yarı saydam arka plan (app drawer tarzı) -->
-  <div class="hjuta-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
-  <div class="hjutamenubody">
-    <div class="hjutamenu" id="menu-2-root">
-      <div class="hjutamenulistbody">
-        <div class="hjutamenulist">
+  <div class="qgm11-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
+  <div class="qgm11menubody">
+    <div class="qgm11menu" id="menu-2-root">
+      <div class="qgm11menulistbody">
+        <div class="qgm11menulist">
           <ul>
-            <a href="/tr/">Anasayfa </a><a href="/tr/hakkimizda/">Kurumsal</a><a href="/tr/urunler/">Projelerimiz</a><a class="hjuta-menu-list-active" href="/tr/moduler-evler/">Modüler Evler</a><a href="/tr/iletisim/">İletişim</a>
+            <a href="/tr/">Anasayfa </a><a href="/tr/hakkimizda/">Kurumsal</a><a href="/tr/ticari-yapi/">Ticari Yapı</a><a href="/tr/urunler/">Projelerimiz</a><a class="qgm11-menu-list-active" href="/tr/moduler-evler/">Modüler Evler</a><a href="/tr/iletisim/">İletişim</a>
           </ul>
         </div>
       </div>
       <!-- Mobil kural: lang drawer'ın en altında ve ortada -->
-      <div class="hjutalanguages-mobile">
+      <div class="qgm11languages-mobile">
         <ul>
           <li><a href="/tr/moduler-evler/">TR</a></li><li><a href="/en/moduler-evler/">EN</a></li><li><a href="/ar/moduler-evler/">AR</a></li><li><a href="/ru/moduler-evler/">RU</a></li>
         </ul>
@@ -100,200 +100,125 @@
 </div>
 
 <script>
-  /* Mobil menü aç/kapat: class wrapper (.hjuta) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
+  /* Mobil menü aç/kapat: class wrapper (.qgm11) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
   if (typeof menu2_toggle === "undefined") {
     function menu2_toggle() {
       var root = document.getElementById("menu-2-root");
       if (!root) {
         return;
       }
-      var wrapper = root.closest ? root.closest(".hjuta") : null;
+      var wrapper = root.closest ? root.closest(".qgm11") : null;
       var target = wrapper || root;
-      if (target.classList.contains("hjutamenu-open")) {
-        target.classList.remove("hjutamenu-open");
+      if (target.classList.contains("qgm11menu-open")) {
+        target.classList.remove("qgm11menu-open");
       } else {
-        target.classList.add("hjutamenu-open");
+        target.classList.add("qgm11menu-open");
       }
     }
   }
 </script>
 </div>
-  <div id="content"><div class="s9482">
-  <div class="s9482body">
-        <div onclick="imgfull('/img/owuyd2/01.jpg')" class="s9482bodyitem">
-          <div class="s9482bodyitemimg">
-            <img src="/img/owuyd2/01.jpg" alt="Resim"  loading="lazy"/>
+  <div id="content"><div class="yu99g">
+  <div class="yu99gbody">
+          <div onclick="imgfull('/img/owuyd2/01.jpg')" class="yu99gbodyitem">
+            <img class="yu99gbodyitemimg" src="/img/owuyd2/01.jpg" alt="Resim"  loading="lazy"/>
           </div>
- 
-        </div>
       
-        <div onclick="imgfull('/img/owuyd2/02.jpg')" class="s9482bodyitem">
-          <div class="s9482bodyitemimg">
-            <img src="/img/owuyd2/02.jpg" alt="Resim"  loading="lazy"/>
+          <div onclick="imgfull('/img/owuyd2/02.jpg')" class="yu99gbodyitem">
+            <img class="yu99gbodyitemimg" src="/img/owuyd2/02.jpg" alt="Resim"  loading="lazy"/>
           </div>
- 
-        </div>
       
-        <div onclick="imgfull('/img/owuyd2/03.jpg')" class="s9482bodyitem">
-          <div class="s9482bodyitemimg">
-            <img src="/img/owuyd2/03.jpg" alt="Resim"  loading="lazy"/>
+          <div onclick="imgfull('/img/owuyd2/03.jpg')" class="yu99gbodyitem">
+            <img class="yu99gbodyitemimg" src="/img/owuyd2/03.jpg" alt="Resim"  loading="lazy"/>
           </div>
- 
-        </div>
       
-        <div onclick="imgfull('/img/owuyd2/04.jpg')" class="s9482bodyitem">
-          <div class="s9482bodyitemimg">
-            <img src="/img/owuyd2/04.jpg" alt="Resim"  loading="lazy"/>
+          <div onclick="imgfull('/img/owuyd2/04.jpg')" class="yu99gbodyitem">
+            <img class="yu99gbodyitemimg" src="/img/owuyd2/04.jpg" alt="Resim"  loading="lazy"/>
           </div>
- 
-        </div>
       
-        <div onclick="imgfull('/img/owuyd2/05.jpg')" class="s9482bodyitem">
-          <div class="s9482bodyitemimg">
-            <img src="/img/owuyd2/05.jpg" alt="Resim"  loading="lazy"/>
+          <div onclick="imgfull('/img/owuyd2/05.jpg')" class="yu99gbodyitem">
+            <img class="yu99gbodyitemimg" src="/img/owuyd2/05.jpg" alt="Resim"  loading="lazy"/>
           </div>
- 
-        </div>
       
-        <div onclick="imgfull('/img/owuyd2/06.jpg')" class="s9482bodyitem">
-          <div class="s9482bodyitemimg">
-            <img src="/img/owuyd2/06.jpg" alt="Resim"  loading="lazy"/>
+          <div onclick="imgfull('/img/owuyd2/06.jpg')" class="yu99gbodyitem">
+            <img class="yu99gbodyitemimg" src="/img/owuyd2/06.jpg" alt="Resim"  loading="lazy"/>
           </div>
- 
-        </div>
       
-        <div onclick="imgfull('/img/owuyd2/07.jpg')" class="s9482bodyitem">
-          <div class="s9482bodyitemimg">
-            <img src="/img/owuyd2/07.jpg" alt="Resim"  loading="lazy"/>
+          <div onclick="imgfull('/img/owuyd2/07.jpg')" class="yu99gbodyitem">
+            <img class="yu99gbodyitemimg" src="/img/owuyd2/07.jpg" alt="Resim"  loading="lazy"/>
           </div>
- 
-        </div>
       
-        <div onclick="imgfull('/img/owuyd2/08.jpg')" class="s9482bodyitem">
-          <div class="s9482bodyitemimg">
-            <img src="/img/owuyd2/08.jpg" alt="Resim"  loading="lazy"/>
+          <div onclick="imgfull('/img/owuyd2/08.jpg')" class="yu99gbodyitem">
+            <img class="yu99gbodyitemimg" src="/img/owuyd2/08.jpg" alt="Resim"  loading="lazy"/>
           </div>
- 
-        </div>
       
-        <div onclick="imgfull('/img/owuyd2/09.jpg')" class="s9482bodyitem">
-          <div class="s9482bodyitemimg">
-            <img src="/img/owuyd2/09.jpg" alt="Resim"  loading="lazy"/>
+          <div onclick="imgfull('/img/owuyd2/09.jpg')" class="yu99gbodyitem">
+            <img class="yu99gbodyitemimg" src="/img/owuyd2/09.jpg" alt="Resim"  loading="lazy"/>
           </div>
- 
-        </div>
       
-        <div onclick="imgfull('/img/owuyd2/10.jpg')" class="s9482bodyitem">
-          <div class="s9482bodyitemimg">
-            <img src="/img/owuyd2/10.jpg" alt="Resim"  loading="lazy"/>
+          <div onclick="imgfull('/img/owuyd2/10.jpg')" class="yu99gbodyitem">
+            <img class="yu99gbodyitemimg" src="/img/owuyd2/10.jpg" alt="Resim"  loading="lazy"/>
           </div>
- 
-        </div>
       
-        <div onclick="imgfull('/img/owuyd2/11.jpg')" class="s9482bodyitem">
-          <div class="s9482bodyitemimg">
-            <img src="/img/owuyd2/11.jpg" alt="Resim"  loading="lazy"/>
+          <div onclick="imgfull('/img/owuyd2/11.jpg')" class="yu99gbodyitem">
+            <img class="yu99gbodyitemimg" src="/img/owuyd2/11.jpg" alt="Resim"  loading="lazy"/>
           </div>
- 
-        </div>
       
-        <div onclick="imgfull('/img/owuyd2/12.jpg')" class="s9482bodyitem">
-          <div class="s9482bodyitemimg">
-            <img src="/img/owuyd2/12.jpg" alt="Resim"  loading="lazy"/>
+          <div onclick="imgfull('/img/owuyd2/12.jpg')" class="yu99gbodyitem">
+            <img class="yu99gbodyitemimg" src="/img/owuyd2/12.jpg" alt="Resim"  loading="lazy"/>
           </div>
- 
-        </div>
       
-        <div onclick="imgfull('/img/owuyd2/13.jpg')" class="s9482bodyitem">
-          <div class="s9482bodyitemimg">
-            <img src="/img/owuyd2/13.jpg" alt="Resim"  loading="lazy"/>
+          <div onclick="imgfull('/img/owuyd2/13.jpg')" class="yu99gbodyitem">
+            <img class="yu99gbodyitemimg" src="/img/owuyd2/13.jpg" alt="Resim"  loading="lazy"/>
           </div>
- 
-        </div>
       
-        <div onclick="imgfull('/img/owuyd2/14.jpg')" class="s9482bodyitem">
-          <div class="s9482bodyitemimg">
-            <img src="/img/owuyd2/14.jpg" alt="Resim"  loading="lazy"/>
+          <div onclick="imgfull('/img/owuyd2/14.jpg')" class="yu99gbodyitem">
+            <img class="yu99gbodyitemimg" src="/img/owuyd2/14.jpg" alt="Resim"  loading="lazy"/>
           </div>
- 
-        </div>
       
-        <div onclick="imgfull('/img/owuyd2/15.jpg')" class="s9482bodyitem">
-          <div class="s9482bodyitemimg">
-            <img src="/img/owuyd2/15.jpg" alt="Resim"  loading="lazy"/>
+          <div onclick="imgfull('/img/owuyd2/15.jpg')" class="yu99gbodyitem">
+            <img class="yu99gbodyitemimg" src="/img/owuyd2/15.jpg" alt="Resim"  loading="lazy"/>
           </div>
- 
-        </div>
       
-        <div onclick="imgfull('/img/owuyd2/16.jpg')" class="s9482bodyitem">
-          <div class="s9482bodyitemimg">
-            <img src="/img/owuyd2/16.jpg" alt="Resim"  loading="lazy"/>
+          <div onclick="imgfull('/img/owuyd2/16.jpg')" class="yu99gbodyitem">
+            <img class="yu99gbodyitemimg" src="/img/owuyd2/16.jpg" alt="Resim"  loading="lazy"/>
           </div>
- 
-        </div>
       
-        <div onclick="imgfull('/img/owuyd2/17.jpg')" class="s9482bodyitem">
-          <div class="s9482bodyitemimg">
-            <img src="/img/owuyd2/17.jpg" alt="Resim"  loading="lazy"/>
+          <div onclick="imgfull('/img/owuyd2/17.jpg')" class="yu99gbodyitem">
+            <img class="yu99gbodyitemimg" src="/img/owuyd2/17.jpg" alt="Resim"  loading="lazy"/>
           </div>
- 
-        </div>
       
-        <div onclick="imgfull('/img/owuyd2/18.jpg')" class="s9482bodyitem">
-          <div class="s9482bodyitemimg">
-            <img src="/img/owuyd2/18.jpg" alt="Resim"  loading="lazy"/>
+          <div onclick="imgfull('/img/owuyd2/18.jpg')" class="yu99gbodyitem">
+            <img class="yu99gbodyitemimg" src="/img/owuyd2/18.jpg" alt="Resim"  loading="lazy"/>
           </div>
- 
-        </div>
       
-        <div onclick="imgfull('/img/owuyd2/19.jpg')" class="s9482bodyitem">
-          <div class="s9482bodyitemimg">
-            <img src="/img/owuyd2/19.jpg" alt="Resim"  loading="lazy"/>
+          <div onclick="imgfull('/img/owuyd2/19.jpg')" class="yu99gbodyitem">
+            <img class="yu99gbodyitemimg" src="/img/owuyd2/19.jpg" alt="Resim"  loading="lazy"/>
           </div>
- 
-        </div>
       
-        <div onclick="imgfull('/img/owuyd2/20.jpg')" class="s9482bodyitem">
-          <div class="s9482bodyitemimg">
-            <img src="/img/owuyd2/20.jpg" alt="Resim"  loading="lazy"/>
+          <div onclick="imgfull('/img/owuyd2/20.jpg')" class="yu99gbodyitem">
+            <img class="yu99gbodyitemimg" src="/img/owuyd2/20.jpg" alt="Resim"  loading="lazy"/>
           </div>
- 
-        </div>
       
-        <div onclick="imgfull('/img/owuyd2/21.jpg')" class="s9482bodyitem">
-          <div class="s9482bodyitemimg">
-            <img src="/img/owuyd2/21.jpg" alt="Resim"  loading="lazy"/>
+          <div onclick="imgfull('/img/owuyd2/21.jpg')" class="yu99gbodyitem">
+            <img class="yu99gbodyitemimg" src="/img/owuyd2/21.jpg" alt="Resim"  loading="lazy"/>
           </div>
- 
-        </div>
       
-        <div onclick="imgfull('/img/owuyd2/22.jpg')" class="s9482bodyitem">
-          <div class="s9482bodyitemimg">
-            <img src="/img/owuyd2/22.jpg" alt="Resim"  loading="lazy"/>
+          <div onclick="imgfull('/img/owuyd2/22.jpg')" class="yu99gbodyitem">
+            <img class="yu99gbodyitemimg" src="/img/owuyd2/22.jpg" alt="Resim"  loading="lazy"/>
           </div>
- 
-        </div>
       
-        <div onclick="imgfull('/img/owuyd2/23.jpg')" class="s9482bodyitem">
-          <div class="s9482bodyitemimg">
-            <img src="/img/owuyd2/23.jpg" alt="Resim"  loading="lazy"/>
+          <div onclick="imgfull('/img/owuyd2/23.jpg')" class="yu99gbodyitem">
+            <img class="yu99gbodyitemimg" src="/img/owuyd2/23.jpg" alt="Resim"  loading="lazy"/>
           </div>
- 
-        </div>
       
-        <div onclick="imgfull('/img/owuyd2/24.jpg')" class="s9482bodyitem">
-          <div class="s9482bodyitemimg">
-            <img src="/img/owuyd2/24.jpg" alt="Resim"  loading="lazy"/>
+          <div onclick="imgfull('/img/owuyd2/24.jpg')" class="yu99gbodyitem">
+            <img class="yu99gbodyitemimg" src="/img/owuyd2/24.jpg" alt="Resim"  loading="lazy"/>
           </div>
- 
-        </div>
       
-        <div onclick="imgfull('/img/owuyd2/25.jpg')" class="s9482bodyitem">
-          <div class="s9482bodyitemimg">
-            <img src="/img/owuyd2/25.jpg" alt="Resim"  loading="lazy"/>
+          <div onclick="imgfull('/img/owuyd2/25.jpg')" class="yu99gbodyitem">
+            <img class="yu99gbodyitemimg" src="/img/owuyd2/25.jpg" alt="Resim"  loading="lazy"/>
           </div>
- 
-        </div>
       </div>
 </div>
 
@@ -304,7 +229,7 @@
       <img src="/img/logo.svg" height="60"   alt="A.A ROOTS INŞ. METAL LTD ŞTI. Logo"  loading="lazy"/>
     </div>
     <ul class="menu">
-      <li class="menu__item"><a class="menu_link" href="/tr/">Anasayfa</a></li><li class="menu__item"><a class="menu_link" href="/tr/kurumsal/">Kurumsal</a></li><li class="menu__item"><a class="menu_link" href="/tr/urunler/">Projelerimiz</a></li><li class="menu__item"><a class="menu_link" href="/tr/moduler-evler/">Modüler Evler</a></li><li class="menu__item"><a class="menu_link" href="/tr/iletisim/">İletişim</a></li>
+      <li class="menu__item"><a class="menu_link" href="/tr/">Anasayfa</a></li><li class="menu__item"><a class="menu_link" href="/tr/kurumsal/">Kurumsal</a></li><li class="menu__item"><a class="menu_link" href="/tr/ticari-yapi/">Ticari Yapı</a></li><li class="menu__item"><a class="menu_link" href="/tr/urunler/">Projelerimiz</a></li><li class="menu__item"><a class="menu_link" href="/tr/moduler-evler/">Modüler Evler</a></li><li class="menu__item"><a class="menu_link" href="/tr/iletisim/">İletişim</a></li>
     </ul>
   </div>
   <div class="footer-bottom">
@@ -323,8 +248,8 @@
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=g2xpv"></script>
-<script defer src="/src/cookie.js?v=g2xpv"></script>
+<script defer type="text/javascript" src="/src/js.js?v=hespk"></script>
+<script defer src="/src/cookie.js?v=hespk"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği
